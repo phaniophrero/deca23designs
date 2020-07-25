@@ -16,57 +16,48 @@
 
 .container-heading-ads {
     flex: 1 1 40rem;
-    // text-align: center;
     padding-left: 3rem;
 }
 
 .wrapper-heading-ads {
-    // position: absolute;
-    // left: 44%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 3rem;
     margin-top: 12rem;
 }
 
 .heading-ads {
-    font-size: 5.3rem;
+    font-size: 4.4rem;
     font-weight: 400;
     background: $color-white;
-    // background: linear-gradient(to right, $color-gray1, $color-gray2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: $font-family-sans-serif;
-    // margin-top: 3rem;
-    // margin-bottom: 1.2rem;
-    // margin-left: 20rem;
+    font-family: "Prata", serif;
 }
 
 .heading-ads-line {
-    width: 12rem;
-    height: .6rem;
+    width: 19rem;
+    height: .3rem;
     border-radius: 1rem;
-    background: $color-white;
-    // background: linear-gradient(to right, $color-gray1, $color-gray2);
-    // margin-left: 32rem;
-    // margin-top: 4rem;
-    margin: 3rem auto 0;
+    background: $color-gray;
+    margin: 0 3rem;
 }
 
 .wrapper-description-ads {
-    width: 75%;
+    width: 70%;
     margin: auto;
-    // position: absolute;
-    // left: 50%;
-    // padding-top: 6rem;
 }
 
 .description-ads {
-    font-size: 2.3rem;
+    font-size: 1.6rem;
     font-weight: 300;
     text-align: left;
-    color: $color-white;
+    color: $color-gray;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: .13rem;
 }
 
 .ads-shape-bg {

@@ -8,22 +8,20 @@
     box-shadow: 0 1rem 1.4rem -.6rem $color-gray1;
 }
 
-.llc-business-container {}
+// .llc-business-container {}
 
 .llc-business-wrapper {
     text-align: center;
 }
 
 .llc-business-heading {
-    font-size: 5rem;
+    font-size: 4.4rem;
     font-weight: 500;
     letter-spacing: .3rem;
     color: $color-gray;
-    // background: linear-gradient(to right, $color-gray1, $black-pearl);
-    // -webkit-background-clip: text;
-    // -webkit-text-fill-color: transparent;
     padding-top: 3rem;
     margin-bottom: 2rem;
+    font-family: "ZCOOL XiaoWei", serif;
     text-shadow: 0 .3rem .5rem $black-pearl;
 }
 
@@ -59,6 +57,7 @@
 
 .llc-business-btn {
     font-size: 1.8rem;
+    font-family: 'Comfortaa', cursive;
     color: $color-gray;
     background: $matte-blue;
     padding: .6rem .8rem;
@@ -68,6 +67,24 @@
     border: none;
     // margin-left: -36rem;
     transition: .3s ease;
+    position: relative;
+    overflow: hidden;
+
+    &:before {
+        content: "";
+        height: 6rem;
+        width: 1.6rem;
+        background: rgba($color-white, .2);
+        position: absolute;
+        margin-top: -2.2rem;
+        // top: -2rem;
+        transform: translateX(-8rem) rotate(23deg);
+        transition: all 1s;
+    }
+
+    &:hover::before {
+        transform: translateX(16rem) rotate(23deg);
+    }
 
     &:hover {
         background: darken($matte-blue, 10%);
@@ -131,16 +148,34 @@
 
 .state-business-btn {
     font-size: 1.8rem;
+    font-family: 'Comfortaa', cursive;
     color: $color-gray;
     background: $matte-blue;
     padding: .6rem .8rem;
     width: 17rem;
     border-radius: 2.1rem;
     border: none;
-    // position: absolute;
+    position: relative;
     // left: 44.1%;
     margin: 5rem auto 0;
     transition: .3s ease;
+    overflow: hidden;
+
+    &:before {
+        content: "";
+        height: 6rem;
+        width: 1.6rem;
+        background: rgba($color-white, .2);
+        position: absolute;
+        margin-top: -2.2rem;
+        // top: -2rem;
+        transform: translateX(-8rem) rotate(23deg);
+        transition: all 1s;
+    }
+
+    &:hover::before {
+        transform: translateX(16rem) rotate(23deg);
+    }
 
 
     &:hover {
@@ -155,13 +190,14 @@
 }
 
 .heading-state-title {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     letter-spacing: .3rem;
     text-shadow: 0 .3rem .3rem $black-pearl;
     color: $color-gray;
     position: absolute;
     left: 44.7%;
     margin-top: 20rem;
+    font-family: "Playfair Display", serif;
 }
 
 .heading-state-title2 {
@@ -171,7 +207,8 @@
     color: $color-gray;
     position: absolute;
     left: 41.8%;
-    margin-top: 27.2rem;
+    margin-top: 26.2rem;
+    font-family: "Playfair Display", serif;
 }
 
 .heading-state-title3 {
@@ -181,7 +218,8 @@
     color: $color-gray;
     position: absolute;
     left: 42.1%;
-    margin-top: 32rem;
+    margin-top: 31rem;
+    font-family: "Playfair Display", serif;
 }
 
 .money-img-wrapper {
@@ -221,6 +259,7 @@
 
 .money-business-btn {
     font-size: 1.8rem;
+    font-family: 'Comfortaa', cursive;
     color: $color-gray;
     background: $matte-blue;
     padding: .6rem 1.2rem;
@@ -229,6 +268,24 @@
     width: 17rem;
     transition: .3s ease;
     margin: 5rem auto 0;
+    position: relative;
+    overflow: hidden;
+
+    &:before {
+        content: "";
+        height: 6rem;
+        width: 1.6rem;
+        background: rgba($color-white, .2);
+        position: absolute;
+        margin-top: -2.2rem;
+        // top: -2rem;
+        transform: translateX(-8rem) rotate(23deg);
+        transition: all 1s;
+    }
+
+    &:hover::before {
+        transform: translateX(16rem) rotate(23deg);
+    }
 
     &:hover {
         background: darken($matte-blue, 10%);

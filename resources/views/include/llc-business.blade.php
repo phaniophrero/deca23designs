@@ -7,7 +7,7 @@
         <div class="llc-img-container">
             <div class="llc-img-wrapper">
                 <img class="llc-img" src="/img/llc.png" alt="LLC">
-                <button class="llc-business-btn">BANK</button>
+                <button class="llc-business-btn">Bank</button>
             </div>
 
             <div class="temple-state-hover">
@@ -20,12 +20,12 @@
                 <h1 class="heading-state-title">LLC</h1>
                 <h1 class="heading-state-title2">GEORGIA</h1>
                 <h1 class="heading-state-title3">ATLANTA</h1>
-                <button class="state-business-btn">US STATES</button>
+                <button class="state-business-btn">US States</button>
             </div>
 
             <div class="money-img-wrapper">
                 <img class="money-img" src="/img/money.png" alt="Money">
-                <button class="money-business-btn">ACCOUNTANT</button>
+                <button class="money-business-btn">Accountant</button>
             </div>
         </div>
         {{-- <div class="llc-buttons-wrapper"></div> --}}

@@ -1,8 +1,7 @@
 <!-- Hosting Section -->
 <section id="hosting-section">
     <div class="hosting-container">
-        <h1 class="hosting-heading">Hosting</h1>
-        <h2 class="hosting-and">&</h2>
+        <h1 class="hosting-heading">Hosting <span>&</span></h1>
         <h2 class="hosting-heading2">Domain setup</h2>
     </div>
     <div class="hosting-img-container">

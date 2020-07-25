@@ -21,13 +21,14 @@
     </div>
     <div class="container-heading-ads">
         <div class="wrapper-heading-ads">
+            <div class="heading-ads-line"></div>
             <h1 class="heading-ads">Ad Campaigns</h1>
             <div class="heading-ads-line"></div>
         </div>
         <div class="wrapper-description-ads">
-            <p class="description-ads"> We run Advertising Campaigns for you and your business , websites
-                ,apps or anything you need. You get the first 3 days free meaning that all your money goes
-                straight into your Ad Campaign with no charges.</p>
+            <p class="description-ads"> We run Advertising Campaigns for you and your business , web sites,apps or
+                anything you need. You get the first 3 days free meaning that all your money goes straight into your Ad
+                Campaign with no charges.</p>
         </div>
     </div>
     <span class="ads-gradient-line"></span>

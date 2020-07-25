@@ -6,9 +6,9 @@
     @include('include.welcome-section')
 
     <!-- Google AdSense Space  -->
-    <div class="empty-space-ads">
+    {{-- <div class="empty-space-ads">
         <p class="text-adsense">Aici intra Google AdSense.</p>
-    </div>
+    </div> --}}
     <!-- END -- Google AdSense Space  -->
 
     @include('include.projects')
@@ -19,9 +19,9 @@
 
 
     <!-- Ad Sense Google Section -->
-    <div class="empty-space-ads2">
+    {{-- <div class="empty-space-ads2">
         <p class="text-adsense2">Aici intra Google AdSense.</p>
-    </div>
+    </div> --}}
     <!-- END -- Ad Sense Google Section -->
 
     @include('include.ads')

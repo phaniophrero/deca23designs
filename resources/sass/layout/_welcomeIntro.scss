@@ -1,4 +1,21 @@
+ // Div Bg White
+ .section-welcome-bg-white {
+     width: 100%;
+     height: 21rem;
+     background: linear-gradient(to bottom, rgba(255, 255, 255), transparent);
+     position: absolute;
+     z-index: 2;
+ }
+
+ // Section Welcome
  #section-welcome {
+     width: 100%;
+     background-image: linear-gradient(to top, rgba(255, 255, 255) 12%, #e8e4e46e 36%), linear-gradient(to bottom, rgba(255, 255, 255) 12%, #f9f9f973 36%), url('/img/white-city.png');
+     background-position: top -3% left 0px;
+     background-size: 100%;
+ }
+
+ .section-welcome {
      height: 40rem;
      width: 90%;
      margin: auto;
@@ -7,11 +24,14 @@
  .heading-welcome-wrapper {
      display: block;
      text-align: center;
+     position: relative;
+     z-index: 3;
  }
 
  .heading-welcome-first {
      font-size: 6rem;
      font-weight: 500;
+     font-family: 'Comfortaa', cursive;
      text-transform: uppercase;
      letter-spacing: 2.1rem;
      color: transparent;
@@ -45,8 +65,9 @@
  .heading-welcome-second {
      font-size: 2rem;
      font-weight: 400;
+     font-family: 'Comfortaa', cursive;
      background: -webkit-gradient(linear, left top, right top, from($color-gray1), to($black-pearl));
-     background: linear-gradient(to right, $color-gray2, $color-gray2);
+     background: linear-gradient(to right, $color-gray4, $color-gray4);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
      margin-top: 3rem;
@@ -56,8 +77,9 @@
  .heading-welcome-third {
      font-size: 1rem;
      font-weight: 500;
+     font-family: 'Comfortaa', cursive;
      background: -webkit-gradient(linear, left top, right top, from($color-gray1), to($color-gray2));
-     background: linear-gradient(to right, $color-gray-dark, $color-gray-dark);
+     background: linear-gradient(to right, $color-gray1, $color-gray1);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
      margin-bottom: 3rem;
@@ -69,31 +91,31 @@
      display: -ms-flexbox;
      display: flex;
      -ms-flex-pack: distribute;
-     justify-content: space-around;
-     margin-top: -16rem;
+     justify-content: space-evenly;
+     margin-top: -15rem;
      position: relative;
-     z-index: -1;
+     //  z-index: -1;
  }
 
  // Bubble YELLOW
  .bubble-yellow-wrapper {
-     width: 30rem;
+     width: 10rem;
  }
 
  .bubble-yellow-wrapper2 {
-     width: 2.6rem;
+     width: 1.6rem;
      position: absolute;
-     left: 36%;
-     top: 34rem;
+     left: 34%;
+     top: 21rem;
      -webkit-animation: bubble-yellow2 8s linear infinite;
      animation: bubble-yellow2 8s linear infinite;
  }
 
  .bubble-yellow-wrapper3 {
-     width: 1.3rem;
+     width: .8rem;
      position: absolute;
-     left: 38%;
-     top: 32rem;
+     left: 36%;
+     top: 18rem;
      -webkit-animation: bubble-yellow3 6s linear infinite;
      animation: bubble-yellow3 6s linear infinite;
  }
@@ -112,23 +134,23 @@
 
  // Bubble BLUE
  .bubble-blue-wrapper {
-     width: 30rem;
+     width: 10rem;
  }
 
  .bubble-blue-wrapper2 {
-     width: 2.6rem;
+     width: 1.6rem;
      position: absolute;
-     right: 38%;
-     top: 28rem;
+     right: 35%;
+     top: 21rem;
      -webkit-animation: bubble-blue2 8s linear infinite;
      animation: bubble-blue2 8s linear infinite;
  }
 
  .bubble-blue-wrapper3 {
-     width: 1.3rem;
+     width: .8rem;
      position: absolute;
-     right: 40%;
-     top: 25rem;
+     right: 37%;
+     top: 19rem;
      -webkit-animation: bubble-blue3 6s linear infinite;
      animation: bubble-blue3 6s linear infinite;
  }

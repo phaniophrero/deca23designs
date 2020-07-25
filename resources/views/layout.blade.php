@@ -12,6 +12,7 @@
     <link rel="icon" type="image/png" href="/img/23roses.png"> <!-- END Logo Image Bara Sus -->
 
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap" rel="stylesheet">
 
     <title>DeCA23Designs</title>
 
@@ -80,6 +81,10 @@
     <script src="{{ asset('/js/phoneAnimation.js') }}"></script>
     <!-- End -- iphoneX Animation Script -->
 
+    <!-- Projects Hover Script -->
+    <script src="{{ asset('/js/projectsHover.js') }}"></script>
+    <!-- End -- Projects Hover Script -->
+
     <!-- Smooth Scroll Script -->
     <script src="{{ asset('/js/smoothScroll.js') }}"></script>
     <!-- End -- Smooth Scroll Script -->
@@ -103,6 +108,10 @@
     <!-- More Details for Card 2 Script -->
     <script src="{{ asset('/js/details_Card2.js') }}"></script>
     <!-- End -- More Details for Card 2 Script -->
+
+    <!-- Our Team Counter Script -->
+    <script src="{{ asset('/js/ourTeamCounter.js') }}"></script>
+    <!-- End -- Our Team Counter Script -->
 
     <!-- Back to Top Button Script -->
     <script src="{{ asset('/js/backtotop.js') }}"></script>

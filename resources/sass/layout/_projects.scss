@@ -1,7 +1,28 @@
+// Projects Bg White top
+.projects-bg-white {
+    width: 100%;
+    height: 10rem;
+    background: linear-gradient(to bottom, rgba(255, 255, 255), transparent);
+    position: absolute;
+    margin-top: 10rem;
+    // z-index: 2;
+}
+
+// Section Projects
 .section_projects {
+    width: 100%;
+    height: 35rem;
+    background-image: linear-gradient(to top, rgba(255, 255, 255) 17%, #e8e4e46e 36%),
+        linear-gradient(to bottom, rgba(255, 255, 255) 12%, #f9f9f973 36%),
+        url('/img/c6.jpg');
+    background-position: top 119% left 0px;
+    background-size: 100%;
+}
+
+.section-projects-container {
     height: auto;
     width: 90%;
-    margin: 21rem auto 0;
+    margin: 12rem auto 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -10,11 +31,11 @@
 }
 
 .wavesBg-cards-wrapper {
-    width: 30rem;
+    width: 22rem;
     position: absolute;
     left: 0;
-    top: 98%;
-    z-index: -1;
+    top: 73%;
+    // z-index: -1;
 }
 
 .wavesBg-cards {
@@ -30,8 +51,9 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    width: 90%;
+    width: 80%;
     margin: auto;
+    position: relative;
 }
 
 .introContainer-img {
@@ -53,7 +75,8 @@
     height: 17rem;
     margin: 1.2rem;
     // order: 2;
-    background: url('/img/site1.png');
+    border-radius: 3rem;
+    // background: url('/img/site1.png');
     background-size: 100%;
     background-position: center;
     -webkit-transition: all .4s ease-in-out;
@@ -66,7 +89,11 @@
     }
 }
 
-/* Cu poza normala tag <img> in HTML 
+.hover-opacity {
+    opacity: .2;
+}
+
+/* Cu poza normala tag <img> in HTML
 
 .intro_wrapper-img {
     display: block;
@@ -82,27 +109,44 @@
     }
 } */
 
-.projects_intro {
-    margin-right: 3rem;
-}
+// .projects_intro {
+//     margin-right: 9rem;
+// }
 
 
-/* Cu poza tag <img> in HTML
+// Cu poza tag <img> in HTML
 .introProjects-img {
     width: 100%;
     height: 18rem;
-} */
+    border-radius: 3rem;
+    transition: transform .3s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.heading-container-projects {
+    margin-top: -12.7rem;
+}
 
 .heading_intro {
     // width: 33rem;
-    font-size: 4rem;
-    text-align: left;
+    font-size: 3.5rem;
+    text-align: center;
     color: $color-gray;
     text-shadow: 0 .3rem .4rem $black-pearl;
-    /* background: linear-gradient(to right, $color-purple1, $matte-purple);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
-    font-family: $font-family-sans-serif;
+    font-family: 'Comfortaa', cursive;
+    margin-top: .7rem;
+}
+
+.heading_intro-second {
+    font-size: 3.5rem;
+    text-align: center;
+    color: $color-gray;
+    text-shadow: 0 .3rem .4rem $black-pearl;
+    font-family: 'Comfortaa', cursive;
+    margin-top: -1.3rem;
 }
 
 .descripton_intro {
@@ -174,32 +218,32 @@
 
 .breaking-line-projects {
     width: 50rem;
-    height: 2.2rem;
-    background: linear-gradient(227deg, $color-gray3, $color-gray1);
+    height: .7rem;
+    background: linear-gradient($color-gray7, $color-gray6);
     border-radius: 1.2rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 6rem;
+    margin-top: 10rem;
 }
 
 .rolling-ball-projects {
     width: 17rem;
-    height: 1.2rem;
-    background: radial-gradient($color-gray5, $color-gray2);
+    height: .3rem;
+    background: radial-gradient(#65cde8, #60f5b6);
     border-radius: 1rem;
     position: absolute;
     left: 40%;
-    margin-top: .45rem;
-    animation: rolling-ball 6s linear 1s infinite alternate;
+    margin-top: .2rem;
+    animation: rolling-ball 4s linear 1s infinite alternate;
 }
 
 @keyframes rolling-ball {
     0% {
-        transform: translateX(-18rem);
+        transform: translateX(-20rem);
     }
 
     100% {
-        transform: translateX(11.8rem);
+        transform: translateX(13rem);
     }
 }

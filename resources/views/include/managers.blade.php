@@ -9,17 +9,19 @@
     </div>
     <div class="managers-img-container">
         <div class="managers-img-wrapper">
-            <div class="manager-left-img"></div>
+            <div class="manager-left-img-container">
+                <img class="manager-left-img" src="/img/kira.png" alt="Founder Left">
+            </div>
             <button class="manager-left-btn">About Me</button>
-            {{-- <img class="manager-left-img" src="/img/kira.jpg" alt="Founder Left"> --}}
+
         </div>
 
         <div class="managers-img-wrapper2">
-            <div class="manager-right-img"></div>
+            <div class="manager-right-img-container">
+                <img class="manager-right-img" src="/img/phanio.png" alt="Founer Right">
+            </div>
             <button class="manager-right-btn">About Me</button>
-            {{-- <img class="manager-right-img" src="/img/phanio.jpg" alt="Founer Right"> --}}
         </div>
-
     </div>
     <div class="managers-gradient-line"></div>
 </section>

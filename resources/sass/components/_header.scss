@@ -1,20 +1,4 @@
-/* #gradient-nav {
-    height: 24rem;
-    background-image: linear-gradient($color-purple2 -9%, $color-blue);
-    border-radius: 0 0 100% 100%/0 0 48% 48%;
-    z-index: -1;
-} */
-
 .header-main {
-    // display: flex;
-    // width: 90%;
-    // height: 10vh;
-    // margin: auto;
-    // align-items: center;
-    // position: absolute;
-    // top: 10%;
-    // left: 50%;
-    // transform: translate(-50%, 10%);
     position: fixed;
     top: 0;
     width: 100%;
@@ -28,11 +12,36 @@
     box-shadow: 0rem .1rem .9rem .2rem #76809e;
 }
 
+.btn-course-page {
+    display: inline-block;
+    font-size: 1.4rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    color: $color-gray;
+    padding: .1rem 2rem;
+    margin: .6rem 2rem;
+    background-image: linear-gradient(to bottom, rgba(#b3009799, .6) -9%, rgba(#7993e4e6, .8)), url("/img/33.jpg");
+    background-position: top 37% right 10%;
+    background-size: 100%;
+    border-radius: 2rem;
+    position: absolute;
+
+    &:hover {
+        color: $color-gray;
+        text-decoration: none;
+        filter: drop-shadow(0 .1rem .3rem $color-blue3);
+    }
+}
+
+
 .nav-ul-left,
-.logoContainer,
 .nav-ul-right {
     display: flex;
-    font-family: $poppins;
+    font-family: "Comfortaa", cursive;
+}
+
+.logoContainer {
+    display: flex;
 }
 
 .main-navLeft {

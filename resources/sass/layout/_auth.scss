@@ -1,0 +1,160 @@
+.auth-pages {
+    margin: 10rem auto;
+    padding-top: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+
+
+    input {
+        border: 1px solid $color-gray5;
+        padding: .6rem .3rem !important;
+        border-radius: .6rem;
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    input[type="checkbox"] {
+        width: auto;
+    }
+
+    .login-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1.6rem;
+        margin-top: 1.6rem;
+
+        label {
+            font-size: 1.5rem;
+            color: $color-gray2;
+        }
+
+        input {
+            color: $color-gray7;
+        }
+    }
+
+    .auth-button {
+        background: $color-blue-btn;
+        color: $color-white;
+        font-size: $default-font-size;
+        border-radius: .6rem;
+        padding: .6rem 3rem;
+        border: none;
+        transition: .3s ease-in;
+
+        &:hover {
+            background: lighten($color-blue-btn2, 10%);
+            filter: drop-shadow(.2rem .2rem .3rem $color-blue-dark2);
+            transition: .3s ease-out;
+        }
+    }
+
+    .forgot-password-link {
+        font-size: $default-font-size;
+        color: $color-gray2;
+
+        &:hover {
+            text-decoration: none;
+            color: lighten($color-gray2, 10%);
+        }
+    }
+
+    .auth-button-hollow {
+        background: $color-white;
+        color: $matte-purple;
+        border-radius: 5px;
+        border: 1px solid $color-blue-btn2;
+        padding: .8rem 3rem;
+        font-size: $default-font-size;
+
+        &:hover {
+            background: $color-blue-btn;
+            color: $color-white;
+            text-decoration: none;
+        }
+    }
+
+    .auth-right {
+        border-left: .1rem solid $color-gray5;
+        padding-left: 10rem;
+        font-size: $default-font-size;
+
+        .register-heading-right {
+            color: $color-gray2;
+        }
+
+        .register-sub-heading {
+            color: $color-gray2;
+            font-weight: 500;
+        }
+
+        .register-details {
+            color: $color-gray2;
+        }
+    }
+}
+
+.already-have-container {
+    display: flex;
+    flex-direction: column;
+
+    p {
+        font-size: 1.5rem;
+        color: $matte-purple;
+        padding-top: .6rem;
+        padding-bottom: .6rem;
+    }
+}
+
+.create-account-button {
+    margin-top: 3rem;
+    background: $color-blue-btn;
+    color: $color-white;
+    font-size: $default-font-size;
+    border-radius: .6rem;
+    padding: .6rem 1rem;
+    border: none;
+    transition: .3s ease-in;
+
+    &:hover {
+        background: lighten($color-blue-btn2, 10%);
+        filter: drop-shadow(.2rem .2rem .3rem $color-blue-dark2);
+        transition: .3s ease-out;
+    }
+}
+
+.login-button {
+    background: $color-blue-btn;
+    color: $color-white;
+    font-size: $default-font-size;
+    border-radius: .6rem;
+    padding: .6rem 0;
+    width: 14rem;
+    border: none;
+    transition: .3s ease-in;
+    text-align: center;
+
+    &:hover {
+        color: $color-white;
+        background: lighten($color-blue-btn2, 10%);
+        filter: drop-shadow(.2rem .2rem .3rem $color-blue-dark2);
+        transition: .3s ease-out;
+        text-decoration: none;
+    }
+}
+
+// REGISTER Page
+
+.register-heading {
+    font-size: 2.3rem;
+    color: $matte-purple;
+    font-weight: 600;
+    margin-bottom: 2.6rem;
+}
+
+.label-register {
+    font-size: 14px;
+    color: $matte-purple;
+}

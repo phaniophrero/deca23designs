@@ -1,24 +1,28 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+// Fonts VARIABLES
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display:600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
 
-
-// Variables
+// Base
 @import 'base/base';
 @import 'base/layout';
 @import 'base/mixins';
 @import 'base/variables';
 
-@import 'components/header';
-@import 'components/footer';
-@import 'components/scrollbar';
+// Components
 @import 'components/backTop';
+@import 'components/footer';
+@import 'components/header';
+@import 'components/scrollbar';
 
+// Layout
 @import 'layout/adsSection';
 @import 'layout/adsSenseSpace';
 @import 'layout/appSection';
 @import 'layout/aside';
+@import 'layout/auth';
 @import 'layout/businessFormation';
 @import 'layout/contact';
 @import 'layout/hosting';
@@ -34,7 +38,7 @@
 @import 'layout/welcomeIntro';
 
 
-// Bootstrap
+//Font Awesome
 @import '~bootstrap/scss/bootstrap';
 @import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
 @import '~@fortawesome/fontawesome-free/scss/solid.scss';

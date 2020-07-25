@@ -19,7 +19,7 @@
 }
 
 .managers-heading {
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: 500;
     letter-spacing: .6rem;
     text-transform: uppercase;
@@ -27,12 +27,13 @@
     color: $color-white;
     padding-top: 6rem;
     text-shadow: 0 .4rem .4rem $black-pearl;
+    font-family: "ZCOOL XiaoWei", serif;
 }
 
 
 .managers-heading-line {
     width: 12rem;
-    height: .4rem;
+    height: .2rem;
     background: $color-gray;
     border-radius: 1.2rem;
     margin: auto;
@@ -51,25 +52,26 @@
     display: block;
 }
 
-.manager-left-img {
-    height: 21rem;
+.manager-left-img-container {
     width: 21rem;
-    border: 1.2rem solid $color-gray;
+    margin-top: -53rem;
+
+}
+
+.manager-left-img {
+    width: 100%;
+    // border: 1.2rem solid $color-gray;
     border-radius: 100%;
-    background: url('/img/kira.png');
+    // background: linear-gradient(transparent 41%, #0a0a0a), url('/img/kira.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
-    // position: absolute;
-    // left: 10%;
-    // top: -44rem;
-    margin-top: -43rem;
-    box-shadow: 0 .3rem .4rem $black-pearl;
+    // box-shadow: 0 .3rem .4rem $black-pearl;
     transition: all .4s ease-in-out;
 
     &:hover {
-        box-shadow: 0 .6rem .6rem $matte-blue2;
+        // box-shadow: 0 .6rem .6rem $matte-blue2;
         transform: scale(1.2);
 
     }
@@ -77,6 +79,7 @@
 
 .manager-left-btn {
     font-size: 1.8rem;
+    font-family: 'Comfortaa', cursive;
     padding: .8rem 1.2rem;
     width: 14rem;
     // position: absolute;
@@ -90,6 +93,24 @@
     border: none;
     border-radius: 2.1rem;
     transition: .3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+
+    &:before {
+        content: "";
+        height: 6rem;
+        width: 1.6rem;
+        background: rgba($color-white, .3);
+        position: absolute;
+        margin-top: -2.2rem;
+        // top: -2rem;
+        transform: translateX(-8rem) rotate(23deg);
+        transition: all 1s;
+    }
+
+    &:hover::before {
+        transform: translateX(12rem) rotate(23deg);
+    }
 
     &:hover {
         background: $color-blue-dark2;
@@ -107,31 +128,33 @@
     display: block;
 }
 
-.manager-right-img {
-    height: 21rem;
+
+.manager-right-img-container {
     width: 21rem;
-    border: 1.2rem solid $color-gray;
+    margin-top: -53rem;
+}
+
+.manager-right-img {
+    width: 100%;
+    // border: 1.2rem solid $color-gray;
     border-radius: 100%;
-    background: url('/img/phanio.png');
+    // background: linear-gradient(transparent 41%, #0a0a0a), url('/img/phanio.png');
     background-size: 160%;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
-    // position: absolute;
-    // right: 10%;
-    // top: -44rem;
-    margin-top: -43rem;
-    box-shadow: 0 .3rem .4rem $black-pearl;
+    // box-shadow: 0 .3rem .4rem $black-pearl;
     transition: all .4s ease-in-out;
 
     &:hover {
-        box-shadow: 0 .6rem .6rem $matte-blue2;
+        // box-shadow: 0 .6rem .6rem $matte-blue2;
         transform: scale(1.2);
     }
 }
 
 .manager-right-btn {
     font-size: 1.8rem;
+    font-family: 'Comfortaa', cursive;
     padding: .8rem 1.2rem;
     width: 14rem;
     // position: absolute;
@@ -145,6 +168,24 @@
     border: none;
     border-radius: 2.1rem;
     transition: .3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+
+    &:before {
+        content: "";
+        height: 6rem;
+        width: 1.6rem;
+        background: rgba($color-white, .3);
+        position: absolute;
+        margin-top: -2.2rem;
+        // top: -2rem;
+        transform: translateX(-8rem) rotate(23deg);
+        transition: all 1s;
+    }
+
+    &:hover::before {
+        transform: translateX(12rem) rotate(23deg);
+    }
 
     &:hover {
         background: $color-blue-dark2;

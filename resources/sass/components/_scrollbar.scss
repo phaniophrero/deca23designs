@@ -1,11 +1,30 @@
 ::-webkit-scrollbar {
-    background: $color-white;
+    background: $color-gray;
     width: 1.6rem;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: $color-gray3;
+    background: $matte-purple;
+    border-radius: 1.2rem;
+
+    &:hover {
+        background: darken($matte-purple, 10%);
+    }
+}
+
+//Textarea Field Scroll
+textarea::-webkit-scrollbar {
+    background: #191d32;
+    width: 1rem;
+
+    &:hover {
+        background: darken(#191d32, 10%);
+    }
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: #2b8bca;
     border-radius: 1.2rem;
 }
 
-::-webkit-scrollbar-thumb:vertical:hover {}
+// ::-webkit-scrollbar-thumb:vertical:hover {}

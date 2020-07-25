@@ -1,11 +1,12 @@
-
 <!-- // INCEPE  // -->
 {{-- <div id="gradient-nav"></div> --}}
 <header id="main-header" class="header-main">
+    <a class="btn-course-page" href="#cursuri"><span>Inregistreaza-te</span> la Curs</a>
     <nav class="main-navLeft main-navbar">
         <ul class="nav-ul-left">
             <li class="nav-list"><a class="nav-link" href="#projects">Projects</a></li>
             <li class="nav-list"><a class="nav-link" href="#header-intro">Apps</a></li>
+            <li class="nav-list"><a class="nav-link" href="#section-ads">Ad Campaigns</a></li>
         </ul>
         {{-- </nav> --}}
 
@@ -16,8 +17,17 @@
 
         {{-- <nav class="main-navRight main-navbar"> --}}
         <ul class="nav-ul-right">
-            <li class="nav-list"><a class="nav-link" href="#section-ads">Ad Campaigns</a></li>
+
             <li class="nav-list"><a class="nav-link" href="#contact">Contact</a></li>
+            @if (empty(Auth::check()))
+            <li class="nav-list"><a class="nav-link" href="{{ url('/login-register') }}"><i class="fa fa-lock"></i>
+                    Login</a></li>
+            @else
+            <li class="nav-list"><a class="nav-link" href="{{ url('/account') }}"><i class="fa fa-user"></i> Account</a>
+            </li>
+            <li class="nav-list"><a class="nav-link" href="{{ url('/user-logout') }}"><i class="fa fa-sign-out"></i>
+                    Logout</a></li>
+            @endif
         </ul>
     </nav>
 
