@@ -31,3 +31,5 @@
     </div>
 </section>
 <!-- WELCOME Section -->
+
+@include('cookieConsent::index')

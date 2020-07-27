@@ -111,8 +111,6 @@
     <!-- Back to Top Button Script -->
     <script src="{{ asset('/js/backtotop.js') }}"></script>
     <!-- End -- Back to Top Button Script -->
-
-    @include('cookieConsent::index')
 </body>
 
 </html>
