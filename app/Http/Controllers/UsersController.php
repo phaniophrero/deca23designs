@@ -31,9 +31,9 @@ class UsersController extends Controller
             // echo "<pre>"; print_r($data); die;
             if(Auth::attempt(['email' => $data['email'],'password'=> $data['password']])) {
                 $userStatus = User::where('email',$data['email'])->first();
-                if($userStatus->status == 0) {
-                    return redirect()->back()->with('flash_message_error', 'Your account is not cofirmed! Please check your email to confirm your account.');
-                }
+                // if($userStatus->status == 0) {
+                //     return redirect()->back()->with('flash_message_error', 'Your account is not cofirmed! Please check your email to confirm your account.');
+                // }
                 Session::put('frontSession', $data['email']);
 
                 // if(!empty(Session::get('session_id'))) {

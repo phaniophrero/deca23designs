@@ -23,16 +23,23 @@
     padding-top: 7.5rem;
 }
 
+.wrapper-heading-priceCards {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
 
 .heading-priceCards {
     width: 33rem;
     font-size: 3rem;
     text-align: left;
-    background: -webkit-gradient(linear, left top, right top, from($color-purple1), to($matte-purple));
-    background: linear-gradient(to right, $color-purple1, $matte-purple);
+    background: -webkit-gradient(linear, left top, right top, from($color-blue2-light), to($color-blue));
+    background: linear-gradient(to top, $color-blue2-light, $matte-purple);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: $font-family-sans-serif;
+    font-family: "Comfortaa", cursive;
 }
 
 .card1 {

@@ -73,6 +73,10 @@
     <script src="{{ asset('/js/navbar.js') }}"></script>
     <!-- End -- NAVBAR Shrink Script -->
 
+    <!-- Managers Modal Script -->
+    <script src="{{ asset('/js/managersModal.js') }}"></script>
+    <!-- End -- Managers Modal Script -->
+
     <!-- Burger Menu Icon Script -->
     <script src="{{ asset('/js/burgerMenu.js') }}"></script>
     <!-- End -- Burger Menu Icon Script -->

@@ -1,8 +1,8 @@
 <!-- Section Price Cards -->
 <section id="priceCards">
-    {{-- <div class="wrapper-heading-priceCards">
-        <h1 class="heading-priceCards">Choose your website</h1>
-    </div> --}}
+    <div class="wrapper-heading-priceCards">
+        <h1 class="text-center heading-priceCards">Choose your website</h1>
+    </div>
 
     <div class="cards-wrapper">
         <div class="card1">
@@ -21,8 +21,7 @@
             </div>
 
             <p class="cardArrows"><img class="arrows-blue" src="/img/arrows-blue.png" alt="Arrows"></p>
-            <button id="btnMore-Card"><img class="btnMore-price1" src="/img/btn-blue.png"
-                                           alt="Button More"></button>
+            <button id="btnMore-Card"><img class="btnMore-price1" src="/img/btn-blue.png" alt="Button More"></button>
 
             <div class="moreDetails-cards">
                 <h1 class="headingCard-title">Blog</h1>
@@ -42,7 +41,7 @@
                         <strong class="description-email-text">E-mail:</strong>
                         <br>
                         <a class="moreDetails-email"
-                           href="mailto:decartier23designs@gmail.com">decartier23designs@gmail.com</a>
+                            href="mailto:decartier23designs@gmail.com">decartier23designs@gmail.com</a>
                     </p>
                 </div>
             </div>
@@ -67,8 +66,7 @@
             </div>
 
             <p class="cardArrows"><img class="arrows-purple" src="/img/arrows-purple.png" alt="Arrows"></p>
-            <button id="btnMore-Card2"><img class="btnMore-price2" src="/img/btn-purple.png"
-                                            alt="Button More"></button>
+            <button id="btnMore-Card2"><img class="btnMore-price2" src="/img/btn-purple.png" alt="Button More"></button>
 
             <div class="moreDetails2-cards">
                 <div class="containerDetails2-cards">
@@ -88,7 +86,7 @@
                             <br>
                             <strong class="description-email-text">E-mail:</strong> <br>
                             <a class="moreDetails-email"
-                               href="mailto:decartier23designs@gmail.com">decartier23designs@gmail.com</a>
+                                href="mailto:decartier23designs@gmail.com">decartier23designs@gmail.com</a>
                         </p>
                     </div>
                 </div>

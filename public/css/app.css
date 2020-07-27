@@ -2341,14 +2341,121 @@ textarea::-webkit-scrollbar-thumb {
   transform: scale(1.2);
 }
 
-.manager-left-btn {
-  font-size: 1.8rem;
+.manager-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.manager-description .manager-title {
+  color: #ffffff;
   font-family: "Comfortaa", cursive;
-  padding: 0.8rem 1.2rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.manager-description .manager-name {
+  color: #ffffff;
+  font-family: "Comfortaa", cursive;
+  font-size: 1.6rem;
+}
+
+.details-certificate-bg {
+  display: none;
+  position: fixed;
+  padding-top: 26rem;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.details-certificate-bg .details-certificate {
+  width: 35%;
+  background-color: #000011b3;
+  padding: 3rem 4rem;
+  border-radius: 2rem;
+  margin: auto;
+  /* The Close Button */
+}
+
+.details-certificate-bg .details-certificate .close {
+  color: #fafafa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.details-certificate-bg .details-certificate .close:hover,
+.details-certificate-bg .details-certificate .close:focus {
+  color: #ececec;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.details-certificate-bg .details-certificate .title-name-left {
+  color: #ffffff;
+  font-family: "Comfortaa", cursive;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.details-certificate-bg .details-certificate .title-specialization,
+.details-certificate-bg .details-certificate .title-certificates,
+.details-certificate-bg .details-certificate .title-social-media {
+  color: #ffffff;
+  font-family: "Comfortaa", cursive;
+  margin-top: 2rem;
+}
+
+.details-certificate-bg .details-certificate .certificates-link-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-certificate-bg .details-certificate .certificates-link {
+  font-size: 1.4rem;
+  font-family: "Comfortaa", cursive;
+  color: #EEF8F4;
+  margin-bottom: 0.2rem;
+}
+
+.details-certificate-bg .details-certificate .certificates-link:hover {
+  text-decoration: none;
+  color: #EEF8F4;
+}
+
+.details-certificate-bg .details-certificate .social-media-link {
+  font-size: 1.4rem;
+  font-family: "Comfortaa", cursive;
+  color: #EEF8F4;
+  margin-right: 1rem;
+}
+
+.details-certificate-bg .details-certificate .social-media-link:hover {
+  text-decoration: none;
+  color: #EEF8F4;
+}
+
+.details-certificate-bg .details-certificate .social-media-link .fa-linkedin,
+.details-certificate-bg .details-certificate .social-media-link .fa-github-square {
+  font-size: 1.6rem;
+  color: #406DC7;
+}
+
+.manager-left-btn {
+  font-size: 1.6rem;
+  font-family: "Comfortaa", cursive;
+  padding: 0.4rem 1rem;
   width: 14rem;
   display: flex;
   justify-content: center;
-  margin: 8rem auto 0;
+  margin: 3rem auto 0;
   color: #fafafa;
   background: #2f3e68;
   border: none;
@@ -2406,13 +2513,13 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .manager-right-btn {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: "Comfortaa", cursive;
-  padding: 0.8rem 1.2rem;
+  padding: 0.4rem 1rem;
   width: 14rem;
   display: flex;
   justify-content: center;
-  margin: 8rem auto 0;
+  margin: 3rem auto 0;
   color: #fafafa;
   background: #2f3e68;
   border: none;
@@ -2668,14 +2775,22 @@ textarea::-webkit-scrollbar-thumb {
   padding-top: 7.5rem;
 }
 
+.wrapper-heading-priceCards {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
 .heading-priceCards {
   width: 33rem;
   font-size: 3rem;
   text-align: left;
-  background: linear-gradient(to right, #4b086d, #816AD6);
+  background: linear-gradient(to top, #EEF8F4, #816AD6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Roboto", sans-serif;
+  font-family: "Comfortaa", cursive;
 }
 
 .card1 {

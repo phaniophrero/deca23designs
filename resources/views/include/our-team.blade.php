@@ -19,7 +19,7 @@
         </div>
     </div>
     <div class="our-team-counter-container">
-        <div class="our-team-counter-wraper">
+        {{-- <div class="our-team-counter-wraper">
             <div class="our-team-counter">
                 <i class="fas fa-users"></i>
                 <div class="our-team-counter" data-target="10">0</div>
@@ -40,7 +40,7 @@
                 <div class="our-team-counter" data-target="4">0</div>
                 <h3 class="counter-title">Courses</h3>
             </div>
-        </div>
+        </div> --}}
     </div>
     <div class="our-team-btn-wrapper">
         <button class="our-team-btn">More</button>
