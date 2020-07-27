@@ -32,4 +32,4 @@
 </section>
 <!-- WELCOME Section -->
 
-@include('cookieConsent::index')
+{{-- @include('cookieConsent::index') --}}
