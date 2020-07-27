@@ -58,6 +58,10 @@ class UsersController extends Controller
             if($usersCount > 0) {
                 return redirect()->back()->with('flash_message_error', 'Email already exists!');
             }else {
+                if(empty($user->name)) {
+                    return redirect()->back()->with('flash_message_error', 'Your name is required.');
+                }
+
                 $user = new User;
                 $user->name = $data['name'];
                 $user->email = $data['email'];

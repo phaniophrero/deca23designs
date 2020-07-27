@@ -44,9 +44,9 @@
                     <h2>New User Sign up!</h2>
                     <form id="registerForm" name="registerForm" action="{{ url('/user-register') }}" method="post">
                         {{ csrf_field() }}
-                        <input id="name" name="name" type="text" placeholder="Name" />
-                        <input id="email" name="email" type="email" placeholder="Email Address" />
-                        <input id="myPassword" name="password" type="password" placeholder="Password" />
+                        <input id="name" name="name" type="text" placeholder="Name" required />
+                        <input id="email" name="email" type="email" placeholder="Email Address" required />
+                        <input id="myPassword" name="password" type="password" placeholder="Password" required />
                         <button type="submit" class="btn btn-default">Sign up</button>
                     </form>
                 </div>
