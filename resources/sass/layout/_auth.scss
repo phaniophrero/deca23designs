@@ -1,21 +1,38 @@
 .auth-pages {
-    margin: 10rem auto;
+    // margin: 10rem auto;
     padding-top: 10rem;
+    padding-bottom: 10rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10rem;
+    // grid-gap: 6rem;
 
+
+    .auth-left {
+        border-right: .1rem solid $color-gray5;
+        padding-right: 10rem;
+        font-size: $default-font-size;
+    }
 
     input {
-        border: 1px solid $color-gray5;
-        padding: .6rem .3rem !important;
+        border: .1rem solid $color-gray5;
+        padding: .6rem .4rem !important;
         border-radius: .6rem;
+        margin-top: 2rem;
         width: 100%;
         font-size: 1.4rem;
     }
 
+    input:focus {
+        outline: none !important;
+    }
+
     input[type="checkbox"] {
         width: auto;
+    }
+
+    span {
+        font-family: "Comfortaa", cursive;
+        font-size: 1.4rem;
     }
 
     .login-container {
@@ -38,7 +55,8 @@
     .auth-button {
         background: $color-blue-btn;
         color: $color-white;
-        font-size: $default-font-size;
+        font-size: 1.5rem;
+        font-family: "Comfortaa", cursive;
         border-radius: .6rem;
         padding: .6rem 3rem;
         border: none;
@@ -52,7 +70,8 @@
     }
 
     .forgot-password-link {
-        font-size: $default-font-size;
+        font-size: 1.4rem;
+        font-family: "Comfortaa", cursive;
         color: $color-gray2;
 
         &:hover {
@@ -131,7 +150,7 @@
     font-size: $default-font-size;
     border-radius: .6rem;
     padding: .6rem 0;
-    width: 14rem;
+    width: 1.4rem;
     border: none;
     transition: .3s ease-in;
     text-align: center;
@@ -149,9 +168,9 @@
 
 .register-heading {
     font-size: 2.3rem;
+    font-family: "Comfortaa", cursive;
     color: $matte-purple;
-    font-weight: 600;
-    margin-bottom: 2.6rem;
+    // margin-bottom: 2.6rem;
 }
 
 .label-register {

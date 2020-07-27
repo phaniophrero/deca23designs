@@ -17,40 +17,42 @@
                 <strong>{!! session('flash_message_success') !!}</strong>
             </div>
             @endif
-            <div class="col-sm-4 col-sm-offset-1">
-                <div class="login-form">
+            <div class="auth-pages">
+                <div class="login-form auth-left">
                     <!--login form-->
-                    <h2>Login to your account</h2>
+                    <h2 class="register-heading">Login to your account</h2>
                     <form id="loginForm" name="loginForm" action="{{ url('/user-login') }}" method="post">
                         {{ csrf_field() }}
                         <input id="email" name="email" type="email" placeholder="Email Address" required />
                         <input id="password" name="password" type="password" placeholder="Password" required />
-                        {{-- <span>
-                            <input type="checkbox" class="checkbox">
-                            Keep me signed in
-                        </span> --}}
-                        <button type="submit" class="btn btn-default">Login</button><br>
-                        <a href="{{ url('forgot-password') }}">Forgot Password?</a>
+                        <div class="login-container">
+                            <span>
+                                <input type="checkbox" class="checkbox">
+                                Keep me signed in
+                            </span>
+                            <button type="submit" class="auth-button">Login</button><br>
+                        </div>
+                        <a href="{{ url('forgot-password') }}" class="forgot-password-link">Forgot Password?</a>
                     </form>
                 </div>
                 <!--/login form-->
-            </div>
-            <div class="col-sm-1">
-                <h2 class="or">OR</h2>
-            </div>
-            <div class="col-sm-4">
-                <div class="signup-form">
-                    <!--sign up form-->
-                    <h2>New User Sign up!</h2>
-                    <form id="registerForm" name="registerForm" action="{{ url('/user-register') }}" method="post">
-                        {{ csrf_field() }}
-                        <input id="name" name="name" type="text" placeholder="Name" required />
-                        <input id="email" name="email" type="email" placeholder="Email Address" required />
-                        <input id="myPassword" name="password" type="password" placeholder="Password" required />
-                        <button type="submit" class="btn btn-default">Sign up</button>
-                    </form>
+
+                <div class="">
+                    <div class="signup-form auth-right">
+                        <!--sign up form-->
+                        <h2 class="register-heading">Create an account</h2>
+                        <form id="registerForm" name="registerForm" action="{{ url('/user-register') }}" method="post">
+                            {{ csrf_field() }}
+                            <input id="name" name="name" type="text" placeholder="Name" required />
+                            <input id="email" name="email" type="email" placeholder="Email Address" required />
+                            <input id="myPassword" name="password" type="password" placeholder="Password" required />
+                            <div class="login-container">
+                                <button type="submit" class="auth-button">Sign up</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!--/sign up form-->
                 </div>
-                <!--/sign up form-->
             </div>
         </div>
     </div>

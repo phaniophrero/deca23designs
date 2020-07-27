@@ -67,7 +67,7 @@ class UsersController extends Controller
                 $user->email = $data['email'];
                 $user->password = bcrypt($data['password']);
                 //asa adaugi timezone-ul pentru cei ce se inregistreaza
-                date_default_timezone_set('Europe/Bucharest');
+                date_default_timezone_set('Europe/Paris');
                 $user->created_at = date('Y-m-d H:i:s');
                 $user->updated_at = date('Y-m-d H:i:s');
                 $user->save();

@@ -1240,23 +1240,38 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .auth-pages {
-  margin: 10rem auto;
   padding-top: 10rem;
+  padding-bottom: 10rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 10rem;
+}
+
+.auth-pages .auth-left {
+  border-right: 0.1rem solid #dce8df;
+  padding-right: 10rem;
+  font-size: 1.6rem;
 }
 
 .auth-pages input {
-  border: 1px solid #dce8df;
-  padding: 0.6rem 0.3rem !important;
+  border: 0.1rem solid #dce8df;
+  padding: 0.6rem 0.4rem !important;
   border-radius: 0.6rem;
+  margin-top: 2rem;
   width: 100%;
   font-size: 1.4rem;
 }
 
+.auth-pages input:focus {
+  outline: none !important;
+}
+
 .auth-pages input[type=checkbox] {
   width: auto;
+}
+
+.auth-pages span {
+  font-family: "Comfortaa", cursive;
+  font-size: 1.4rem;
 }
 
 .auth-pages .login-container {
@@ -1279,7 +1294,8 @@ textarea::-webkit-scrollbar-thumb {
 .auth-pages .auth-button {
   background: #5586E9;
   color: #ffffff;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  font-family: "Comfortaa", cursive;
   border-radius: 0.6rem;
   padding: 0.6rem 3rem;
   border: none;
@@ -1294,7 +1310,8 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .auth-pages .forgot-password-link {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  font-family: "Comfortaa", cursive;
   color: #6f6f89;
 }
 
@@ -1373,7 +1390,7 @@ textarea::-webkit-scrollbar-thumb {
   font-size: 1.6rem;
   border-radius: 0.6rem;
   padding: 0.6rem 0;
-  width: 14rem;
+  width: 1.4rem;
   border: none;
   transition: 0.3s ease-in;
   text-align: center;
@@ -1390,9 +1407,8 @@ textarea::-webkit-scrollbar-thumb {
 
 .register-heading {
   font-size: 2.3rem;
+  font-family: "Comfortaa", cursive;
   color: #816AD6;
-  font-weight: 600;
-  margin-bottom: 2.6rem;
 }
 
 .label-register {
