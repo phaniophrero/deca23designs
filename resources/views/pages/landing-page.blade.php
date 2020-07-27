@@ -1,7 +1,9 @@
 @extends('layout')
 
 @section('content')
+
 <section id="main-section-content" class="main-container-section">
+
 
     @include('include.welcome-section')
 

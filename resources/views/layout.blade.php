@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap" rel="stylesheet">
 
+    <script data-ad-client="ca-pub-5698931276596687" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
     <title>DeCA23Designs</title>
 
 </head>
@@ -38,37 +41,29 @@
     <!-- Jquery CDN -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <!-- END -- Jquery CDN -->
-
     <!-- Scroll Reveal CDN -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- END -- Scroll Reveal CDN -->
-
     <!-- Smooth Scroll CDN -->
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js">
     </script>
     <!-- END -- Smooth Scroll CDN -->
-
     <!-- Popper.js CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <!-- END -- Popper.js CDN -->
-
     <!-- Bootstrap CDN -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- END -- Bootstrap CDN -->
-
     <!-- Bootstrap Bundle CDN -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <!-- End -- Bootstrap Bundle CDN -->
-
     <!-- Animation on Scroll CDN -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-- End -- Animation on Scroll CDN -->
-
     <!-- CDN Bodymovin iphoneX Animation Script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.min.js"
         integrity="sha256-Z6O4M7tqzCtU4AEYZT3+moexyqFde5vZNka/gcaixa0=" crossorigin="anonymous"></script>
     <!-- End CDN Bodymovin iphoneX Animation Script -->
-
     <!-- NAVBAR Shrink Script -->
     <script src="{{ asset('/js/navbar.js') }}"></script>
     <!-- End -- NAVBAR Shrink Script -->
@@ -116,6 +111,8 @@
     <!-- Back to Top Button Script -->
     <script src="{{ asset('/js/backtotop.js') }}"></script>
     <!-- End -- Back to Top Button Script -->
+
+    @include('cookieConsent::index')
 </body>
 
 </html>
