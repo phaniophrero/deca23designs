@@ -73,7 +73,6 @@
         integrity="sha256-Z6O4M7tqzCtU4AEYZT3+moexyqFde5vZNka/gcaixa0=" crossorigin="anonymous"></script>
     <!-- End CDN Bodymovin iphoneX Animation Script -->
 
-    <script src="{{ asset('js/frontend_js/jquery.scrollUp.min.js') }}"></script>
     <script src="{{ asset('js/frontend_js/price-range.js') }}"></script>
     <script src="{{ asset('js/frontend_js/jquery.prettyPhoto.js') }}"></script>
     <script src="{{ asset('js/frontend_js/easyzoom.js') }}"></script>

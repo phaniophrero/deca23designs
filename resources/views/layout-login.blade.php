@@ -81,7 +81,6 @@
 
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-    <script src="{{ asset('js/frontend_js/jquery.scrollUp.min.js') }}"></script>
     <script src="{{ asset('js/frontend_js/price-range.js') }}"></script>
     <script src="{{ asset('js/frontend_js/jquery.prettyPhoto.js') }}"></script>
     <script src="{{ asset('js/frontend_js/easyzoom.js') }}"></script>
