@@ -4,7 +4,14 @@
     <a class="btn-course-page" href="#cursuri"><span>Inregistreaza-te</span> la Curs</a>
     <nav class="main-navLeft main-navbar">
         <ul class="nav-ul-left">
-            <li class="nav-list"><a class="nav-link nav-link-brand" href="{{ url('/') }}">DeCA23Designs</a></li>
+            <li class="nav-list"><a class="nav-link nav-link-brand" href="{{ url('/') }}">
+                    <div class="logo-txt-btn-wrapper logo-txt-btn-wrapper-small"><img src="/images/logo-txt-btn.png"
+                            class="logo-txt-btn" alt="">
+                    </div>
+                    De CA 23 Designs
+                    <div class="logo-home-wrapper logo-home-wrapper-small"><a class="nav-link-home"
+                            href="{{ url('/') }}">Home</a></div>
+                </a></li>
             <li class="nav-list"><a class="nav-link" href="#projects">Projects</a></li>
             <li class="nav-list"><a class="nav-link" href="#header-intro">Apps</a></li>
         </ul>
@@ -23,6 +30,9 @@
             @if (empty(Auth::check()))
             <li class="nav-list"><a class="nav-link" href="{{ url('/login-register') }}"><i class="fas fa-user"></i>
                     Login</a></li>
+            <li class="nav-list"><a class="nav-link" href="{{ url('/login-register') }}"><i
+                        class="fas fa-sign-in-alt"></i>
+                    Sign in</a></li>
             @else
             <li class="nav-list"><a class="nav-link" href="{{ url('/account') }}"><i class="fa fa-user"></i> Account</a>
             </li>

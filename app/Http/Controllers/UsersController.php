@@ -20,7 +20,7 @@ class UsersController extends Controller
     public function userLoginRegister(Request $request)
     {
         $countries = Country::get();
-        $meta_title = "User Login/Register | Romania Feng Shui";
+        $meta_title = "User Login/Register | DeCA23Designs";
 
         return view('users.login_register',compact('meta_title', 'countries'));
     }
@@ -91,7 +91,7 @@ class UsersController extends Controller
                 $email = $data['email'];
                 $messageData = ['email'=>$data['email'],'name'=>$data['name'], 'code'=>base64_encode($data['email'])];
                 Mail::send('emails.confirmation',$messageData, function($message) use($email){
-                    $message->to($email)->subject('Confirmation your Romania Feng Shui Store Account');
+                    $message->to($email)->subject('Confirmation your DeCA23Designs Account');
                 });
 
                 return redirect()->back()->with('flash_message_success', 'Please check your email to confirm your account!');
@@ -139,7 +139,7 @@ class UsersController extends Controller
                 'password' => $random_password
             ];
             Mail::send('emails.forgotpassword', $messageData, function($message) use($email){
-                $message->to($email)->subject('New Password - E-com Website');
+                $message->to($email)->subject('New Password - DeCA23Designs Website');
             });
 
             return redirect('login-register')->with('flash_message_success','Please check your email for new password!');
@@ -161,7 +161,7 @@ class UsersController extends Controller
                 // Send Welcome Email
                 $messageData = ['email'=>$email,'name'=>$userDetails->name];
                 Mail::send('emails.welcome',$messageData, function($message) use($email){
-                    $message->to($email)->subject('Welcome to Romania Feng Shui Store');
+                    $message->to($email)->subject('Welcome to DeCA23Designs');
                 });
 
                 return redirect('login-register')->with('flash_message_success', 'Your email account has been confirmed! You can login now.');

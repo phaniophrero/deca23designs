@@ -44,7 +44,7 @@
             <td>Thanks & Regards,</td>
         </tr>
         <tr>
-            <td>Romania Feng Shui Store</td>
+            <td>DeCA23Designs</td>
         </tr>
     </table>
 </body>
