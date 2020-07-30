@@ -5,12 +5,12 @@
     <nav class="main-navLeft main-navbar">
         <ul class="nav-ul-left">
             <li class="nav-list"><a class="nav-link nav-link-brand" href="{{ url('/') }}">
-                    <div class="logo-txt-btn-wrapper logo-txt-btn-wrapper-small logo-w-btn-login"><img
-                            src="/images/logo-txt-btn.png" class="logo-txt-btn" alt="">
+                    <div class="logo-txt-btn-wrapper logo-txt-btn-wrapper-small logo-w-btn-login logo-w-btn-login-sm">
+                        <img src="/images/logo-txt-btn.png" class="logo-txt-btn" alt="">
                     </div>
                     De CA 23 Designs
-                    <div class="logo-home-wrapper logo-home-wrapper-small logo-home-w-login"><a class="nav-link-home"
-                            href="{{ url('/') }}">Home</a>
+                    <div class="logo-home-wrapper logo-home-wrapper-small logo-home-w-login logo-home-w-login-sm"><a
+                            class="nav-link-home" href="{{ url('/') }}">Home</a>
                     </div>
                 </a></li>
             {{-- <li class="nav-list"><a class="nav-link" href="#projects">Projects</a></li>

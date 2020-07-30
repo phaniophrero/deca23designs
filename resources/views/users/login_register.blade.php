@@ -1,7 +1,7 @@
 @extends('layout-login')
 @section('content')
 
-<section id="form" style="margin-top: 20px;">
+<section id="" style="margin-top: 20px;">
     <!--form-->
     <div class="container">
         <div class="row">

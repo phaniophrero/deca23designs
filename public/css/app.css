@@ -462,6 +462,15 @@ ul {
   padding: 1.5rem 1rem 0 !important;
 }
 
+.main-header-small .logo-w-btn-login-sm {
+  left: 20.8rem;
+}
+
+.main-header-small .logo-home-w-login-sm {
+  top: 0.5rem;
+  left: 0;
+}
+
 .main-header-small .logoContainer {
   margin-top: 1rem;
 }
