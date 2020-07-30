@@ -19,7 +19,7 @@
             @endif
             <div class="auth-pages">
                 <div class="auth-left-bg">
-                    <div id="login-auth" class="login-form auth-left">
+                    <div id="login-auth" class="auth-left">
                         <!--login form-->
                         <h2 class="login-heading">Login to your account</h2>
                         <form id="loginForm" name="loginForm" action="{{ url('/user-login') }}" method="post">
@@ -38,7 +38,7 @@
                     </div>
 
                     <!-- Register Form -->
-                    <div id="register-auth" class="signup-form auth-right">
+                    <div id="register-auth" class="auth-right">
                         <!--sign up form-->
                         <h2 class="register-heading">Create an account</h2>
                         <form id="registerForm" name="registerForm" action="{{ url('/user-register') }}" method="post">
