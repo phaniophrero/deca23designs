@@ -56,6 +56,7 @@ class UsersController extends Controller
             // echo "<pre>"; print_r($data); die;
             //Check if User already exists
             $usersCount = User::where('email', $data['email'])->count();
+            $birt_date = Carbon::parse($data['birth_date'])->format('Y-m-d');
             if($usersCount > 0) {
                 return redirect()->back()->with('flash_message_error', 'Email already exists!');
             }else {
@@ -64,7 +65,7 @@ class UsersController extends Controller
                 }
                 $user = new User;
                 $user->name = $data['name'];
-                $user->birth_date = $data['birth_date'];
+                $user->birth_date = $birt_date;
                 $user->address = $data['address'];
                 $user->city = $data['city'];
                 $user->country = $data['country'];
