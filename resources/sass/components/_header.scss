@@ -74,13 +74,18 @@
 
 .nav-link {
     color: $color-white;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-decoration: none;
     transition: font-size .4s ease-in-out;
 
     &:hover {
         color: darken($color-white, 10%);
     }
+}
+
+.nav-link-brand {
+    font-size: 1.8rem;
+    text-transform: uppercase;
 }
 
 .navLogo {

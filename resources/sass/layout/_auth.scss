@@ -5,14 +5,11 @@
     grid-template-columns: 1fr 1fr;
     border: .3rem solid rgba($color-purple2, .6);
     border-radius: 2.4rem;
+    min-width: 114rem;
+    min-height: 53.1rem;
 
     .auth-left-bg {
-        background-image: linear-gradient(to bottom, rgba($color-purple2, .2) -9%, rgba($color-blue, 1)),
-            url('/img/buildings-ny.jpg');
-        background-position: top -3% left 0px;
-        background-size: 106%;
         padding: 6rem 8rem;
-        border-radius: 2rem 0 0 2rem;
     }
 
     .auth-left {
@@ -22,13 +19,16 @@
 
     .round {
         display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex: 1;
     }
 
     input[type="checkbox"] {
         appearance: none;
         -webkit-appearance: none;
-        height: 2.3rem;
-        width: 2.3rem !important;
+        height: 1.6rem;
+        width: 1.6rem !important;
         background-color: $color-gray;
         border-radius: 2rem;
         cursor: pointer;
@@ -43,11 +43,10 @@
     input[type="checkbox"]:after {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: $color-white;
         display: none;
         content: "\f00c";
-        margin-top: .1rem;
     }
 
     input[type="checkbox"]:hover {
@@ -64,9 +63,9 @@
 
     input {
         border: .1rem solid $color-gray5;
-        padding: .6rem 1rem !important;
+        padding: .6rem 1rem;
         border-radius: 1.6rem;
-        margin-top: 2rem;
+        margin-top: 1.2rem;
         width: 100%;
         font-size: 1.4rem;
     }
@@ -93,8 +92,9 @@
 
         label {
             font-size: 1.5rem;
-            color: $color-gray;
+            color: $matte-purple;
             margin-top: .2rem;
+            margin-bottom: 0;
         }
 
         input {
@@ -108,7 +108,7 @@
         font-size: 1.5rem;
         font-family: "Comfortaa", cursive;
         border-radius: 1.6rem;
-        padding: .6rem 3rem;
+        padding: .4rem 3rem;
         border: none;
         transition: .3s ease-in;
 
@@ -121,8 +121,8 @@
 
     .auth-btn-login {
         background: linear-gradient(to top, $matte-purple, #658aff);
-        margin-top: 1.2rem;
-        margin-left: 9rem;
+        // margin-top: 1.2rem;
+        // margin-left: 16rem;
 
         &:hover {
             background: linear-gradient(to top, $matte-purple, #658aff);
@@ -134,11 +134,11 @@
     .forgot-password-link {
         font-size: 1.4rem;
         font-family: "Comfortaa", cursive;
-        color: $color-gray;
+        color: $color-blue;
 
         &:hover {
             text-decoration: none;
-            color: lighten($color-purple1, 10%);
+            color: $matte-purple;
         }
     }
 
@@ -158,24 +158,134 @@
     }
 
     .auth-right-bg {
+        background-image: linear-gradient(to bottom, rgba($color-purple2, .2) -9%, rgba($color-blue, 1)),
+            url('/img/buildings-ny.jpg');
+        background-position: top 0% left 0px;
+        background-size: 160%;
         padding: 6rem 8rem;
+        border-radius: 0 2rem 2rem 0;
+
+        .login-actions-container {
+            display: flex;
+            width: 50%;
+            margin: 0 auto 1rem;
+            border: .1rem solid $color-blue2-light;
+            border-radius: 2rem;
+            list-style: none;
+
+            .loginActions {
+                width: 50%;
+                border-right: .1rem solid $color-blue2-light;
+                text-align: center;
+                cursor: pointer;
+
+                .login-action-btn {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 1.5rem;
+                    font-family: "Comfortaa", cursive;
+                    color: $color-white;
+                    cursor: pointer;
+                }
+
+                // &:hover {
+                //     color: $color-white;
+                //     transition: color .3s ease-in-out;
+                //     background: $matte-purple;
+                //     border-radius: 2rem 0 0 2rem;
+                // }
+            }
+
+            .login-bg-active {
+                color: $color-white;
+                transition: color .3s ease-in-out;
+                background: $matte-purple;
+                border-radius: 2rem 0 0 2rem;
+            }
+
+            .registerActions {
+                width: 50%;
+                text-align: center;
+
+                .register-action-btn {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 1.5rem;
+                    font-family: "Comfortaa", cursive;
+                    color: $color-white;
+                    cursor: pointer;
+                }
+
+                // &:hover {
+                //     color: $color-white;
+                //     transition: color .3s ease-in-out;
+                //     background: $matte-purple;
+                //     border-radius: 0 2rem 2rem 0;
+
+                // }
+            }
+
+            .register-bg-active {
+                color: $color-white;
+                transition: color .3s ease-in-out;
+                background: $matte-purple;
+                border-radius: 0 2rem 2rem 0;
+            }
+        }
+
+        .logo-auth-container {
+            display: flex;
+            width: 100%;
+            height: 10rem;
+            justify-content: center;
+            align-items: center;
+
+            .logo-auth {
+                font-size: 2.1rem;
+                font-family: "Comfortaa", cursive;
+                color: $color-white;
+            }
+        }
     }
 
     .auth-right {
         // border-left: .1rem solid $color-gray5;
         font-size: $default-font-size;
 
-        .register-heading-right {
-            color: $color-gray2;
+        .login-actions-container {
+            display: flex;
         }
 
-        .register-sub-heading {
-            color: $color-gray2;
-            font-weight: 500;
+        .wrapper-name-date {
+            display: flex;
+
+            .input-regiser-name {
+                flex: 2;
+            }
+
+            .birth-date {
+                flex: .6;
+                margin-left: 1rem;
+            }
         }
 
-        .register-details {
-            color: $color-gray2;
+        .wrapper-city-country-zipcode {
+            display: flex;
+
+            .input-country {
+                margin-left: 1rem;
+                width: 15rem;
+                height: 3.4rem;
+                border: .1rem solid $color-gray5;
+                border-radius: 2rem;
+                margin-top: 1.3rem;
+                outline: none;
+            }
+
+            .input-zipcode {
+                width: 8rem;
+                margin-left: 1rem;
+            }
         }
     }
 }
@@ -230,15 +340,14 @@
 }
 
 // REGISTER Page
-
-.register-heading {
+.login-heading {
     font-size: 2.3rem;
     font-family: "Comfortaa", cursive;
-    color: $color-gray;
+    color: $matte-purple;
     padding-bottom: 2rem;
 }
 
-.register-heading2 {
+.register-heading {
     font-size: 2.3rem;
     font-family: "Comfortaa", cursive;
     background: linear-gradient(to bottom, $color-blue, $color-purple1);
@@ -250,4 +359,59 @@
 .label-register {
     font-size: 14px;
     color: $matte-purple;
+}
+
+// Account Page
+.account-input {
+    border: .1rem solid $color-gray5;
+    padding: .6rem 1rem;
+    border-radius: 1.6rem;
+    margin-top: 1.2rem;
+    width: 100%;
+    font-size: 1.4rem;
+    outline: none;
+}
+
+.heading-update-account,
+.heading-update-pass {
+    font-size: 2.3rem;
+    font-family: "Comfortaa", cursive;
+    color: $matte-purple;
+    padding-top: 2rem;
+}
+
+.account-btn-update {
+    background: linear-gradient(to top, $matte-purple, $color-blue);
+    color: $color-white;
+    font-size: 1.5rem;
+    font-family: "Comfortaa", cursive;
+    border-radius: 1.6rem;
+    border: none;
+    padding: .4rem 3rem;
+    margin-top: 2rem;
+    transition: .3s ease-in;
+
+    &:hover {
+        background: linear-gradient(to top, $matte-purple, $color-blue);
+        filter: drop-shadow(.2rem .2rem .3rem $color-blue-dark2);
+        transition: .3s ease-out;
+    }
+}
+
+.account-bottom-line {
+    width: 100%;
+    height: .1rem;
+    background-color: $color-gray9;
+    margin-top: 4rem;
+}
+
+.account-right-line-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.account-right-line {
+    width: .1rem;
+    height: 100%;
+    background-color: $color-gray9;
 }

@@ -19,9 +19,10 @@ class UsersController extends Controller
 {
     public function userLoginRegister(Request $request)
     {
+        $countries = Country::get();
         $meta_title = "User Login/Register | Romania Feng Shui";
 
-        return view('users.login_register',compact('meta_title'));
+        return view('users.login_register',compact('meta_title', 'countries'));
     }
 
     public function login(Request $request)
@@ -31,15 +32,15 @@ class UsersController extends Controller
             // echo "<pre>"; print_r($data); die;
             if(Auth::attempt(['email' => $data['email'],'password'=> $data['password']])) {
                 $userStatus = User::where('email',$data['email'])->first();
-                // if($userStatus->status == 0) {
-                //     return redirect()->back()->with('flash_message_error', 'Your account is not cofirmed! Please check your email to confirm your account.');
-                // }
+                if($userStatus->status == 0) {
+                    return redirect()->back()->with('flash_message_error', 'Your account is not cofirmed! Please check your email to confirm your account.');
+                }
                 Session::put('frontSession', $data['email']);
 
-                // if(!empty(Session::get('session_id'))) {
-                //     $session_id = Session::get('session_id');
-                //     DB::table('cart')->where('session_id', $session_id)->update(['user_email' => $data['email']]);
-                // }
+                if(!empty(Session::get('session_id'))) {
+                    $session_id = Session::get('session_id');
+                    DB::table('cart')->where('session_id', $session_id)->update(['user_email' => $data['email']]);
+                }
 
                 return redirect('/');
             } else {
@@ -58,12 +59,18 @@ class UsersController extends Controller
             if($usersCount > 0) {
                 return redirect()->back()->with('flash_message_error', 'Email already exists!');
             }else {
-                if(empty($user->name)) {
-                    return redirect()->back()->with('flash_message_error', 'Your name is required.');
+                if(empty($data['state'])) {
+                $data['state'] = '';
                 }
-
                 $user = new User;
                 $user->name = $data['name'];
+                $user->birth_date = $data['birth_date'];
+                $user->address = $data['address'];
+                $user->city = $data['city'];
+                $user->country = $data['country'];
+                $user->state = $data['state'];
+                $user->zipcode = $data['zipcode'];
+                $user->mobile = $data['mobile'];
                 $user->email = $data['email'];
                 $user->password = bcrypt($data['password']);
                 //asa adaugi timezone-ul pentru cei ce se inregistreaza
@@ -235,9 +242,9 @@ class UsersController extends Controller
                 //Update password
                 $new_pwd = bcrypt($data['new_pwd']);
                 User::where('id', Auth::User()->id)->update(['password'=> $new_pwd]);
-                return redirect()->back()->with('flash_message_error', 'Current Password is incorrect!');
+                return redirect()->back()->with('flash_message_success', 'Password updated successfully!');
             }else {
-                return redirect()->back()->with('flash_message_error', 'Password updated successfully!');
+                return redirect()->back()->with('flash_message_error', 'Current Password is incorrect!');
             }
         }
     }
@@ -288,7 +295,6 @@ class UsersController extends Controller
     public function viewUsersCountriesCharts()
     {
         $getUserCountries = User::select('country', DB::raw('count(country) as count'))->groupBy('country')->get();
-        $getUserCountries = json_decode(json_encode($getUserCountries), true);
         // echo "<pre>"; print_r($getUserCountries); die;
         return view('admin.users.view_users_countries_charts', compact('getUserCountries'));
     }

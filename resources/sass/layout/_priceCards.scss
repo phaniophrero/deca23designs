@@ -8,7 +8,7 @@
     // margin-bottom: 40rem;
     height: 90vh;
     width: 100%;
-    background: linear-gradient($black-pearl, rgba($black-pearl, .6), transparent), url('/img/coins-bg.png');
+    background: linear-gradient($black-pearl, $black-pearl);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 50%;
@@ -71,16 +71,19 @@
 .titlePrice1 {
     margin-top: -50rem;
     position: absolute;
-    left: 44.5%;
+    left: 42.6%;
     font-size: 4.2rem;
+    font-family: "Comfortaa", cursive;
     color: $color-white;
 }
 
 .titlePrice2 {
     margin-top: -50rem;
     position: absolute;
-    right: 44.5%;
+    right: 42.5%;
     font-size: 4.2rem;
+    font-family: "Comfortaa",
+        cursive;
     color: $color-white;
 }
 
@@ -96,7 +99,8 @@
 
 .titleRows1,
 .titleRows2 {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
+    font-family: "Comfortaa", cursive;
     font-weight: 300;
     color: $color-white;
     margin-top: -6.5rem;
@@ -105,8 +109,9 @@
 }
 
 .titleRows3 {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     font-weight: 300;
+    font-family: "Comfortaa", cursive;
     color: $color-white;
     margin-top: -6.5rem;
     padding-left: 2rem;
@@ -116,7 +121,8 @@
 
 
 .titleRows4 {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
+    font-family: "Comfortaa", cursive;
     font-weight: 300;
     color: $color-white;
     margin-top: -6.5rem;
@@ -125,7 +131,8 @@
 }
 
 .titleRows5 {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
+    font-family: "Comfortaa", cursive;
     font-weight: 300;
     color: $color-white;
     margin-top: -6.5rem;
@@ -135,7 +142,8 @@
 }
 
 .titleRows6 {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
+    font-family: "Comfortaa", cursive;
     font-weight: 300;
     color: $color-white;
     margin-top: -6.5rem;
@@ -172,6 +180,7 @@
     background: transparent;
     cursor: pointer;
     font-size: $default-font-size;
+    margin-top: 1rem;
 
     &:focus {
         outline: 0;
@@ -204,6 +213,7 @@
 
 .headingCard-title {
     font-size: 3.5rem;
+    font-family: "Comfortaa", cursive;
     font-weight: 600;
     text-transform: uppercase;
     color: $color-white;
@@ -230,14 +240,15 @@
     border-radius: 3rem;
     position: absolute;
     top: 0rem;
-    left: 29.8%;
+    left: 31%;
     -webkit-box-shadow: 0 .3rem .6rem $matte-blue2;
     box-shadow: 0 .3rem .6rem $matte-blue2;
     z-index: 3;
 }
 
 .descriptionCards {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    font-family: "Comfortaa", cursive;
     font-weight: 300;
     color: $color-white;
     padding: .8rem 1.4rem;
@@ -291,7 +302,7 @@
     height: 13.6rem;
     background: rgba($color-white, .3);
     position: absolute;
-    top: 32.7rem;
+    top: 31.7rem;
     left: 7.3%;
     border-radius: 1.8rem;
     z-index: 1;
@@ -312,12 +323,18 @@
 
 /* END Card BLOG */
 
+.arrows-blue,
+.arrows-purple {
+    margin-top: 1rem;
+}
+
 /* Card E-Commerce */
 #btnMore-Card2 {
     border: none;
     background: transparent;
     cursor: pointer;
     font-size: $default-font-size;
+    margin-top: 1rem;
 
     &:focus {
         outline: 0;
@@ -348,6 +365,7 @@
 
 .headingCard2-title {
     font-size: 3.5rem;
+    font-family: "Comfortaa", cursive;
     font-weight: 600;
     text-transform: uppercase;
     color: $color-white;
@@ -374,13 +392,14 @@
     border-radius: 3rem;
     position: absolute;
     top: 0rem;
-    right: 29.8%;
+    right: 31%;
     -webkit-box-shadow: 0 .3rem .6rem $matte-blue2;
     box-shadow: 0 .3rem .6rem $matte-blue2;
 }
 
 .descriptionCards2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    font-family: "Comfortaa", cursive;
     font-weight: 300;
     color: $color-white;
     text-align: left;

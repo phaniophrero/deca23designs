@@ -1,5 +1,5 @@
 <footer id="main-footer" class="footer-login">
-    <div class="footerContainer footerContainer-login">
+    <div class="footerContainer-login">
         <header class="footer-heading-wrapper">
             <h1 class="footer-heading">PARIS</h1>
         </header>

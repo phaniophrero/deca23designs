@@ -5,14 +5,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="Web Developers"
         content="DeCA23Designs is the place where you can get your desired website or app , and offers the support that you need.">
+    <meta name="google-site-verification" content="-LsDOSddFpUnbmesCQWDDR3X-RB6rLGlkRkh3vI6k4A" />
 
     <link rel="icon" type="image/png" href="/img/23roses.png"> <!-- END Logo Image Bara Sus -->
 
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/backend_css/fullcalendar.css') }}" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="{{ asset('css/frontend_css/prettyPhoto.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/frontend_css/price-range.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/frontend_css/animate.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/frontend_css/main.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/frontend_css/responsive.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/frontend_css/easyzoom.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/frontend_css/passtrength.css') }}" rel="stylesheet">
 
     <title>DeCA23Designs</title>
 
@@ -20,7 +30,7 @@
 
 <body>
 
-    @include('include.navbar')
+    @include('include.navbar-login')
 
     <main id="main-content">
         @yield('content')
@@ -69,9 +79,23 @@
         integrity="sha256-Z6O4M7tqzCtU4AEYZT3+moexyqFde5vZNka/gcaixa0=" crossorigin="anonymous"></script>
     <!-- End CDN Bodymovin iphoneX Animation Script -->
 
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script src="{{ asset('js/frontend_js/jquery.scrollUp.min.js') }}"></script>
+    <script src="{{ asset('js/frontend_js/price-range.js') }}"></script>
+    <script src="{{ asset('js/frontend_js/jquery.prettyPhoto.js') }}"></script>
+    <script src="{{ asset('js/frontend_js/easyzoom.js') }}"></script>
+    <script src="{{ asset('js/frontend_js/main.js') }}"></script>
+    <script src="{{ asset('js/frontend_js/jquery.validate.js') }}"></script>
+    <script src="{{ asset('js/frontend_js/passtrength.js') }}"></script>
+
     <!-- NAVBAR Shrink Script -->
     <script src="{{ asset('/js/navbar.js') }}"></script>
     <!-- End -- NAVBAR Shrink Script -->
+
+    <!-- Login Page Script -->
+    <script src="{{ asset('/js/loginPage.js') }}"></script>
+    <!-- End -- Login Page Script -->
 
     <!-- Managers Modal Script -->
     <script src="{{ asset('/js/managersModal.js') }}"></script>
