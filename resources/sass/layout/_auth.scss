@@ -252,6 +252,10 @@
         // border-left: .1rem solid $color-gray5;
         font-size: $default-font-size;
 
+        div#ui-datepicker-div {
+            top: 265px !important;
+        }
+
         .login-actions-container {
             display: flex;
         }

@@ -1487,6 +1487,10 @@ textarea::-webkit-scrollbar-thumb {
   font-size: 1.6rem;
 }
 
+.auth-pages .auth-right div#ui-datepicker-div {
+  top: 265px !important;
+}
+
 .auth-pages .auth-right .login-actions-container {
   display: flex;
 }

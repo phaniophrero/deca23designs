@@ -14,12 +14,9 @@
 
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap" rel="stylesheet">
-    <link href="{{ asset('css/frontend_css/prettyPhoto.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/frontend_css/price-range.css') }}" rel="stylesheet">
     <link href="{{ asset('css/frontend_css/animate.css') }}" rel="stylesheet">
     <link href="{{ asset('css/frontend_css/main.css') }}" rel="stylesheet">
     <link href="{{ asset('css/frontend_css/responsive.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/frontend_css/easyzoom.css') }}" rel="stylesheet">
     <link href="{{ asset('css/frontend_css/passtrength.css') }}" rel="stylesheet">
 
     <script data-ad-client="ca-pub-5698931276596687" async
@@ -73,9 +70,6 @@
         integrity="sha256-Z6O4M7tqzCtU4AEYZT3+moexyqFde5vZNka/gcaixa0=" crossorigin="anonymous"></script>
     <!-- End CDN Bodymovin iphoneX Animation Script -->
 
-    <script src="{{ asset('js/frontend_js/price-range.js') }}"></script>
-    <script src="{{ asset('js/frontend_js/jquery.prettyPhoto.js') }}"></script>
-    <script src="{{ asset('js/frontend_js/easyzoom.js') }}"></script>
     <script src="{{ asset('js/frontend_js/main.js') }}"></script>
     <script src="{{ asset('js/frontend_js/jquery.validate.js') }}"></script>
     <script src="{{ asset('js/frontend_js/passtrength.js') }}"></script>
