@@ -1,12 +1,13 @@
 // Date of Birth datepicker
-$(function () {
+$(function() {
     $("#birth_date").datepicker({
         changeMonth: true,
         changeYear: true,
         yearRange: "-100:+0",
-        beforeShow: function (textbox, instance) {
+        dateFormat: "dd/mm/yy",
+        beforeShow: function(textbox, instance) {
             instance.dpDiv.css({
-                marginTop: -259,
+                marginTop: -259
             });
         }
     });
@@ -21,9 +22,9 @@ var actions = [login_act, register_act];
 function show(index) {
     for (var i = 0; i < actions.length; i++) {
         if (i !== index) {
-            actions[i].style.display = 'none';
+            actions[i].style.display = "none";
         } else {
-            actions[i].style.display = 'block';
+            actions[i].style.display = "block";
         }
     }
 }
@@ -34,20 +35,27 @@ var login = document.getElementById("login-link"),
 
 var buttons = [login, register];
 
-buttons[0].addEventListener('click', function () {
-    show(0)
-}, false);
-buttons[1].addEventListener('click', function () {
-    show(1)
-}, false);
-
+buttons[0].addEventListener(
+    "click",
+    function() {
+        show(0);
+    },
+    false
+);
+buttons[1].addEventListener(
+    "click",
+    function() {
+        show(1);
+    },
+    false
+);
 
 // change background on click
-$('.login-action-btn').click(function () {
-    $('.register-action-btn').removeClass('register-bg-active');
-    $(this).addClass('login-bg-active');
+$(".login-action-btn").click(function() {
+    $(".register-action-btn").removeClass("register-bg-active");
+    $(this).addClass("login-bg-active");
 });
-$('.register-action-btn').click(function () {
-    $('.login-action-btn').removeClass('login-bg-active');
-    $(this).addClass('register-bg-active');
+$(".register-action-btn").click(function() {
+    $(".login-action-btn").removeClass("login-bg-active");
+    $(this).addClass("register-bg-active");
 });

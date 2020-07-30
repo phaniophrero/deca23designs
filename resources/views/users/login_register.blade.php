@@ -47,7 +47,7 @@
                                 <input id="name" class="input-regiser-name" name="name" type="name"
                                     placeholder="Full Name" required />
                                 <input id="birth_date" class="birth-date" name="birth_date" type="text"
-                                    placeholder="mm/dd/yyyy" required />
+                                    placeholder="dd/mm/yyyy" required />
                             </div>
                             <div class="validation-message js-validation-message"></div>
                             <input id="address" name="address" type="address" placeholder="Address" required />
