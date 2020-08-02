@@ -1,6 +1,22 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+    #main-header {
+        width: 100vw;
+    }
+
+    .heading-welcome-first {
+        letter-spacing: 1.1rem;
+    }
+
+    .projects-bg-white {
+        margin-top: 0;
+    }
+
+    .section_projects {
+        width: 100vw;
+    }
+
     // Section PROJECTS Web Sites
     .introWrapper {
         display: flex;
@@ -15,6 +31,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        margin-left: 0;
     }
 
     .breaking-line-projects {
@@ -22,6 +39,10 @@
     }
 
     //Section INTRO Apps
+    .intro-section-container {
+        width: 100vw;
+    }
+
     #header-intro {
         flex: 1 1 auto;
         display: flex;
@@ -51,7 +72,7 @@
 
     .app-img-resp-container {
         display: flex;
-        width: 90%;
+        width: 100vw;
         margin: 10rem auto 3rem;
     }
 
@@ -109,7 +130,7 @@
         margin: 4rem auto;
     }
 
-    // Section  ADS 
+    // Section  ADS
     #section-ads {
         width: 100vw;
         margin-top: 6rem;
@@ -118,7 +139,7 @@
     .container-ads {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 100vw;
         order: 0;
     }
 
@@ -184,7 +205,7 @@
         margin-top: -6rem;
     }
 
-    // Section LLC BUSINESS 
+    // Section LLC BUSINESS
     .llc-business-heading {
         font-size: 4rem;
         padding-top: 4rem;
@@ -260,7 +281,7 @@
         margin-top: -12rem;
     }
 
-    // Section MANAGERS TEAM 
+    // Section MANAGERS TEAM
     .managers-img-container {
         margin-top: -11rem;
         flex-wrap: wrap;

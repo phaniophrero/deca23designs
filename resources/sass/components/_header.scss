@@ -75,8 +75,8 @@
 .logo-txt-btn-wrapper {
     width: 20rem;
     position: absolute;
-    top: 9.5rem;
-    left: 9rem;
+    top: 10%;
+    left: -15.7%;
 
     .logo-txt-btn {
         width: 100%;
@@ -87,10 +87,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 88%;
+    margin: auto;
     position: relative;
-    top: .5rem;
-    left: .4rem;
+    top: 12.5%;
+    left: -7.5%;
 
     .nav-link-home {
         color: $color-white;
@@ -121,6 +121,7 @@
 .nav-link-brand {
     font-size: 1.4rem;
     text-transform: uppercase;
+    position: relative;
 }
 
 .navLogo {
@@ -155,8 +156,8 @@
     .logo-txt-btn-wrapper-small {
         width: 20rem;
         position: absolute;
-        top: 7.1rem;
-        left: 8.4rem;
+        top: 10%;
+        left: -15.7%;
 
         .logo-txt-btn-small {
             width: 100%;

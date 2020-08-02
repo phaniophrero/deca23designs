@@ -361,8 +361,8 @@ ul {
 .logo-txt-btn-wrapper {
   width: 20rem;
   position: absolute;
-  top: 9.5rem;
-  left: 9rem;
+  top: 10%;
+  left: -15.7%;
 }
 
 .logo-txt-btn-wrapper .logo-txt-btn {
@@ -373,10 +373,10 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 88%;
+  margin: auto;
   position: relative;
-  top: 0.5rem;
-  left: 0.4rem;
+  top: 12.5%;
+  left: -7.5%;
 }
 
 .logo-home-wrapper .nav-link-home {
@@ -407,6 +407,7 @@ ul {
 .nav-link-brand {
   font-size: 1.4rem;
   text-transform: uppercase;
+  position: relative;
 }
 
 .navLogo {
@@ -446,8 +447,8 @@ ul {
 .main-header-small .logo-txt-btn-wrapper-small {
   width: 20rem;
   position: absolute;
-  top: 7.1rem;
-  left: 8.4rem;
+  top: 10%;
+  left: -15.7%;
 }
 
 .main-header-small .logo-txt-btn-wrapper-small .logo-txt-btn-small {
@@ -3517,7 +3518,7 @@ textarea::-webkit-scrollbar-thumb {
 .section_projects {
   width: 100%;
   height: 35rem;
-  background-image: linear-gradient(to top, white 17%, #e8e4e46e 36%), linear-gradient(to bottom, white 12%, #f9f9f973 36%), url("/img/c6.jpg");
+  background-image: linear-gradient(to top, white 26%, #e8e4e46e 46%), linear-gradient(to bottom, white 12%, #f9f9f973 36%), url("/img/c6.jpg");
   background-position: top 119% left 0px;
   background-size: 100%;
 }
@@ -4282,6 +4283,22 @@ textarea::-webkit-scrollbar-thumb {
 /* Extra Small Devices, Phones */
 
 @media only screen and (max-width: 480px) {
+  #main-header {
+    width: 100vw;
+  }
+
+  .heading-welcome-first {
+    letter-spacing: 1.1rem;
+  }
+
+  .projects-bg-white {
+    margin-top: 0;
+  }
+
+  .section_projects {
+    width: 100vw;
+  }
+
   .introWrapper {
     display: flex;
     flex-direction: column;
@@ -4295,10 +4312,15 @@ textarea::-webkit-scrollbar-thumb {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 0;
   }
 
   .breaking-line-projects {
     display: none;
+  }
+
+  .intro-section-container {
+    width: 100vw;
   }
 
   #header-intro {
@@ -4330,7 +4352,7 @@ textarea::-webkit-scrollbar-thumb {
 
   .app-img-resp-container {
     display: flex;
-    width: 90%;
+    width: 100vw;
     margin: 10rem auto 3rem;
   }
 
@@ -4394,7 +4416,7 @@ textarea::-webkit-scrollbar-thumb {
   .container-ads {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
     order: 0;
   }
 
@@ -4773,7 +4795,7 @@ textarea::-webkit-scrollbar-thumb {
 
   .section_projects {
     height: auto;
-    width: 90%;
+    width: 90vw;
     margin: 12rem auto 0;
     display: grid;
   }
@@ -5090,7 +5112,7 @@ textarea::-webkit-scrollbar-thumb {
   }
 
   .wrapper-description-ads {
-    width: 50rem;
+    width: 90vw;
     margin: 3rem auto;
   }
 
