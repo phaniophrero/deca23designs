@@ -72,8 +72,8 @@
 
     .app-img-resp-container {
         display: flex;
-        width: 100vw;
-        margin: 10rem auto 3rem;
+        width: 75%;
+        margin: 0;
     }
 
     // Empty Space AdSense Google ADS
@@ -118,16 +118,38 @@
 
     .hosting-img-container {
         display: block;
-        margin: -6rem auto;
+        margin: 0;
     }
 
     .wrapper-data-host-img,
     .wrapper-host-img,
     .wrapper-domain-host-img {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 4rem auto;
+        display: block;
+        width: 26rem;
+        height: 26rem;
+        margin: auto;
+    }
+
+    .data-host-img {
+        margin: 0 auto;
+        padding-top: 1rem;
+        width: 58%;
+    }
+
+    .host-img {
+        margin: 0 auto;
+        padding-top: 1rem;
+        width: 56%;
+    }
+
+    .domain-host-img {
+        margin: 0 auto;
+        padding-top: 1rem;
+        width: 48%;
+    }
+
+    .host-title {
+        margin-top: -2rem;
     }
 
     // Section  ADS

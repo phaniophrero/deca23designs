@@ -1,6 +1,10 @@
 /* Burger Menu Lines */
 @media only screen and (max-width: 850px) {
 
+    .burger-icon {
+        display: block;
+    }
+
     /* Gradient NAV */
     #gradient-nav {
         height: 21rem;
@@ -18,22 +22,14 @@
 
     /* LOGO CONTAINER 850px */
     .logoImg {
-        height: 60%;
+        height: 90%;
         animation: none;
     }
 
     .logoImg23 {
-        height: 28%;
+        height: 35%;
         animation: none;
     }
-
-    // .navLogo {
-    //     height: 15vh;
-    // }
-
-    // .navLogo23 {
-    //     height: 17vh;
-    // }
 
     /* First NAV BAR DESKTOP */
     .nav-ul-left,
@@ -42,8 +38,6 @@
     }
 
     .logoContainer {
-        flex: 1;
-        display: flex;
         margin-top: 1rem;
     }
 
@@ -51,35 +45,37 @@
 
     /* BURGER NAV BAR */
     .burger-nav {
-        display: flex;
+        display: block;
         // width: 90%;
-        margin: auto;
-        align-items: center;
-        font-family: $poppins;
+        background: linear-gradient(227deg, rgba($color-blue, .7), rgba($color-blue-dark, .7));
+        width: 40%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-right: .15rem solid $matte-purple;
+        transform: translateX(-50rem);
+        transition: .5s ease-in-out;
+    }
+
+    .burger-nav.show {
+        // display: block;
+        transform: translateX(0);
     }
 
     .nav-ul-burger {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        // justify-content: center;
+        display: block;
         list-style: none;
-        background: linear-gradient(227deg, $color-blue-dark2, $color-blue-dark);
-        width: 100%;
-        height: 100%;
-        position: fixed;
-        top: 0;
-        left: 100%;
         transition: transform 1s ease;
     }
 
     .nav-li-burger {
-        padding: 7rem;
+        padding: 1rem 2rem;
     }
 
     .nav-link-burger {
         color: $color-white;
-        font-size: 2.8rem;
+        font-size: 1.8rem;
         text-decoration: none;
 
         &:hover {
@@ -88,47 +84,19 @@
         }
     }
 
-    .burger-menu-icon {
-        display: flex;
-        flex-direction: column;
+    .burger-icon {
+        font-size: 3rem;
+        color: $color-white;
+        border: none;
+        background: none;
         width: 4rem;
         height: 4rem;
         margin: 3rem;
-        cursor: pointer;
-        position: fixed;
+        position: absolute;
         top: 0;
         right: 0;
         z-index: 100;
-    }
-
-    .burger-line1 {
-        padding: .2rem 1.8rem;
-        background: $color-gray;
-        margin: .5rem 0rem;
-        border-radius: 1rem;
-    }
-
-    .burger-line2 {
-        padding: .2rem 1rem;
-        width: 1rem;
-        background: $color-gray;
-        margin: .5rem 0rem 0rem auto;
-        border-radius: 1rem;
-        transition: padding .3s ease;
-        animation: line-grow ease;
-    }
-
-    .nav-open {
-        transform: translateX(-100%);
-    }
-
-    .toggle .burger-line1 {
-        transform: rotateZ(45deg) translateY(300%);
-    }
-
-    .toggle .burger-line2 {
-        transform: rotateZ(-45deg) translateY(-300%);
-        padding: .2rem 1.8rem;
+        outline: none;
     }
 
     /* END -- BURGER NAV BAR */
@@ -195,7 +163,7 @@
     // PROJECTS Section 768px
     .section_projects {
         height: auto;
-        width: 90vw;
+        // width: 100vw;
         margin: 12rem auto 0;
         display: grid;
     }
@@ -206,6 +174,7 @@
 
     .introWrapper {
         display: grid;
+        width: 90%;
     }
 
     .heading_intro {
@@ -418,6 +387,10 @@
         display: flex;
         margin: 2rem auto;
         position: static;
+
+        &::before {
+            background: none;
+        }
     }
 
     .host-img {
@@ -438,8 +411,8 @@
 
     // ADS Section 768px
     #section-ads {
-        width: 100vw;
-        flex-direction: column;
+        // width: 100vw;
+        display: block;
     }
 
     .container-ads {
@@ -496,8 +469,9 @@
     }
 
     .container-heading-ads {
-        padding-left: 0;
-        order: 2;
+        // padding-left: 0;
+        // order: 2;
+        display: none;
     }
 
     .ads-gradient-line {
@@ -515,16 +489,30 @@
         margin: 2rem auto 0;
     }
 
-    .wrapper-description-ads {
-        width: 90vw;
-        margin: 3rem auto;
-    }
+    // .wrapper-description-ads {
+    //     width: 90vw;
+    //     margin: 3rem auto;
+    // }
 
     // Price Cards Section 850px
 
+    .cardRows1 {
+        margin-top: -26rem;
+    }
+
     .purpleShape-card,
     .blueShape-card {
-        width: 70%;
+        width: 60%;
+    }
+
+    #btnMore-Card,
+    #btnMore-Card2 {
+        margin-top: 0;
+    }
+
+    .btnMore-price1,
+    .btnMore-price2 {
+        width: 80%;
     }
 
     .titlePrice1 {
@@ -547,7 +535,7 @@
     .purpleRow1,
     .purpleRow2,
     .purpleRow3 {
-        width: 26rem;
+        width: 19rem;
         margin: 2.4rem 0;
     }
 
@@ -557,7 +545,8 @@
     .titleRows4,
     .titleRows5,
     .titleRows6 {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
+        margin-top: -5.5rem;
     }
 
     .price-gradient-line {
@@ -566,7 +555,12 @@
 
     // LLC Business Section 850px
     .llc-img-wrapper {
-        width: 18rem;
+        width: 16rem;
+
+        .llc-business-btn {
+            margin-left: 12%;
+            width: 14rem;
+        }
     }
 
     .temple-img-wrapper {
@@ -594,11 +588,20 @@
     }
 
     .state-img-wrapper {
-        width: 40rem;
+        width: 34rem;
+    }
+
+    .state-business-btn {
+        left: 1.1%;
+        width: 14rem;
     }
 
     .money-img-wrapper {
-        width: 18rem;
+        width: 17rem;
+    }
+
+    .money-business-btn {
+        width: 14rem;
     }
 
     .business-gradient-line {
@@ -607,8 +610,37 @@
 
 
     // MANAGERS Section 850px
+    .manager-left-img {
+        width: 21rem;
+        border: none;
+    }
+
+    .manager-right-img {
+        height: 19rem;
+        width: 23rem;
+        border: none;
+    }
+
+    .manager-left-btn {
+        left: -3%;
+        top: -2rem;
+    }
+
+    .manager-right-btn {
+        right: -2%;
+        top: -2rem;
+    }
+
     .managers-heading {
         padding: 0;
+    }
+
+    .manager-left-img-container {
+        margin-top: -43rem;
+    }
+
+    .manager-right-img-container {
+        margin-top: -44rem;
     }
 
     .managers-img-container {
@@ -640,7 +672,9 @@
     }
 
     .ourteam-gradient-line {
-        margin-top: -28.5rem;
+        margin-top: 0;
+        background: none;
+        height: 0;
     }
 }
 

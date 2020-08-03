@@ -48,13 +48,22 @@
             <li class="nav-li-burger"><a class="nav-link-burger" href="#projects">Projects</a></li>
             <li class="nav-li-burger"><a class="nav-link-burger" href="#header-intro">Apps</a></li>
             <li class="nav-li-burger"><a class="nav-link-burger" href="#section-ads">Ad Campaigns</a></li>
-            <li class="nav-li-burger"><a class="nav-link-burger" href="#contact">Contact</a></li>
+            @if (empty(Auth::check()))
+            <li class="nav-li-burger"><a class="nav-link-burger" href="{{ url('/login-register') }}"><i
+                        class="fas fa-user"></i> Login</a></li>
+            <li class="nav-li-burger"><a class="nav-link-burger" href="{{ url('/login-register') }}"><i
+                        class="fas fa-sign-in-alt"></i> Sign in</a></li>
+            @else
+            <li class="nav-li-burger"><a class="nav-link-burger" href="{{ url('/account') }}"><i class="fa fa-user"></i>
+                    Account</a>
+            </li>
+            <li class="nav-li-burger"><a class="nav-link-burger" href="{{ url('/user-logout') }}"><i
+                        class="fa fa-sign-out"></i>
+                    Logout</a></li>
+            @endif
         </ul>
-        <div class="burger-menu-icon">
-            <span class="burger-line1"></span>
-            <span class="burger-line2"></span>
-        </div>
     </nav>
+    <button class="burger-icon"><i class="fas fa-bars"></i></button>
     <!-- END -- BURGER NAVIGATOR -->
 
 </header>
