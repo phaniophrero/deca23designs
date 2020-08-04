@@ -36,7 +36,7 @@
     <div id="modalLeft" class="details-certificate-bg">
         <div class="details-certificate">
             <span class="close">&times;</span>
-            <h1 class="title-name-left">Marian Robert Niculae</h1>
+            <h1 class="title-name-left">Robert Marian Niculae</h1>
             <h2 class="title-specialization">Specialization</h2>
             <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/UWUA9X84SQHE"
                 target="_blank" class="certificates-link">Web Applications for Everybody</a>
