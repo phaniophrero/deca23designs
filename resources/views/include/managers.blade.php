@@ -15,7 +15,7 @@
                 </div>
                 <div class="manager-description">
                     <h1 class="manager-title">Web Developer</h1>
-                    <h2 class="manager-name">Marian Robert Niculae</h2>
+                    <h2 class="manager-name">Robert Marian Niculae</h2>
                 </div>
             </div>
             <button id="modalLeft_btn" class="manager-left-btn">About Me</button>
