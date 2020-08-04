@@ -324,7 +324,7 @@ ul {
 .nav-ul-left,
 .nav-ul-right {
   display: flex;
-  font-family: "Comfortaa", cursive;
+  font-family: "Quicksand", sans-serif;
 }
 
 .logoContainer {
@@ -350,12 +350,22 @@ ul {
   justify-content: flex-end;
 }
 
-.nav-ul-left,
-.nav-ul-right {
+.nav-ul-left {
   justify-content: space-around;
   list-style: none;
   flex: 1 1 20rem;
   transition: height 0.4s ease-in-out;
+}
+
+.nav-ul-right {
+  justify-content: center;
+  list-style: none;
+  flex: 1 1 20rem;
+  transition: height 0.4s ease-in-out;
+}
+
+.nav-login-list {
+  margin: 0 2rem;
 }
 
 .logo-txt-btn-wrapper {
@@ -376,12 +386,12 @@ ul {
   margin: auto;
   position: relative;
   top: 12.5%;
-  left: -7.5%;
+  left: -6.5%;
 }
 
 .logo-home-wrapper .nav-link-home {
   color: #ffffff;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 300;
   text-decoration: none;
   transition: font-size 0.4s ease-in-out;
@@ -394,7 +404,7 @@ ul {
 
 .nav-link {
   color: #ffffff;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-decoration: none;
   transition: font-size 0.4s ease-in-out;
   padding: 1.5rem 1rem 0 !important;
@@ -405,9 +415,59 @@ ul {
 }
 
 .nav-link-brand {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
   text-transform: uppercase;
   position: relative;
+  background-color: #816AD6;
+  background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba(255, 255, 255, 0.6) 5%, rgba(255, 255, 255, 0.6) 10%, transparent 10%, transparent 100%);
+  background-size: 200% 100%;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-animation: copyright-footer 8s linear 2s infinite alternate;
+          animation: copyright-footer 8s linear 2s infinite alternate;
+}
+
+@keyframes copyright-footer {
+  0% {
+    background-color: #ffffff;
+    background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba(255, 255, 255, 0.6) 5%, rgba(255, 255, 255, 0.6) 10%, transparent 10%, transparent 100%);
+    background-size: 200% 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-position: -120% 0;
+  }
+
+  20% {
+    color: #816AD6;
+  }
+
+  40% {
+    background-color: #ffffff;
+    background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba(255, 255, 255, 0.6) 5%, rgba(255, 255, 255, 0.6) 10%, transparent 10%, transparent 100%);
+    background-size: 200% 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-position: 120% 0;
+  }
+
+  60% {
+    color: #816AD6;
+  }
+
+  80% {
+    background-color: #ffffff;
+    background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba(255, 255, 255, 0.6) 5%, rgba(255, 255, 255, 0.6) 10%, transparent 10%, transparent 100%);
+    background-size: 200% 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-position: -120% 0;
+  }
+
+  100% {
+    color: #ffffff;
+  }
 }
 
 .navLogo {
@@ -456,7 +516,7 @@ ul {
 }
 
 .main-header-small .logo-txt-btn-wrapper-small .nav-link-brand {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 .main-header-small .logo-txt-btn-wrapper-small .nav-link {

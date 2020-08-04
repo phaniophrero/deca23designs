@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="{{ asset('css/backend_css/fullcalendar.css') }}" />
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="{{ asset('css/frontend_css/prettyPhoto.css') }}" rel="stylesheet">
     <link href="{{ asset('css/frontend_css/animate.css') }}" rel="stylesheet">
     <link href="{{ asset('css/frontend_css/main.css') }}" rel="stylesheet">

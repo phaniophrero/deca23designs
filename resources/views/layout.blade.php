@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="{{ asset('css/frontend_css/animate.css') }}" rel="stylesheet">
     <link href="{{ asset('css/frontend_css/main.css') }}" rel="stylesheet">
     <link href="{{ asset('css/frontend_css/responsive.css') }}" rel="stylesheet">

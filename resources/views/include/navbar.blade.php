@@ -28,8 +28,9 @@
             <li class="nav-list"><a class="nav-link" href="#section-ads">Ad Campaigns</a></li>
             {{-- <li class="nav-list"><a class="nav-link" href="#contact">Contact</a></li>  --}}
             @if (empty(Auth::check()))
-            <li class="nav-list"><a class="nav-link" href="{{ url('/login-register') }}"><i class="fas fa-user"></i>
-                    Login</a></li>
+            <li class="nav-list nav-login-list"><a class="nav-link" href="{{ url('/login-register') }}"><i
+                        class="fas fa-user"></i></a>
+            </li>
             <li class="nav-list"><a class="nav-link" href="{{ url('/login-register') }}"><i
                         class="fas fa-sign-in-alt"></i>
                     Sign in</a></li>
