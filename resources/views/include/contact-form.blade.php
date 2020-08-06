@@ -13,7 +13,8 @@
                         class="fab fa-facebook-f"></i></a>
                 <a class="instagram-form-icon" href="https://www.instagram.com/deca23designs/"><i
                         class="fab fa-instagram"></i></a>
-                <a class="twitter-form-icon" href="https://twitter.com/deca23designs"><i class="fab fa-twitter"></i></a>
+                <a class="twitter-form-icon" href="https://twitter.com/deca23designs"><i
+                        class="fab fa-twitter twitter-icon"></i></a>
                 <a class="youtube-form-form" href="#youtube"><i class="fab fa-youtube"></i></a>
             </div>
         </div>

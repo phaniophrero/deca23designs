@@ -5,7 +5,7 @@
     <nav class="main-navLeft main-navbar">
         <ul class="nav-ul-left">
             <li class="nav-list"><a class="nav-link nav-link-brand" href="{{ url('/') }}">
-                    <div class="logo-txt-btn-wrapper logo-txt-btn-wrapper-small"><img src="/images/logo-txt-btn.png"
+                    <div class="logo-txt-btn-wrapper logo-txt-btn-wrapper-small"><img src="/images/logo-txt-btn2.png"
                             class="logo-txt-btn" alt="">
                     </div>
                     De CA 23 Designs

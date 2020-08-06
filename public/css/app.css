@@ -365,7 +365,7 @@ ul {
 }
 
 .nav-login-list {
-  margin: 0 2rem;
+  margin: 0 1rem 0 4rem;
 }
 
 .logo-txt-btn-wrapper {
@@ -386,40 +386,18 @@ ul {
   margin: auto;
   position: relative;
   top: 12.5%;
-  left: -6.5%;
+  left: -5.5%;
 }
 
 .logo-home-wrapper .nav-link-home {
   color: #ffffff;
   font-size: 1.4rem;
-  font-weight: 300;
+  font-weight: 600;
   text-decoration: none;
   transition: font-size 0.4s ease-in-out;
   margin-top: -0.7rem;
-}
-
-.logo-home-wrapper .nav-link-home:hover {
-  color: #e6e6e6;
-}
-
-.nav-link {
-  color: #ffffff;
-  font-size: 1.6rem;
-  text-decoration: none;
-  transition: font-size 0.4s ease-in-out;
-  padding: 1.5rem 1rem 0 !important;
-}
-
-.nav-link:hover {
-  color: #e6e6e6;
-}
-
-.nav-link-brand {
-  font-size: 1.5rem;
-  font-weight: 600;
-  text-transform: uppercase;
   position: relative;
-  background-color: #816AD6;
+  background-color: #2f3e68;
   background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba(255, 255, 255, 0.6) 5%, rgba(255, 255, 255, 0.6) 10%, transparent 10%, transparent 100%);
   background-size: 200% 100%;
   -webkit-text-fill-color: transparent;
@@ -440,7 +418,7 @@ ul {
   }
 
   20% {
-    color: #816AD6;
+    color: #2f3e68;
   }
 
   40% {
@@ -453,7 +431,7 @@ ul {
   }
 
   60% {
-    color: #816AD6;
+    color: #2f3e68;
   }
 
   80% {
@@ -468,6 +446,28 @@ ul {
   100% {
     color: #ffffff;
   }
+}
+
+.logo-home-wrapper .nav-link-home:hover {
+  color: #e6e6e6;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-size: 1.6rem;
+  text-decoration: none;
+  transition: font-size 0.4s ease-in-out;
+  padding: 1.5rem 1rem 0 !important;
+}
+
+.nav-link:hover {
+  color: #e6e6e6;
+}
+
+.nav-link-brand {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  position: relative;
 }
 
 .navLogo {
@@ -1581,18 +1581,47 @@ textarea::-webkit-scrollbar-thumb {
   border-radius: 0 2rem 2rem 0;
 }
 
+.auth-pages .auth-right-bg .logo-container-login {
+  position: relative;
+}
+
+.auth-pages .auth-right-bg .balta-wrapper {
+  width: 12rem;
+  position: absolute;
+  left: 38%;
+  top: -3%;
+  z-index: 0;
+}
+
+.auth-pages .auth-right-bg .balta-wrapper .balta-img {
+  width: 100%;
+}
+
+.auth-pages .auth-right-bg .fing-print-wrapper {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 12rem;
+  width: 7rem;
+  position: relative;
+  z-index: 2;
+}
+
+.auth-pages .auth-right-bg .fing-print-wrapper .fing-print-img {
+  width: 100%;
+}
+
 .auth-pages .auth-right-bg .logo-auth-container {
   display: flex;
   width: 100%;
-  height: 20rem;
+  padding-top: 16rem;
   justify-content: center;
   align-items: center;
 }
 
 .auth-pages .auth-right-bg .logo-auth-container .logo-auth {
-  font-size: 2.1rem;
-  font-family: "Comfortaa", cursive;
-  color: #ffffff;
+  font-size: 1.3rem;
+  font-family: "Quicksand", sans-serif;
+  color: #EEF8F4;
 }
 
 .auth-pages .auth-right {
@@ -1780,7 +1809,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .llc-business-heading {
-  font-size: 4.4rem;
+  font-size: 3rem;
   font-weight: 500;
   letter-spacing: 0.3rem;
   color: #fafafa;
@@ -2047,7 +2076,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 #contact {
-  min-height: 90vh;
+  min-height: 60vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -2128,6 +2157,10 @@ textarea::-webkit-scrollbar-thumb {
   color: #6087fd;
 }
 
+.twitter-form-icon .twitter-icon:hover {
+  background: none;
+}
+
 .youtube-form-form {
   color: #acc0fe;
   font-size: 2rem;
@@ -2161,7 +2194,7 @@ textarea::-webkit-scrollbar-thumb {
 .name-form-wrapper,
 .email-form-wrapper {
   width: 90%;
-  margin: 1.5rem auto;
+  margin: 1rem auto;
   position: relative;
 }
 
@@ -2187,14 +2220,14 @@ textarea::-webkit-scrollbar-thumb {
   font-size: 1.3rem;
   font-family: "ZCOOL XiaoWei", serif;
   letter-spacing: 0.06rem;
-  margin-top: 2.4rem;
+  margin-top: 0.4rem;
   margin-left: 4rem;
 }
 
 .input-name,
 .input-email {
   width: 100%;
-  padding: 1rem 1.8rem;
+  padding: 0.6rem 1.8rem;
   background-color: transparent;
   border: none;
   border-bottom: 0.1rem solid #191d32;
@@ -2628,7 +2661,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .managers-container {
-  height: 90vh;
+  height: 70vh;
   width: 100%;
   background: linear-gradient(#1e1e2c, 30%, rgba(30, 30, 44, 0.8), transparent), url("/img/office.png");
   background-position: 0% 80%;
@@ -2642,7 +2675,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .managers-heading {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 500;
   letter-spacing: 0.6rem;
   text-transform: uppercase;
@@ -2916,7 +2949,7 @@ textarea::-webkit-scrollbar-thumb {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 80vh;
+  height: 70vh;
 }
 
 .wrapper-heading {
@@ -2924,7 +2957,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .our-team-heading {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 500;
   letter-spacing: 0.6rem;
   text-transform: uppercase;
@@ -3108,8 +3141,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 #priceCards {
-  text-align: center;
-  height: 90vh;
+  height: 76vh;
   width: 100%;
   background: linear-gradient(#1e1e2c, #1e1e2c);
   background-repeat: no-repeat;
@@ -3119,10 +3151,10 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .cards-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
+  display: grid;
+  grid-template-columns: 30% 30%;
   padding-top: 7.5rem;
+  justify-content: center;
 }
 
 .wrapper-heading-priceCards {
@@ -3145,16 +3177,18 @@ textarea::-webkit-scrollbar-thumb {
 
 .card1 {
   display: block;
-  width: 30rem;
-  height: 53rem;
+  width: 23rem;
   text-align: center;
   transition: 0.3s;
   margin: auto;
-  flex: 1 1 auto;
   position: relative;
   /* &:hover {
       transform: translateY(-3%);
   } */
+}
+
+.card1 .blueShape-card {
+  width: 100%;
 }
 
 .rows-wrapper-blue {
@@ -3163,24 +3197,24 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .cardRows1 {
-  margin-top: -31rem;
+  margin-top: -26rem;
 }
 
 .titlePrice1 {
-  margin-top: -50rem;
+  margin-top: -39rem;
   position: absolute;
-  left: 42.6%;
-  font-size: 4.2rem;
-  font-family: "Comfortaa", cursive;
+  left: 31.9%;
+  font-size: 3.5rem;
+  font-family: "Quicksand", sans-serif;
   color: #ffffff;
 }
 
 .titlePrice2 {
-  margin-top: -50rem;
+  margin-top: -39rem;
   position: absolute;
-  right: 42.5%;
-  font-size: 4.2rem;
-  font-family: "Comfortaa", cursive;
+  right: 31.9%;
+  font-size: 3.5rem;
+  font-family: "Quicksand", sans-serif;
   color: #ffffff;
 }
 
@@ -3190,65 +3224,67 @@ textarea::-webkit-scrollbar-thumb {
 .purpleRow1,
 .purpleRow2,
 .purpleRow3 {
-  width: 29rem;
-  margin: 1.6rem 0;
+  width: 100%;
+  margin: 2rem 0;
 }
 
 .titleRows1,
 .titleRows2 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-family: "Comfortaa", cursive;
   font-weight: 300;
   color: #ffffff;
-  margin-top: -6.5rem;
+  margin-top: -5.6rem;
 }
 
 .titleRows3 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 300;
   font-family: "Comfortaa", cursive;
   color: #ffffff;
-  margin-top: -6.5rem;
+  margin-top: -5.6rem;
   padding-left: 2rem;
 }
 
 .titleRows4 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-family: "Comfortaa", cursive;
   font-weight: 300;
   color: #ffffff;
-  margin-top: -6.5rem;
+  margin-top: -5.6rem;
 }
 
 .titleRows5 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-family: "Comfortaa", cursive;
   font-weight: 300;
   color: #ffffff;
-  margin-top: -6.5rem;
+  margin-top: -5.6rem;
   padding-left: 2rem;
 }
 
 .titleRows6 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-family: "Comfortaa", cursive;
   font-weight: 300;
   color: #ffffff;
-  margin-top: -6.5rem;
+  margin-top: -5.6rem;
 }
 
 .card2 {
   display: block;
-  width: 30rem;
-  height: 53rem;
+  width: 23rem;
   text-align: center;
   transition: 0.3s;
   margin: auto;
-  flex: 1 1 auto;
   position: relative;
   /* &:hover {
       transform: translateY(-3%);
   } */
+}
+
+.card2 .purpleShape-card {
+  width: 100%;
 }
 
 .rows-wrapper-purple {
@@ -3259,21 +3295,24 @@ textarea::-webkit-scrollbar-thumb {
 /*Card BLOG */
 
 #btnMore-Card {
+  width: 10rem;
   border: none;
   background: transparent;
   cursor: pointer;
   font-size: 1.6rem;
-  margin-top: 1rem;
 }
 
 #btnMore-Card:focus {
   outline: 0;
 }
 
+#btnMore-Card .btnMore-price1 {
+  width: 100%;
+}
+
 .moreDetails-cards {
   width: 30rem;
   display: none;
-  flex-direction: column;
 }
 
 .moreDetails-cards::before {
@@ -3290,16 +3329,15 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .headingCard-title {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-family: "Comfortaa", cursive;
-  font-weight: 600;
   text-transform: uppercase;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   text-align: center;
   position: absolute;
-  top: -9%;
-  left: 44.5%;
+  top: -11%;
+  left: 31.5%;
   text-shadow: 0 0.4rem 0.4rem #1e1e2c;
 }
 
@@ -3307,13 +3345,13 @@ textarea::-webkit-scrollbar-thumb {
   background: url("/img/blog.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 30rem;
-  height: 53rem;
-  padding: 6rem 1.7rem;
-  border-radius: 3rem;
+  width: 23rem;
+  height: 40.8rem;
+  padding: 1rem 1.7rem;
+  border-radius: 2rem;
   position: absolute;
-  top: 0rem;
-  left: 31%;
+  top: 0%;
+  left: 0%;
   box-shadow: 0 0.3rem 0.6rem #201e45;
   z-index: 3;
 }
@@ -3323,20 +3361,21 @@ textarea::-webkit-scrollbar-thumb {
   font-family: "Comfortaa", cursive;
   font-weight: 300;
   color: #ffffff;
-  padding: 0.8rem 1.4rem;
-  border-radius: 2.1rem;
+  padding: 0.8rem;
   text-align: left;
-  margin-top: 6rem;
-  background: rgba(32, 30, 69, 0.8);
+  margin: 4rem auto;
+  position: absolute;
+  z-index: 3;
+  width: 90%;
 }
 
 .description-email-text {
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   padding-top: 1rem;
 }
 
 .moreDetails-email {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: #ffffff;
@@ -3354,29 +3393,19 @@ textarea::-webkit-scrollbar-thumb {
   height: 0.12rem;
   background-color: #ffffff;
   position: absolute;
-  top: 4rem;
-  left: 29%;
+  top: 8%;
+  left: 23%;
+  z-index: 10;
 }
 
 .bg-description-card1 {
-  width: 25.7rem;
-  height: 18.2rem;
-  background: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  height: 40.8rem;
+  background: rgba(0, 0, 0, 0.43);
   position: absolute;
-  top: 12.6rem;
-  left: 7.3%;
-  border-radius: 1.8rem;
-  z-index: 1;
-}
-
-.bg-description-card1-2 {
-  width: 25.7rem;
-  height: 13.6rem;
-  background: rgba(255, 255, 255, 0.3);
-  position: absolute;
-  top: 31.7rem;
-  left: 7.3%;
-  border-radius: 1.8rem;
+  top: 0;
+  left: 0;
+  border-radius: 2rem;
   z-index: 1;
 }
 
@@ -3387,6 +3416,7 @@ textarea::-webkit-scrollbar-thumb {
   font-size: 3rem;
   color: #ffffff;
   cursor: pointer;
+  z-index: 10;
 }
 
 .cardClose:hover {
@@ -3394,6 +3424,78 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 /* END Card BLOG */
+
+.cardArrows,
+.cardArrows2 {
+  position: relative;
+  padding: 1.8rem 0 1rem;
+  margin-left: 1rem;
+}
+
+.cardArrows span,
+.cardArrows2 span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: -1.2rem;
+  border-left: 0.1rem solid #816AD6;
+  border-bottom: 0.1rem solid #816AD6;
+  transform: rotate(-45deg);
+  -webkit-animation: sdb 2s infinite;
+  animation: sdb 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+
+.cardArrows span:nth-of-type(1),
+.cardArrows2 span:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.cardArrows span:nth-of-type(2),
+.cardArrows2 span:nth-of-type(2) {
+  top: 20%;
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+}
+
+.cardArrows span:nth-of-type(3),
+.cardArrows2 span:nth-of-type(3) {
+  top: 40%;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+@-webkit-keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
 
 .arrows-blue,
 .arrows-purple {
@@ -3403,21 +3505,24 @@ textarea::-webkit-scrollbar-thumb {
 /* Card E-Commerce */
 
 #btnMore-Card2 {
+  width: 10rem;
   border: none;
   background: transparent;
   cursor: pointer;
   font-size: 1.6rem;
-  margin-top: 1rem;
 }
 
 #btnMore-Card2:focus {
   outline: 0;
 }
 
+#btnMore-Card2 .btnMore-price2 {
+  width: 100%;
+}
+
 .moreDetails2-cards {
   width: 30rem;
   display: none;
-  padding-top: 7.5rem;
 }
 
 .moreDetails2-cards::before {
@@ -3434,16 +3539,15 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .headingCard2-title {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-family: "Comfortaa", cursive;
-  font-weight: 600;
   text-transform: uppercase;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   text-align: center;
   position: absolute;
-  top: -9%;
-  right: 35%;
+  top: -11%;
+  right: 9%;
   text-shadow: 0 0.4rem 0.4rem #1e1e2c;
 }
 
@@ -3451,13 +3555,13 @@ textarea::-webkit-scrollbar-thumb {
   background: url("/img/ecom3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 30rem;
-  height: 53rem;
-  padding: 6rem 1.7rem;
-  border-radius: 3rem;
+  width: 23rem;
+  height: 40.8rem;
+  padding: 1rem 1.7rem;
+  border-radius: 2rem;
   position: absolute;
-  top: 0rem;
-  right: 31%;
+  top: 0%;
+  right: 0%;
   box-shadow: 0 0.3rem 0.6rem #201e45;
 }
 
@@ -3466,11 +3570,23 @@ textarea::-webkit-scrollbar-thumb {
   font-family: "Comfortaa", cursive;
   font-weight: 300;
   color: #ffffff;
+  padding: 0.8rem;
   text-align: left;
-  padding: 0.8rem 1.4rem;
-  border-radius: 2.1rem;
-  margin-top: 6rem;
+  margin: 3rem auto;
+  position: absolute;
+  z-index: 3;
+  width: 90%;
+}
+
+.bg-description-card2 {
+  width: 100%;
+  height: 40.8rem;
   background: rgba(129, 106, 214, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 2rem;
+  z-index: 1;
 }
 
 .lineCard2 {
@@ -3478,8 +3594,9 @@ textarea::-webkit-scrollbar-thumb {
   height: 0.12rem;
   background-color: #ffffff;
   position: absolute;
-  top: 4rem;
-  left: 29%;
+  top: 8%;
+  left: 23%;
+  z-index: 10;
 }
 
 .cardClose2 {
@@ -3489,6 +3606,7 @@ textarea::-webkit-scrollbar-thumb {
   font-size: 3rem;
   color: #ffffff;
   cursor: pointer;
+  z-index: 10;
 }
 
 .cardClose2:hover {

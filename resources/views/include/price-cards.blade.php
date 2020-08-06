@@ -20,7 +20,12 @@
                 <h1 class="titleRows3">Community Support</h1>
             </div>
 
-            <p class="cardArrows"><img class="arrows-blue" src="/img/arrows-blue.png" alt="Arrows"></p>
+            <p class="cardArrows2">
+                <span></span>
+                <span></span>
+                <span></span>
+                {{-- <img class="arrows-blue" src="/img/arrows-blue.png" alt="Arrows"> --}}
+            </p>
             <button id="btnMore-Card"><img class="btnMore-price1" src="/img/btn-blue.png" alt="Button More"></button>
 
             <div class="moreDetails-cards">
@@ -65,7 +70,12 @@
                 <h1 class="titleRows6">Special Support</h1>
             </div>
 
-            <p class="cardArrows"><img class="arrows-purple" src="/img/arrows-purple.png" alt="Arrows"></p>
+            <p class="cardArrows">
+                <span></span>
+                <span></span>
+                <span></span>
+                {{-- <img class="arrows-purple" src="/img/arrows-purple.png" alt="Arrows"> --}}
+            </p>
             <button id="btnMore-Card2"><img class="btnMore-price2" src="/img/btn-purple.png" alt="Button More"></button>
 
             <div class="moreDetails2-cards">
@@ -74,7 +84,7 @@
                     <div class="wrapperDescription2-card">
                         <span class="lineCard2"></span>
                         <span class="cardClose2">&times;</span>
-
+                        <span class="bg-description-card2"></span>
                         <p class="descriptionCards2">
                             The price starts at 600 &euro; to create an outstanding, easy to navigate and
                             responsive website, to add more features , animations and any

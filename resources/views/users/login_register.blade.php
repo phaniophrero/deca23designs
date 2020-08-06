@@ -84,14 +84,20 @@
                             <a id="register-link" class="register-action-btn">Register</a>
                         </li>
                     </div>
-                    <div>
-                        <div class="logo-auth-container">
-                            <h1 class="logo-auth">DeCA23Designs</h1>
-                        </div>
+                    <div class="logo-container-login">
+                        {{-- <div class="balta-wrapper">
+                            <img class="balta-img" src="{{asset('/images/balta.png')}}" alt="">
+                    </div> --}}
+                    <div class="fing-print-wrapper">
+                        <img class="fing-print-img" src="{{asset('/images/fing-print4.svg')}}" alt="">
+                    </div>
+                    <div class="logo-auth-container">
+                        <h1 class="logo-auth">DeCA23Designs</h1>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </section>
 <!--/form-->

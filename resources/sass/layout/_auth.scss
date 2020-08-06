@@ -233,17 +233,46 @@
             }
         }
 
+        .logo-container-login {
+            position: relative;
+        }
+
+        .balta-wrapper {
+            width: 12rem;
+            position: absolute;
+            left: 38%;
+            top: -3%;
+            z-index: 0;
+
+            .balta-img {
+                width: 100%;
+            }
+        }
+
+        .fing-print-wrapper {
+            display: flex;
+            margin: 0 auto;
+            padding-top: 12rem;
+            width: 7rem;
+            position: relative;
+            z-index: 2;
+
+            .fing-print-img {
+                width: 100%;
+            }
+        }
+
         .logo-auth-container {
             display: flex;
             width: 100%;
-            height: 20rem;
+            padding-top: 16rem;
             justify-content: center;
             align-items: center;
 
             .logo-auth {
-                font-size: 2.1rem;
-                font-family: "Comfortaa", cursive;
-                color: $color-white;
+                font-size: 1.3rem;
+                font-family: 'Quicksand', sans-serif;
+                color: $color-blue2-light;
             }
         }
     }

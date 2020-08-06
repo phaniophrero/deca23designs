@@ -10,7 +10,11 @@
         content="DeCA23Designs is the place where you can get your desired website or app , and offers the support that you need.">
     <meta name="google-site-verification" content="-LsDOSddFpUnbmesCQWDDR3X-RB6rLGlkRkh3vI6k4A" />
 
-    <link rel="icon" type="image/png" href="/img/23roses.png"> <!-- END Logo Image Bara Sus -->
+    <link rel="shortcut icon" href="{{ asset('/images/favicon.png') }}">
+    <link rel="shortcut icon" sizes="32x32" href="{{ asset('/images/logo_32.png') }}">
+    <link rel="shortcut icon" sizes="48x48" href="{{ asset('/images/logo_48.png') }}">
+    <link rel="shortcut icon" sizes="64x64" href="{{ asset('/images/logo_64.png') }}">
+    <!-- END Logo Image Bara Sus -->
 
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/backend_css/fullcalendar.css') }}" />
@@ -23,7 +27,7 @@
     <link href="{{ asset('css/frontend_css/responsive.css') }}" rel="stylesheet">
     <link href="{{ asset('css/frontend_css/passtrength.css') }}" rel="stylesheet">
 
-    <title>DeCA23Designs</title>
+    <title>De CA 23 Designs</title>
 
 </head>
 

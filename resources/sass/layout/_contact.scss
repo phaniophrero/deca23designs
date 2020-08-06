@@ -1,5 +1,5 @@
 #contact {
-    min-height: 90vh;
+    min-height: 60vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -77,6 +77,12 @@
     &:hover {
         color: darken($color-blue, 15%);
     }
+
+    .twitter-icon {
+        &:hover {
+            background: none;
+        }
+    }
 }
 
 .youtube-form-form {
@@ -115,7 +121,7 @@
 .name-form-wrapper,
 .email-form-wrapper {
     width: 90%;
-    margin: 1.5rem auto;
+    margin: 1rem auto;
     position: relative;
 }
 
@@ -142,7 +148,7 @@
     font-size: 1.3rem;
     font-family: "ZCOOL XiaoWei", serif;
     letter-spacing: .06rem;
-    margin-top: 2.4rem;
+    margin-top: .4rem;
     margin-left: 4rem;
 }
 
@@ -150,7 +156,7 @@
 .input-name,
 .input-email {
     width: 100%;
-    padding: 1rem 1.8rem;
+    padding: .6rem 1.8rem;
     background-color: transparent;
     border: none;
     border-bottom: .1rem solid $color-blue-dark2;
