@@ -1270,6 +1270,10 @@ li {
   height: 1.5rem;
 }
 
+.back-arrow-course .back-text {
+  margin-top: 6rem;
+}
+
 .back-arrow-course .back-text a {
   color: #afafaf;
   font-size: 1.2rem;
@@ -1753,6 +1757,15 @@ li {
   align-items: center;
 }
 
+.back-arrow-container .back-text {
+  margin-top: 6rem;
+  font-size: 1.3rem;
+}
+
+.back-arrow-container .back-text a {
+  color: #c6c6c6;
+}
+
 .arrow-left {
   margin-top: 6rem;
   margin-right: 2rem;
@@ -1764,15 +1777,6 @@ li {
   padding: 2rem;
   border: 0.1rem solid #afafaf;
   border-radius: 50%;
-}
-
-.back-text {
-  margin-top: 6rem;
-  font-size: 1.3rem;
-}
-
-.back-text a {
-  color: #c6c6c6;
 }
 
 .question-wrapper1 span {

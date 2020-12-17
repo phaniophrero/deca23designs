@@ -78,6 +78,14 @@
     width: 20rem;
     display: flex;
     align-items: center;
+
+    .back-text {
+        margin-top: 6rem;
+        font-size: 1.3rem;
+        a {
+            color: $color-gray2;
+        }
+    }
 }
 
 .arrow-left {
@@ -91,14 +99,6 @@
     padding: 2rem;
     border: 0.1rem solid $color-gray;
     border-radius: 50%;
-}
-
-.back-text {
-    margin-top: 6rem;
-    font-size: 1.3rem;
-    a {
-        color: $color-gray2;
-    }
 }
 
 .question-wrapper1 {
