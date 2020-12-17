@@ -1,0 +1,46 @@
+.aside-example {
+    position: absolute;
+    z-index: 20;
+    .aside-rectangle {
+        width: 18rem;
+        height: 34rem;
+        background: $color-blue;
+        border-radius: 1.6rem;
+        padding: 0.5rem;
+    }
+}
+.aside-example1 {
+    top: 0;
+    right: 15%;
+}
+.aside-example2 {
+    top: 0;
+    left: 22%;
+}
+
+.aside-title-middle {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color: $color-gray2;
+    font-size: 1.4rem;
+}
+
+.bg-shape-blue-aside1 {
+    position: absolute;
+    bottom: 20%;
+    left: 29%;
+    height: 9rem;
+    width: 16rem;
+    background: $color-blue2;
+    border-radius: 1.2rem;
+}
+.bg-shape-blue-aside2 {
+    position: absolute;
+    bottom: 25%;
+    right: 20.5%;
+    height: 9rem;
+    width: 18rem;
+    background: $color-blue2;
+    border-radius: 1.2rem;
+}

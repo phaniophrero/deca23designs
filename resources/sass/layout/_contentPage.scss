@@ -1,0 +1,32 @@
+.line-content-page {
+    width: 44rem;
+    height: 40rem;
+    position: absolute;
+    right: 18%;
+    top: -4%;
+    border-top: dashed 0.2rem $color-blue5;
+    border-right: dashed 0.2rem $color-blue5;
+}
+.content-example {
+    position: absolute;
+    top: 0;
+    right: 15%;
+    z-index: 20;
+    .content-rectangle {
+        width: 44rem;
+        height: 34rem;
+        background: $color-blue;
+        border-radius: 1.6rem;
+        padding: 0.5rem;
+    }
+}
+
+.bg-shape-blue-content {
+    position: absolute;
+    bottom: 25%;
+    left: 28%;
+    height: 9rem;
+    width: 15rem;
+    background: $color-blue2;
+    border-radius: 1.2rem;
+}

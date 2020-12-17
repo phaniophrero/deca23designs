@@ -1,0 +1,66 @@
+.shape-course-js {
+    width: 17.5rem;
+    height: 33rem;
+    background: $color-js;
+    top: 10%;
+    right: 10%;
+}
+
+.shape-course-react {
+    width: 15.5rem;
+    height: 24rem;
+    background: $color-react;
+    top: 40%;
+    right: 42%;
+}
+.course-title4 {
+    font-size: 1.8rem;
+    color: $color-blue6;
+    position: absolute;
+    bottom: 14%;
+    left: 41.5%;
+    z-index: 30;
+}
+.course-title5 {
+    font-size: 1.8rem;
+    color: $color-yellow2;
+    position: absolute;
+    bottom: 25%;
+    right: 15.5%;
+    z-index: 30;
+}
+.shape-rectangle-bg3 {
+    height: 37rem;
+    width: 14rem;
+    border: 0.1rem solid $color-blue6;
+    border-radius: 2rem;
+    position: absolute;
+    top: 15%;
+    left: 24%;
+}
+
+.shape-rectangle-bg4 {
+    height: 39rem;
+    width: 14rem;
+    border: 0.1rem solid $color-yellow2;
+    border-radius: 2rem;
+    position: absolute;
+    top: 1%;
+    right: 3%;
+}
+
+.course-video-title3 {
+    font-size: 1.8rem;
+    color: $color-gray;
+    position: absolute;
+    left: 27%;
+    top: 18%;
+    letter-spacing: 0.1rem;
+}
+.course-video-title4 {
+    font-size: 2.3rem;
+    color: $color-gray;
+    position: absolute;
+    left: 38.2%;
+    top: 23%;
+}

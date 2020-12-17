@@ -1,0 +1,41 @@
+.line-dashboard-page {
+    width: 44rem;
+    height: 33rem;
+    position: absolute;
+    right: 18%;
+    top: -4%;
+    border-top: dashed 0.2rem $color-blue5;
+    border-right: dashed 0.2rem $color-blue5;
+}
+.dashboard-example {
+    position: absolute;
+    top: 5%;
+    right: 13%;
+    z-index: 20;
+    .dashboard-rectangle {
+        width: 50rem;
+        height: 23rem;
+        background: $color-blue;
+        border-radius: 1.6rem;
+        padding: 0.5rem;
+    }
+}
+
+.bg-shape-blue-dashboard1 {
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    height: 9rem;
+    width: 16rem;
+    background: $color-blue2;
+    border-radius: 1.2rem;
+}
+.bg-shape-blue-dashboard2 {
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    height: 9rem;
+    width: 16rem;
+    background: $color-blue2;
+    border-radius: 1.2rem;
+}

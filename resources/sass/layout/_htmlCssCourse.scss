@@ -1,0 +1,246 @@
+.nav-left-course {
+    display: flex;
+    flex-direction: column;
+    height: 88vh;
+    padding: 1rem 2rem;
+    flex-basis: 10rem;
+    width: 10vw;
+}
+.back-arrow-course {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .arrow-left {
+        height: 4rem;
+        width: 4rem;
+        padding: 1rem;
+        border: 0.1rem dashed $color-gray;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1rem;
+        a {
+            height: 1.5rem;
+        }
+    }
+    .back-text {
+        a {
+            color: $color-gray;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.heading-hmtl-css-course {
+    padding-top: 7rem;
+    padding-left: 2rem;
+    flex: 2;
+    .title {
+        font-size: 5rem;
+        font-family: Futura;
+        font-weight: 500;
+        color: $color-gray;
+    }
+    .html-css-subHeading {
+        font-size: 2rem;
+        font-family: $font-comfortaa;
+        color: $color-blue;
+        margin-left: 16.5rem;
+        padding-top: 2rem;
+    }
+    .decription-container {
+        margin-left: 16.5rem;
+        .line {
+            width: 3rem;
+            height: 0.1rem;
+            background: $color-gray2;
+            margin: 1rem 0rem 1.9rem 0rem;
+        }
+        .description {
+            font-size: 1.2rem;
+            width: 85%;
+            color: $color-gray3;
+        }
+    }
+}
+
+.course-video-container {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -10%;
+}
+
+.course-image {
+    position: absolute;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+.course-sass-image1 {
+    width: 13rem;
+    height: 13rem;
+    top: -2%;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 10rem;
+        height: 11rem;
+        padding: 1.5rem;
+    }
+}
+.course-title1 {
+    font-size: 1.8rem;
+    color: $color-mov;
+    position: absolute;
+    top: 24%;
+    left: 46%;
+}
+
+.course-html-image2 {
+    width: 14rem;
+    height: 15.5rem;
+    top: 27%;
+    right: 12.5%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+    }
+}
+.course-title2 {
+    font-size: 1.8rem;
+    color: $color-orange;
+    position: absolute;
+    bottom: 27%;
+    right: 18%;
+}
+.course-css-image3 {
+    width: 12rem;
+    height: 13.5rem;
+    bottom: 22%;
+    left: 37.5%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+    }
+}
+
+.course-title3 {
+    font-size: 1.8rem;
+    color: $color-blue6;
+    position: absolute;
+    bottom: 15%;
+    left: 43%;
+}
+
+.shape-course-bg {
+    border-radius: 2rem;
+    position: absolute;
+}
+
+.shape-course-sass {
+    width: 13rem;
+    height: 18rem;
+    background: $color-sass;
+    top: -6%;
+    left: 40%;
+}
+.shape-course-html {
+    width: 17.5rem;
+    height: 33rem;
+    background: $color-html;
+    top: 10%;
+    right: 10%;
+}
+.shape-course-css {
+    width: 15.5rem;
+    height: 24rem;
+    background: $color-blue3;
+    top: 40%;
+    right: 42%;
+}
+.shape-rectangle-bg1 {
+    height: 40rem;
+    width: 16rem;
+    border: 0.1rem solid $color-blue6;
+    border-radius: 2rem;
+    position: absolute;
+    top: 8%;
+    left: 22%;
+}
+.shape-rectangle-bg2 {
+    height: 39rem;
+    width: 14rem;
+    border: 0.1rem solid $color-orange;
+    border-radius: 2rem;
+    position: absolute;
+    top: 1%;
+    right: 3%;
+}
+
+.course-video-title {
+    font-size: 1.6rem;
+    color: $color-gray;
+    position: absolute;
+    left: 14%;
+    top: 15%;
+}
+.course-video-title2 {
+    font-size: 2rem;
+    color: $color-gray;
+    position: absolute;
+    left: 16.9%;
+    top: 20%;
+}
+
+.price-container {
+    position: absolute;
+    bottom: -18%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .price {
+        height: 6rem;
+        width: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.6rem;
+        color: $color-white;
+        background: linear-gradient(to bottom, $color-blue6, $color-blue7);
+        padding: 1rem;
+        border-radius: 50%;
+        margin-bottom: 2rem;
+        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.5));
+    }
+    .buy-btn {
+        font-size: 1.5rem;
+        color: $color-gray;
+        padding: 1rem 4rem;
+        border-radius: 2rem;
+        border: 0.1rem solid $color-gray3;
+        transition: all 0.4s ease;
+        &:hover {
+            background: linear-gradient(to bottom, $color-blue6, $color-blue7);
+            color: $color-white;
+            transition: all 0.4s ease;
+        }
+    }
+}

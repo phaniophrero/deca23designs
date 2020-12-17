@@ -1,0 +1,34 @@
+.team-images-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.team-image {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+
+.team-image-l-top {
+    left: 37%;
+    top: 13%;
+}
+.team-image-l-bottom {
+    left: 37%;
+    bottom: 25%;
+}
+.team-image-r-top {
+    right: 10%;
+    top: 13%;
+}
+.team-image-r-bottom {
+    right: 10%;
+    bottom: 25%;
+}

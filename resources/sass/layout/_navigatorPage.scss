@@ -1,0 +1,47 @@
+.navigator-stucture {
+    position: relative;
+    width: 100%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    left: 33%;
+    .structure-title {
+        position: absolute;
+        top: -10%;
+        right: 18%;
+        font-size: 2rem;
+        color: $color-gray;
+    }
+}
+
+.line-navigator-page {
+    width: 45rem;
+    height: 18rem;
+    position: absolute;
+    right: 18%;
+    top: -4%;
+    border-top: dashed 0.2rem $color-blue5;
+    border-right: dashed 0.2rem $color-blue5;
+}
+.navigator-example {
+    position: absolute;
+    top: 0;
+    right: 15%;
+    z-index: 20;
+    .nav-rectangle {
+        width: 44rem;
+        height: 11rem;
+        background: $color-blue;
+        border-radius: 1.6rem;
+        padding: 0.5rem;
+    }
+}
+
+.bg-shape-blue {
+    position: absolute;
+    top: 7%;
+    left: 29%;
+    height: 9rem;
+    width: 12rem;
+    background: $color-blue2;
+    border-radius: 1.2rem;
+}

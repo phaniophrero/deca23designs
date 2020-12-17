@@ -1,81 +1,43 @@
-// Typography
-$font-family-sans-serif: 'Roboto',
-sans-serif;
-
 //FONT
 $default-font-size: 1.6rem;
-$comfortaa-font: 'Comfortaa',
-cursive;
-$poppins: 'Poppins',
-sans-serif;
-$roboto: 'Roboto',
-sans-serif;
-$font3: 'Big Shoulders Display',
-sans-serif;
 
+@font-face {
+    font-family: Ebrima;
+    src: url("./public/fonts/frontend_fonts/ebrima.ttf");
+}
+@font-face {
+    font-family: Futura;
+    src: url("./public/fonts/frontend_fonts/futura-normal.ttf");
+}
+
+$font-comfortaa: "Comfortaa", cursive;
 
 //COLORS
-$matte-purple: #816AD6;
-$matte-blue: #2d2d44;
-$matte-blue2: #201e45;
+$color-white: #fff;
+$color-black: #000;
 
-$black-pearl: #1e1e2c;
-$black-shaft: #263137;
-$black-blue: #29323c;
+$color-gray: #afafaf;
+$color-gray2: #c6c6c6;
+$color-gray3: #b5b5b5;
+$color-gray4: #585858;
+$color-gray5: #969696;
 
-$color-blue-light: #1c748f;
-$color-green: #067d68;
+$color-blue: #5499c4;
+$color-blue2: #9eb5d3;
+$color-blue3: #c8dee3;
+$color-blue4: #6a7a8e;
+$color-blue5: #aacce2;
 
-$color-purple1: #4b086d;
-$color-purple2: #58126a;
+$color-yellow: #d7d8bc;
 
-$color-blue-dark: #2f3e68;
-$color-blue-dark2: #191d32;
-$color-blue: #acc0fe;
-$color-blue2-light: #EEF8F4;
+$color-html: #ffc9c9;
+$color-sass: #f9c9ff;
+$color-css: #c9e6ff;
+$color-js: #fff9c9;
+$color-react: #c9d8ff;
 
-$color-black-blue: #001;
-
-$color-black: #000000;
-$color-white: #ffffff;
-
-// GRAY Colors
-$color-gray: #fafafa;
-$color-gray-dark: #303030;
-
-$color-gray6: #f6f6f6;
-$color-gray7: #ececec;
-$color-gray8: #e1e1e1;
-$color-gray9: #d0d0d0;
-$color-gray10: #ada8a8;
-$color-gray11: #828080;
-
-
-$color-gray1: #494964;
-$color-gray2: #6f6f89;
-$color-gray3: #585772;
-
-$color-gray4: #7a7d7d;
-$color-gray5: #dce8df;
-
-
-// Blue Colors
-$color-blue1: #003049;
-$color-blue2: #14213D;
-$color-blue3: #a4bbe6;
-$color-blue4: #d0d0f9;
-$color-blue5: #2828c1;
-
-
-//CARD COLORS
-$color-blue-btn: #5586E9;
-$color-blue-btn2: #406DC7;
-
-$color-aqua: #00ffff;
-
-$color-gold: #f9f295;
-$color-gold2: #e0aa3e;
-
-$color-blue-border: #1592E6;
-
-$color-pink: #ff2ceb;
+$color-orange: #f79902;
+$color-mov: #ec07ff;
+$color-blue6: #0084d6;
+$color-blue7: #00baff;
+$color-yellow2: #ffeb00;

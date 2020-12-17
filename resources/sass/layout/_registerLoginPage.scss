@@ -1,0 +1,323 @@
+.register-login-section {
+    width: 95%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.main-login-register-section {
+    width: 100%;
+    height: 76vh;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-container {
+    padding-top: 4rem;
+}
+
+.main-login-register {
+    flex: 2;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-welcome-container {
+    padding: 2rem 0rem;
+    position: relative;
+    height: 15vh;
+    width: 25rem;
+}
+.image-bg-welcome {
+    width: 10rem;
+    height: 10rem;
+    background: $color-blue;
+    border-radius: 1.4rem;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+.title-welcome {
+    font-size: 3.8rem;
+    font-weight: 400;
+    color: $color-gray2;
+    position: absolute;
+    top: 12%;
+    left: 18.8%;
+    z-index: 20;
+    span {
+        color: $color-white;
+    }
+}
+
+.titlesubHeading {
+    font-size: 2.8rem;
+    font-weight: 400;
+    color: $color-blue;
+    position: absolute;
+    left: 46.5%;
+    top: 55%;
+}
+
+.desc-login-register {
+    font-size: 1.4rem;
+    color: $color-gray;
+    font-weight: 300;
+    position: absolute;
+    top: 87%;
+    left: 45.5%;
+    width: 20rem;
+    line-height: 2rem;
+}
+
+.back-arrow-container {
+    height: 10rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-left {
+    margin-top: 6rem;
+    margin-right: 2rem;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border: 0.1rem solid $color-gray;
+    border-radius: 50%;
+}
+
+.back-text {
+    margin-top: 6rem;
+    font-size: 1.3rem;
+    a {
+        color: $color-gray2;
+    }
+}
+
+.question-wrapper1 {
+    span {
+        font-size: 2.3rem;
+        color: $color-blue;
+    }
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: $color-gray;
+    }
+}
+.question-wrapper2 {
+    width: 25rem;
+    position: absolute;
+    top: 30%;
+    right: 8%;
+    span {
+        font-size: 2.5rem;
+        color: $color-blue;
+    }
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: $color-gray;
+    }
+}
+
+.content-login-register {
+    width: 70%;
+    height: 88vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+
+.register-login-container {
+    height: 50vh;
+    display: flex;
+    position: relative;
+    flex: 2;
+}
+.login-square-border {
+    height: 28.5rem;
+    width: 28.5rem;
+    border-radius: 1.4rem;
+    position: absolute;
+    top: 23%;
+    left: 3.9%;
+    border: 0.1rem solid $color-blue;
+    padding: 1rem;
+}
+.login-square {
+    height: 26rem;
+    width: 26rem;
+    background-image: linear-gradient(
+            rgba($color-blue, 0.3),
+            rgba($color-blue, 0.3)
+        ),
+        url("../../../public/images/frontend_img/register.jpg");
+    background-position: 45% 50%;
+    background-size: cover;
+    border-radius: 1.2rem;
+    position: absolute;
+    top: 26%;
+    left: 5.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.4s ease;
+    &:hover {
+        transform: scale(1.1);
+        z-index: 40;
+    }
+    .login-link1 {
+        font-size: 2rem;
+        font-weight: 300;
+        color: $color-white;
+        margin-left: 2.2rem;
+    }
+    .login-link2 {
+        font-size: 1.4rem;
+        font-weight: 300;
+        color: $color-white;
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+.register-square-border {
+    height: 28.5rem;
+    width: 28.5rem;
+    border-radius: 1.4rem;
+    position: absolute;
+    top: -17%;
+    left: 26%;
+    border: 0.1rem solid $color-js;
+    padding: 1rem;
+    z-index: 10;
+}
+.register-square {
+    height: 26rem;
+    width: 26rem;
+    background-image: linear-gradient(
+            rgba($color-blue, 0.4),
+            rgba($color-blue, 0.3)
+        ),
+        url("../../../public/images/frontend_img/login.jpg");
+    background-position: 45% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: -13.5%;
+    left: 27.4%;
+    z-index: 30;
+    transition: all 0.4s ease;
+    &:hover {
+        transform: scale(1.1);
+    }
+    .register-link1 {
+        position: absolute;
+        font-size: 2rem;
+        font-weight: 300;
+        color: $color-white;
+    }
+    .register-link2 {
+        margin-top: -3rem;
+        font-size: 1.4rem;
+        font-weight: 300;
+        color: $color-white;
+    }
+}
+
+.square-blur {
+    height: 8rem;
+    width: 26rem;
+    background: rgba(255, 255, 255, 0.1);
+    filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    position: relative;
+}
+.course-labels-container {
+    height: 10vh;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    .label {
+        height: 10rem;
+        width: 10rem;
+        border-radius: 2rem;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        padding-top: 2.5rem;
+        cursor: pointer;
+        a {
+            font-size: 1.3rem;
+            color: $color-blue4;
+            font-weight: 400;
+        }
+    }
+    .label-html {
+        background: $color-html;
+        left: 25%;
+        top: 35%;
+        transition: all 0.4s ease;
+        &:hover {
+            top: 15%;
+        }
+    }
+    .label-css {
+        background: $color-css;
+        left: 35%;
+        top: 35%;
+        transition: all 0.4s ease;
+        &:hover {
+            top: 15%;
+        }
+    }
+    .label-js {
+        background: $color-js;
+        left: 45%;
+        top: 35%;
+        transition: all 0.4s ease;
+        &:hover {
+            top: 15%;
+        }
+    }
+    .label-sass {
+        background: $color-sass;
+        left: 55%;
+        top: 35%;
+        transition: all 0.4s ease;
+        &:hover {
+            top: 15%;
+        }
+    }
+    .label-react {
+        background: $color-react;
+        left: 65%;
+        top: 35%;
+        transition: all 0.4s ease;
+        &:hover {
+            top: 15%;
+        }
+    }
+}

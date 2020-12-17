@@ -1,0 +1,87 @@
+.heading-founders {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .title {
+        font-size: 7rem;
+        font-family: Futura;
+        font-weight: 400;
+        color: $color-gray;
+    }
+    .founders-subHeading {
+        font-size: 2rem;
+        font-family: Futura;
+        color: $color-blue;
+        letter-spacing: 1.1rem;
+        padding-left: 0.5rem;
+    }
+    .decription-container {
+        padding-left: 9rem;
+    }
+    .description {
+        font-size: 1.2rem;
+        color: $color-gray2;
+        width: 70%;
+    }
+}
+
+.founders-images-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.shape-founders-bg {
+    width: 14rem;
+    height: 23rem;
+    border: 0.2rem solid $color-gray4;
+    border-radius: 2rem;
+    position: absolute;
+}
+
+.shape-founders-l {
+    left: 25%;
+    top: 12%;
+}
+
+.shape-founders-r {
+    top: -10%;
+    right: 5%;
+}
+
+.founders-image {
+    width: 14rem;
+    height: 14rem;
+    position: absolute;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+.founder-image-l {
+    left: 36.5%;
+    top: 25%;
+}
+.founder-image-r {
+    right: 16%;
+    top: -4%;
+}
+
+.founders-name {
+    position: absolute;
+    font-size: 1.4rem;
+    span {
+        color: $color-blue;
+    }
+}
+.founder-name-l {
+    bottom: 34%;
+    left: 38%;
+}
+.founder-name-r {
+    bottom: 56%;
+    right: 13%;
+}

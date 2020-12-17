@@ -1,0 +1,107 @@
+.login-page-content {
+    display: flex;
+    height: 88vh;
+    width: 100%;
+}
+
+.login-form {
+    height: 60vh;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem solid $color-blue;
+    border-radius: 1.4rem;
+    box-shadow: 0rem 0.2rem 0.4rem rgba($color-black, 0.2);
+    overflow: hidden;
+}
+
+.login-form-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    h2 {
+        font-size: 2.4rem;
+        letter-spacing: 0.1rem;
+        color: $color-gray;
+    }
+}
+
+.inputs-wrapper {
+    width: 60%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-input {
+    width: 100%;
+    padding: 0.6rem 1.2rem;
+    border: 0.1rem solid $color-gray2;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+.login-btn {
+    font-size: 1.5rem;
+    color: $color-gray;
+    padding: 0.6rem 1.2rem;
+    margin-top: 3rem;
+    background: none;
+    border: 0.1rem solid $color-gray2;
+    border-radius: 2rem;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    transition: all 0.4s ease;
+    &:hover {
+        color: $color-white;
+        background: $color-blue;
+    }
+}
+
+.form-image {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-image-login {
+    background-image: linear-gradient(
+            rgba($color-gray, 0.3),
+            rgba($color-blue, 0.3)
+        ),
+        url("../../../public/images/frontend_img/login.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.desc-form-image {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2rem;
+    margin: 0 auto;
+    height: 18vh;
+    width: 75%;
+    color: darken($color-white, 8%);
+}
+.form-logo-text {
+    height: 12vh;
+    font-size: 2.4rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    color: $color-white;
+}

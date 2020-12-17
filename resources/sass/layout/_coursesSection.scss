@@ -1,0 +1,121 @@
+.nav-links-courses {
+    top: 2%;
+}
+
+.next-arrow-top2 {
+    flex: 1;
+    margin-top: -8rem;
+}
+.left-line-courses {
+    width: 0.3rem;
+    height: 0rem;
+    background: $color-blue;
+    border-radius: 2rem;
+    position: absolute;
+    left: 11.5%;
+}
+.dev-subheading {
+    color: $color-blue;
+    font-size: 2.2rem;
+    font-family: Futura;
+    letter-spacing: 4.1rem;
+    margin-left: 1.3rem;
+}
+
+.course-images-container {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.course-image {
+    position: absolute;
+    border-radius: 50%;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+.course-image1 {
+    width: 13rem;
+    height: 13rem;
+    top: -7%;
+    left: 46.7%;
+    border: 0.2rem solid $color-orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color-white;
+    img {
+        width: 10rem;
+        height: 11rem;
+        padding: 2rem;
+    }
+}
+
+.course-image2 {
+    width: 12rem;
+    height: 12rem;
+    top: 37%;
+    right: 2%;
+    border: 0.2rem solid $color-blue6;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color-white;
+    img {
+        width: 9rem;
+        height: 9.5rem;
+        padding: 2rem;
+    }
+}
+.course-image3 {
+    width: 14rem;
+    height: 14rem;
+    bottom: 7%;
+    left: 54%;
+    border: 0.2rem solid $color-yellow2;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color-white;
+    img {
+        width: 11rem;
+        height: 12rem;
+        padding: 2rem;
+    }
+}
+
+.shape-bg {
+    width: 10rem;
+    height: 12rem;
+    border-radius: 2rem;
+    position: absolute;
+}
+.shape-html {
+    background: $color-html;
+    top: -12%;
+    left: 46%;
+}
+.shape-sass {
+    background: $color-sass;
+    top: -8%;
+    right: -3%;
+}
+.shape-react {
+    background: $color-react;
+    top: 30%;
+    left: 44%;
+}
+.shape-css {
+    background: $color-css;
+    top: 44%;
+    right: -2%;
+}
+.shape-js {
+    background: $color-js;
+    bottom: 2%;
+    left: 53%;
+}

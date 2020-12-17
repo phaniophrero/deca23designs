@@ -11,7 +11,9 @@
 |
 */
 
-Route::get('/','LandingPageController@index')->name('landing-page');
+Route::view('/{path?}', 'layout');
+
+// Route::get('/','LandingPageController@index')->name('landing-page');
 
 // Users Login & Register Page
 Route::get('/login-register', 'UsersController@userLoginRegister');
@@ -73,5 +75,3 @@ Route::get('/logout', 'AdminController@logout');
 
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');

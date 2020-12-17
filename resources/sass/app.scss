@@ -1,47 +1,27 @@
-// Fonts VARIABLES
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display:600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
-
-
 // Base
-@import 'base/base';
-@import 'base/layout';
-@import 'base/mixins';
-@import 'base/variables';
+@import "base/base";
+@import "base/variables";
 
 // Components
-@import 'components/backTop';
-@import 'components/footer';
-@import 'components/header';
-@import 'components/scrollbar';
+@import "components/footer";
+@import "components/navLogin";
 
 // Layout
-@import 'layout/adsSection';
-@import 'layout/adsSenseSpace';
-@import 'layout/appSection';
-@import 'layout/aside';
-@import 'layout/auth';
-@import 'layout/businessFormation';
-@import 'layout/contact';
-@import 'layout/cookieConsent';
-@import 'layout/hosting';
-@import 'layout/managersTeam';
-@import 'layout/ourTeam';
-@import 'layout/priceCards';
-@import 'layout/projects';
-@import 'layout/projects2';
-@import 'layout/respDesktop';
-@import 'layout/respLargeDev';
-@import 'layout/respPhone';
-@import 'layout/respTablet';
-@import 'layout/welcomeIntro';
-
-
-//Font Awesome
-@import '~bootstrap/scss/bootstrap';
-@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
-@import '~@fortawesome/fontawesome-free/scss/solid.scss';
-@import '~@fortawesome/fontawesome-free/scss/regular.scss';
-@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+@import "layout/home";
+@import "layout/websiteSection";
+@import "layout/applicationSection";
+@import "layout/coursesSection";
+@import "layout/ourTeamSection";
+@import "layout/navigatorPage";
+@import "layout/contentPage";
+@import "layout/asidePage";
+@import "layout/footerPage";
+@import "layout/dashboardPage";
+@import "layout/htmlCssCourse";
+@import "layout/jsReactCourse";
+@import "layout/projectsAppPage";
+@import "layout/registerLoginPage";
+@import "layout/foundersPage";
+@import "layout/teamPage";
+@import "layout/loginPage";
+@import "layout/registerPage";

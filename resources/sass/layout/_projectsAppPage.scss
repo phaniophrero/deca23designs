@@ -1,0 +1,78 @@
+.title-app-projects {
+    font-size: 7rem;
+    font-family: Futura;
+    font-weight: 500;
+    color: $color-gray;
+}
+.desc-container-app-projects {
+    margin-left: 9.5rem;
+    padding-right: 9rem;
+}
+.line {
+    width: 3rem;
+    height: 0.1rem;
+    background: #c6c6c6;
+    margin: 2rem 0rem 1rem 0rem;
+}
+.projects-app-container {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -10%;
+}
+
+.shape-bg-project1 {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 1.6rem;
+    background: $color-sass;
+    position: absolute;
+    top: 10%;
+    left: 26%;
+}
+.project-image1 {
+    width: 16rem;
+    height: 16rem;
+    background: $color-blue4;
+    border-radius: 4rem;
+    position: absolute;
+    top: 14%;
+    left: 30%;
+}
+.shape-bg-project2 {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 1.6rem;
+    background: $color-blue3;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.project-image2 {
+    width: 17rem;
+    height: 24rem;
+    background: $color-gray3;
+    border-radius: 4rem;
+    position: absolute;
+    top: 14%;
+    right: 14%;
+}
+.shape-bg-project3 {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 1.6rem;
+    background: $color-blue5;
+    position: absolute;
+    bottom: 2%;
+    left: 32%;
+}
+.project-image3 {
+    width: 16rem;
+    height: 19rem;
+    background: $color-blue3;
+    border-radius: 4rem;
+    position: absolute;
+    bottom: 7%;
+    left: 34%;
+}
