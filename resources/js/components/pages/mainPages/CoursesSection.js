@@ -112,7 +112,7 @@ const CoursesSection = () => {
                         </div>
                         <h1 className="title">Cursuri Frontend</h1>
                         <h2 className="dev-subheading">Development</h2>
-                        <div className="decription-container">
+                        <div className="description-container">
                             <div className="line" />
                             <p className="description">
                                 Lorem ipsum dolor sit amet consectetur
@@ -120,9 +120,7 @@ const CoursesSection = () => {
                                 nulla dolor mollitia earum libero eveniet
                                 quisquam basass. <br />
                                 Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Adipisci quisquam nisi, at ab
-                                quibusdam omnis. Mollitia accusamus nostrum
-                                pariatur alias.
+                                adipisicing elit. Adipisci quisquam nisi, at ab.
                             </p>
                         </div>
                     </div>

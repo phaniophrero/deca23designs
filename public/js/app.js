@@ -48188,7 +48188,7 @@ module.exports = g;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/arrow-down.svg?16ee59b6d8f33f066c7f08335b94515d";
+module.exports = "/images/arrow-down.svg?54215db1462ff9b01ecd102a9807e47d";
 
 /***/ }),
 
@@ -48299,6 +48299,17 @@ module.exports = "/images/html.png?c0fbaffbc9da90dcf549199fb68ab611";
 /***/ (function(module, exports) {
 
 module.exports = "/images/js.png?e7c86eacf4fcf9fd94adfb908d73ca31";
+
+/***/ }),
+
+/***/ "./public/images/frontend_img/logo2.png":
+/*!**********************************************!*\
+  !*** ./public/images/frontend_img/logo2.png ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/logo2.png?437891474883311131759b312eb91fb3";
 
 /***/ }),
 
@@ -49546,7 +49557,7 @@ var CourseHTMLCSSPage = function CourseHTMLCSSPage() {
     }, "Despre Curs"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "decription-container"
+      className: "description-container"
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -49760,7 +49771,7 @@ var CourseJSReactPage = function CourseJSReactPage() {
     }, "Despre Curs"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "decription-container"
+      className: "description-container"
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -50078,7 +50089,7 @@ var ApplicationSection = function ApplicationSection() {
     }, "Apps"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "decription-container"
+      className: "description-container"
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -50407,7 +50418,7 @@ var CoursesSection = function CoursesSection() {
     }, "Development"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "decription-container"
+      className: "description-container"
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -50418,7 +50429,7 @@ var CoursesSection = function CoursesSection() {
       className: "description"
     }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tenetur quae et illum nulla dolor mollitia earum libero eveniet quisquam basass. ",
     /*#__PURE__*/
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quisquam nisi, at ab quibusdam omnis. Mollitia accusamus nostrum pariatur alias."))),
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quisquam nisi, at ab."))),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "course-images-container"
@@ -50575,13 +50586,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_images_frontend_img_arrow_down_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_public_images_frontend_img_arrow_down_svg__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _public_images_frontend_img_arrow_r_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../../public/images/frontend_img/arrow-r.svg */ "./public/images/frontend_img/arrow-r.svg");
 /* harmony import */ var _public_images_frontend_img_arrow_r_svg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_public_images_frontend_img_arrow_r_svg__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _public_images_frontend_img_logo2_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../../public/images/frontend_img/logo2.png */ "./public/images/frontend_img/logo2.png");
+/* harmony import */ var _public_images_frontend_img_logo2_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_public_images_frontend_img_logo2_png__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
  // Import Components
-// import Nav from "../layouts/Nav";
 
  // Import Local Icon
+
 
 
 
@@ -50599,8 +50612,14 @@ var Home = function Home() {
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      className: "logo-link",
       to: "/"
-    }, "CA 23 Designs")),
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _public_images_frontend_img_logo2_png__WEBPACK_IMPORTED_MODULE_7___default.a,
+      alt: "logo brand"
+    }))),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(framer_motion__WEBPACK_IMPORTED_MODULE_2__["motion"].div, {
       id: "homeLayout",
@@ -50699,7 +50718,7 @@ var Home = function Home() {
     }, "Galery"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "decription-container"
+      className: "description-container"
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
@@ -51032,7 +51051,7 @@ var CoursesSection = function CoursesSection() {
     }, "Development"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "decription-container"
+      className: "description-container"
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -51374,7 +51393,7 @@ var WebsiteSection = function WebsiteSection() {
     }, "WebSite"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "decription-container"
+      className: "description-container"
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -51633,7 +51652,7 @@ var FoundersPage = function FoundersPage() {
     }, "Deca23designs"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "decription-container"
+      className: "description-container"
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -51826,7 +51845,7 @@ var TeamPage = function TeamPage() {
     }, "Deca23designs"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "decription-container"
+      className: "description-container"
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -52075,7 +52094,7 @@ var AsidePage = function AsidePage() {
     }, "Aside"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "decription-container"
+      className: "description-container"
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -52332,7 +52351,7 @@ var ContentPage = function ContentPage() {
     }, "Content"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "decription-container"
+      className: "description-container"
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -52573,7 +52592,7 @@ var DashboardPage = function DashboardPage() {
     }, "Dashboard"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "decription-container"
+      className: "description-container"
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -52818,7 +52837,7 @@ var FooterPage = function FooterPage() {
     }, "Footer"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "decription-container"
+      className: "description-container"
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -53063,7 +53082,7 @@ var NavigatorPage = function NavigatorPage() {
     }, "Navigator"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "decription-container"
+      className: "description-container"
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {

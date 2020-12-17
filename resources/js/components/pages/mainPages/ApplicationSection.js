@@ -104,7 +104,7 @@ const ApplicationSection = () => {
                             <h2>02</h2>
                         </div>
                         <h1 className="title">Apps</h1>
-                        <div className="decription-container">
+                        <div className="description-container">
                             <div className="line" />
                             <p className="description">
                                 Lorem ipsum dolor sit amet consectetur

@@ -37,7 +37,7 @@ const CourseHTMLCSSPage = () => {
                     <div className="heading-hmtl-css-course">
                         <h1 className="title">HTML5 / CSS3 / Sass</h1>
                         <h2 className="html-css-subHeading">Despre Curs</h2>
-                        <div className="decription-container">
+                        <div className="description-container">
                             <div className="line" />
                             <p className="description">
                                 Lorem ipsum dolor sit amet consectetur

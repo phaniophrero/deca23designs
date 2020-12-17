@@ -35,7 +35,7 @@ const TeamPage = () => {
                     <div className="heading-founders">
                         <h1 className="title">Echipa</h1>
                         <h2 className="founders-subHeading">Deca23designs</h2>
-                        <div className="decription-container">
+                        <div className="description-container">
                             <div className="line" />
                             <p className="description">
                                 Lorem ipsum dolor sit amet consectetur

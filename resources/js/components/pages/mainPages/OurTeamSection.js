@@ -102,7 +102,7 @@ const CoursesSection = () => {
                         </div>
                         <h1 className="title">Echipa Noastra</h1>
                         <h2 className="ourteam-subheading">Development</h2>
-                        <div className="decription-container">
+                        <div className="description-container">
                             <div className="line" />
                             <p className="description">
                                 Lorem ipsum dolor sit amet consectetur

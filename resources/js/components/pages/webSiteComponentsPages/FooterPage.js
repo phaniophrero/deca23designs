@@ -79,7 +79,7 @@ const FooterPage = () => {
                 <div className="mainContent">
                     <div className="heading heading-website-section">
                         <h1 className="title">Footer</h1>
-                        <div className="decription-container">
+                        <div className="description-container">
                             <div className="line" />
                             <p className="description">
                                 Lorem ipsum dolor sit amet consectetur

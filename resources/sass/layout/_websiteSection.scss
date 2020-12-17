@@ -100,16 +100,16 @@
     .arrow-up {
         a {
             img {
-                transform: rotate(-90deg);
-                margin-left: 0.3rem;
+                transform: rotate(0deg);
+                margin-left: 0.9rem;
             }
         }
     }
     .arrow-down {
         a {
             img {
-                transform: rotate(90deg);
-                margin-left: 0.2rem;
+                transform: rotate(-180deg);
+                margin-left: 0.8rem;
             }
         }
     }
@@ -161,13 +161,13 @@
         color: $color-blue5;
         position: absolute;
         top: 1.5%;
-        left: 14%;
+        left: 14.5%;
     }
     .main-tag {
         color: $color-blue5;
         position: absolute;
         top: 24.5%;
-        left: 14%;
+        left: 14.5%;
     }
     .footer-tag {
         color: $color-blue5;
@@ -189,7 +189,7 @@
         height: 6rem;
         position: absolute;
         top: 5%;
-        left: 14.5%;
+        left: 14.7%;
         border-top: dashed 0.2rem $color-blue5;
         border-left: dashed 0.2rem $color-blue5;
     }
@@ -198,7 +198,7 @@
         height: 6rem;
         position: absolute;
         top: 28%;
-        left: 14.5%;
+        left: 14.7%;
         border-top: dashed 0.2rem $color-blue5;
         border-left: dashed 0.2rem $color-blue5;
     }
@@ -207,7 +207,7 @@
         height: 6rem;
         position: absolute;
         top: 58%;
-        left: 14.5%;
+        left: 14.7%;
         border-left: dashed 0.2rem $color-blue5;
         border-bottom: dashed 0.2rem $color-blue5;
     }

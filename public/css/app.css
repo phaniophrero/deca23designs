@@ -189,8 +189,15 @@ li {
   padding: 1rem 0rem;
 }
 
-.logo a {
-  font-size: 2rem;
+.logo .logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16rem;
+}
+
+.logo .logo-link img {
+  width: 100%;
 }
 
 #homeLayout {
@@ -288,8 +295,8 @@ li {
 }
 
 .nav-left .next-arrow .arrow-down img {
-  transform: rotate(90deg);
-  margin-left: 0.2rem;
+  transform: rotate(-180deg);
+  margin-left: 0.8rem;
 }
 
 .mainContent {
@@ -301,37 +308,39 @@ li {
 
 .mainContent .heading {
   padding-top: 7rem;
-  padding-left: 2rem;
+  padding-left: 5rem;
 }
 
 .mainContent .heading .title {
-  font-size: 8rem;
+  font-size: 9rem;
   font-family: Futura;
   font-weight: 500;
   color: #afafaf;
 }
 
-.mainContent .heading .decription-container {
-  margin-left: 10.5rem;
+.mainContent .heading .description-container {
+  margin-top: 2rem;
+  margin-left: 12.5rem;
 }
 
-.mainContent .heading .decription-container .subHeading {
-  font-size: 2rem;
+.mainContent .heading .description-container .subHeading {
+  font-size: 2.6rem;
   font-family: "Comfortaa", cursive;
   color: #5499c4;
 }
 
-.mainContent .heading .decription-container .line {
+.mainContent .heading .description-container .line {
   width: 3rem;
   height: 0.1rem;
   background: #c6c6c6;
   margin: 1rem 0rem 1.9rem 0rem;
 }
 
-.mainContent .heading .decription-container .description {
-  font-size: 1.2rem;
+.mainContent .heading .description-container .description {
+  font-size: 1.4rem;
   width: 85%;
   color: #b5b5b5;
+  line-height: 1.8rem;
 }
 
 .mainContent .images {
@@ -536,13 +545,13 @@ li {
 }
 
 .next-arrow2 .arrow-up a img {
-  transform: rotate(-90deg);
-  margin-left: 0.3rem;
+  transform: rotate(0deg);
+  margin-left: 0.9rem;
 }
 
 .next-arrow2 .arrow-down a img {
-  transform: rotate(90deg);
-  margin-left: 0.2rem;
+  transform: rotate(-180deg);
+  margin-left: 0.8rem;
 }
 
 .heading-website-section {
@@ -595,14 +604,14 @@ li {
   color: #aacce2;
   position: absolute;
   top: 1.5%;
-  left: 14%;
+  left: 14.5%;
 }
 
 .website-stucture .main-tag {
   color: #aacce2;
   position: absolute;
   top: 24.5%;
-  left: 14%;
+  left: 14.5%;
 }
 
 .website-stucture .footer-tag {
@@ -627,7 +636,7 @@ li {
   height: 6rem;
   position: absolute;
   top: 5%;
-  left: 14.5%;
+  left: 14.7%;
   border-top: dashed 0.2rem #aacce2;
   border-left: dashed 0.2rem #aacce2;
 }
@@ -637,7 +646,7 @@ li {
   height: 6rem;
   position: absolute;
   top: 28%;
-  left: 14.5%;
+  left: 14.7%;
   border-top: dashed 0.2rem #aacce2;
   border-left: dashed 0.2rem #aacce2;
 }
@@ -647,7 +656,7 @@ li {
   height: 6rem;
   position: absolute;
   top: 58%;
-  left: 14.5%;
+  left: 14.7%;
   border-left: dashed 0.2rem #aacce2;
   border-bottom: dashed 0.2rem #aacce2;
 }
@@ -823,10 +832,10 @@ li {
 
 .dev-subheading {
   color: #5499c4;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-family: Futura;
-  letter-spacing: 4.1rem;
-  margin-left: 1.3rem;
+  letter-spacing: 4.6rem;
+  margin-left: 1.7rem;
 }
 
 .course-images-container {
@@ -849,8 +858,8 @@ li {
 .course-image1 {
   width: 13rem;
   height: 13rem;
-  top: -7%;
-  left: 46.7%;
+  top: -3%;
+  left: 50.7%;
   border: 0.2rem solid #f79902;
   display: flex;
   justify-content: center;
@@ -867,8 +876,8 @@ li {
 .course-image2 {
   width: 12rem;
   height: 12rem;
-  top: 37%;
-  right: 2%;
+  top: 35%;
+  right: 5%;
   border: 0.2rem solid #0084d6;
   z-index: 10;
   display: flex;
@@ -886,8 +895,8 @@ li {
 .course-image3 {
   width: 14rem;
   height: 14rem;
-  bottom: 7%;
-  left: 54%;
+  bottom: 9%;
+  left: 55%;
   border: 0.2rem solid #ffeb00;
   z-index: 10;
   display: flex;
@@ -911,32 +920,32 @@ li {
 
 .shape-html {
   background: #ffc9c9;
-  top: -12%;
-  left: 46%;
+  top: -8%;
+  left: 49%;
 }
 
 .shape-sass {
   background: #f9c9ff;
-  top: -8%;
-  right: -3%;
+  top: -2%;
+  right: 0%;
 }
 
 .shape-react {
   background: #c9d8ff;
-  top: 30%;
-  left: 44%;
+  top: 31%;
+  left: 46%;
 }
 
 .shape-css {
   background: #c9e6ff;
-  top: 44%;
-  right: -2%;
+  top: 42%;
+  right: 1%;
 }
 
 .shape-js {
   background: #fff9c9;
-  bottom: 2%;
-  left: 53%;
+  bottom: 5%;
+  left: 54.3%;
 }
 
 .nav-links-ourteam {
@@ -945,9 +954,9 @@ li {
 
 .ourteam-subheading {
   color: #5499c4;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-family: Futura;
-  letter-spacing: 3.8rem;
+  letter-spacing: 4.3rem;
   margin-left: 0.7rem;
 }
 
@@ -983,32 +992,32 @@ li {
 .profile-image2 {
   width: 6.5rem;
   height: 6.5rem;
-  right: 10%;
-  top: 5%;
+  right: 12%;
+  top: 7%;
   z-index: 20;
 }
 
 .profile-image3 {
   width: 9rem;
   height: 9rem;
-  left: 41%;
-  top: 12%;
+  left: 43%;
+  top: 14%;
   z-index: 20;
 }
 
 .profile-image4 {
   width: 7rem;
   height: 7rem;
-  left: 50%;
-  bottom: 20%;
+  left: 52%;
+  bottom: 22%;
   z-index: 20;
 }
 
 .profile-image5 {
   width: 5rem;
   height: 5rem;
-  right: 9%;
-  bottom: 30%;
+  right: 10%;
+  bottom: 32%;
   z-index: 20;
 }
 
@@ -1300,18 +1309,18 @@ li {
   padding-top: 2rem;
 }
 
-.heading-hmtl-css-course .decription-container {
+.heading-hmtl-css-course .description-container {
   margin-left: 16.5rem;
 }
 
-.heading-hmtl-css-course .decription-container .line {
+.heading-hmtl-css-course .description-container .line {
   width: 3rem;
   height: 0.1rem;
   background: #c6c6c6;
   margin: 1rem 0rem 1.9rem 0rem;
 }
 
-.heading-hmtl-css-course .decription-container .description {
+.heading-hmtl-css-course .description-container .description {
   font-size: 1.2rem;
   width: 85%;
   color: #b5b5b5;
@@ -2039,7 +2048,7 @@ li {
   padding-left: 0.5rem;
 }
 
-.heading-founders .decription-container {
+.heading-founders .description-container {
   padding-left: 9rem;
 }
 

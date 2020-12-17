@@ -3,18 +3,20 @@ import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { pageAnimation } from "../../animations";
 // Import Components
-// import Nav from "../layouts/Nav";
 import Social from "../../layouts/Social";
 // Import Local Icon
 import arrowDown from "../../../../../public/images/frontend_img/arrow-down.svg";
 import arrowRight from "../../../../../public/images/frontend_img/arrow-r.svg";
+import logoImg from "../../../../../public/images/frontend_img/logo2.png";
 
 const Home = () => {
     const { pathname } = useLocation();
     return (
         <div>
             <nav className="logo">
-                <Link to="/">CA 23 Designs</Link>
+                <Link className="logo-link" to="/">
+                    <img src={logoImg} alt="logo brand" />
+                </Link>
             </nav>
 
             <motion.div
@@ -60,7 +62,7 @@ const Home = () => {
                     <div className="mainContent">
                         <div className="heading">
                             <h1 className="title">Galery</h1>
-                            <div className="decription-container">
+                            <div className="description-container">
                                 <h2 className="subHeading">Web Site</h2>
                                 <div className="line" />
                                 <p className="description">
