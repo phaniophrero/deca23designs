@@ -8,13 +8,13 @@ const Social = () => {
             <a href="#">
                 <FaYoutube />
             </a>
-            <a href="#">
+            <a href="https://twitter.com/deca23designs">
                 <FaTwitter />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/deca23designs/">
                 <FaInstagram />
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/deca23designs">
                 <FaFacebookF />
             </a>
         </div>

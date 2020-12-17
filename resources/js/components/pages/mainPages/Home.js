@@ -48,9 +48,7 @@ const Home = () => {
                         </div>
                         <div className="next-arrow">
                             <div className="next-text">
-                                <Link to="/website">
-                                    <h3>Next</h3>
-                                </Link>
+                                <Link to="/website">Next</Link>
                             </div>
                             <div className="arrow-down">
                                 <Link to="/website">

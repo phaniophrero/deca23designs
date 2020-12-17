@@ -281,12 +281,13 @@ li {
   width: 3rem;
   height: 5rem;
   align-items: center;
+  font-weight: 600;
 }
 
-.nav-left .next-arrow .next-text h3 {
+.nav-left .next-arrow .next-text a {
   padding: 0rem 2rem;
   transform: rotate(-90deg);
-  color: #c6c6c6;
+  color: #5499c4;
   font-family: "Comfortaa", cursive;
 }
 
@@ -418,6 +419,8 @@ li {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  position: relative;
+  z-index: 20;
 }
 
 .social a {
@@ -425,10 +428,16 @@ li {
   color: #5499c4;
   font-size: 1.6rem;
   padding: 1rem 0rem;
+  transition: color 0.4s ease;
 }
 
 .social a svg {
   cursor: pointer;
+}
+
+.social a:hover {
+  color: #7ab0d1;
+  transform: scale(1.1);
 }
 
 .website-section {
@@ -519,13 +528,14 @@ li {
   width: 3rem;
   height: 5rem;
   align-items: center;
+  font-weight: 400;
 }
 
 .next-arrow2 .back-text a {
   cursor: pointer;
   padding: 3rem 0rem;
   transform: rotate(-90deg);
-  color: #c6c6c6;
+  color: #5499c4;
   font-family: "Comfortaa", cursive;
 }
 
@@ -540,7 +550,7 @@ li {
 .next-arrow2 .next-text a {
   padding: 0rem 2rem;
   transform: rotate(-90deg);
-  color: #c6c6c6;
+  color: #5499c4;
   font-family: "Comfortaa", cursive;
 }
 
@@ -1284,8 +1294,9 @@ li {
 }
 
 .back-arrow-course .back-text a {
-  color: #afafaf;
+  color: #5499c4;
   font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .heading-hmtl-css-course {
@@ -1769,10 +1780,11 @@ li {
 .back-arrow-container .back-text {
   margin-top: 6rem;
   font-size: 1.3rem;
+  font-weight: 400;
 }
 
 .back-arrow-container .back-text a {
-  color: #c6c6c6;
+  color: #5499c4;
 }
 
 .arrow-left {
