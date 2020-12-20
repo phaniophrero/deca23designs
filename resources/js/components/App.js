@@ -28,50 +28,84 @@ import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const App = () => {
     return (
-        <Router>
-            <>
-                <Switch>
-                    <Route path="/" exact component={Home} />
-                    <Route path="/website" exact component={WebsiteSection} />
-                    <Route path="/apps" exact component={ApplicationSection} />
-                    <Route path="/courses" exact component={CoursesSection} />
-                    <Route path="/our-team" exact component={OurTeamSection} />
-                    <Route path="/navigator" exact component={NavigatorPage} />
-                    <Route path="/content" exact component={ContentPage} />
-                    <Route path="/aside" exact component={AsidePage} />
-                    <Route path="/footer" exact component={FooterPage} />
-                    <Route path="/dashboard" exact component={DashboardPage} />
-                    <Route path="/founders" exact component={FoundersPage} />
-                    <Route path="/team" exact component={TeamPage} />
-                    <Route
-                        path="/html-css-sass-course"
-                        exact
-                        component={CourseHTMLCSSPage}
-                    />
-                    <Route
-                        path="/javascript-react-course"
-                        exact
-                        component={CourseJSReactPage}
-                    />
-                    <Route
-                        path="/app-projects"
-                        exact
-                        component={ProjectsAppPage}
-                    />
-                    <Route
-                        path="/register-login"
-                        exact
-                        component={RegisterLoginPage}
-                    />
-                    <Route path="/login" exact component={LoginPage} />
-                    <Route path="/register" exact component={RegisterPage} />
-                    <MessengerCustomerChat
-                        pageId="595165694283631"
-                        appId="264364107942374"
-                    />
-                </Switch>
-            </>
-        </Router>
+        <div>
+            <Router>
+                <>
+                    <Switch>
+                        <Route path="/" exact component={Home} />
+                        <Route
+                            path="/website"
+                            exact
+                            component={WebsiteSection}
+                        />
+                        <Route
+                            path="/apps"
+                            exact
+                            component={ApplicationSection}
+                        />
+                        <Route
+                            path="/courses"
+                            exact
+                            component={CoursesSection}
+                        />
+                        <Route
+                            path="/our-team"
+                            exact
+                            component={OurTeamSection}
+                        />
+                        <Route
+                            path="/navigator"
+                            exact
+                            component={NavigatorPage}
+                        />
+                        <Route path="/content" exact component={ContentPage} />
+                        <Route path="/aside" exact component={AsidePage} />
+                        <Route path="/footer" exact component={FooterPage} />
+                        <Route
+                            path="/dashboard"
+                            exact
+                            component={DashboardPage}
+                        />
+                        <Route
+                            path="/founders"
+                            exact
+                            component={FoundersPage}
+                        />
+                        <Route path="/team" exact component={TeamPage} />
+                        <Route
+                            path="/html-css-sass-course"
+                            exact
+                            component={CourseHTMLCSSPage}
+                        />
+                        <Route
+                            path="/javascript-react-course"
+                            exact
+                            component={CourseJSReactPage}
+                        />
+                        <Route
+                            path="/app-projects"
+                            exact
+                            component={ProjectsAppPage}
+                        />
+                        <Route
+                            path="/register-login"
+                            exact
+                            component={RegisterLoginPage}
+                        />
+                        <Route path="/login" exact component={LoginPage} />
+                        <Route
+                            path="/register"
+                            exact
+                            component={RegisterPage}
+                        />
+                    </Switch>
+                </>
+            </Router>
+            <MessengerCustomerChat
+                pageId="595165694283631"
+                appId="264364107942374"
+            />
+        </div>
     );
 };
 
