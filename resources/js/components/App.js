@@ -23,6 +23,8 @@ import ProjectsAppPage from "./pages/ProjectsAppPage";
 import RegisterLoginPage from "./pages/RegisterLoginPage";
 import LoginPage from "./pages/authentication/LoginPage";
 import RegisterPage from "./pages/authentication/RegisterPage";
+// Import Messenger Chat
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const App = () => {
     return (
@@ -64,6 +66,7 @@ const App = () => {
                     <Route path="/login" exact component={LoginPage} />
                     <Route path="/register" exact component={RegisterPage} />
                 </Switch>
+                <MessengerCustomerChat pageId="595165694283631" />
             </>
         </Router>
     );

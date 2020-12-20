@@ -27,6 +27,7 @@
         "framer-motion": "^2.9.5",
         "install": "^0.13.0",
         "react-icons": "^4.1.0",
+        "react-messenger-customer-chat": "^0.8.0",
         "react-router": "^5.2.0",
         "react-router-dom": "^5.2.0"
     }
