@@ -96,7 +96,7 @@ const DashboardPage = () => {
                         </div>
                     </div>
                     <div className="navigator-stucture">
-                        <h2 className="structure-title">Dashboard</h2>
+                        <h2 className="structure-title-footer">Dashboard</h2>
                         <div className="line-dashboard-page" />
                         <div className="dashboard-example">
                             <div className="dashboard-rectangle" />

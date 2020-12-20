@@ -94,7 +94,7 @@ const FooterPage = () => {
                         </div>
                     </div>
                     <div className="navigator-stucture">
-                        <h2 className="structure-title">Footer</h2>
+                        <h2 className="structure-title-footer">Footer</h2>
                         <div className="line-footer-page" />
                         <div className="footer-example">
                             <div className="footer-rectangle" />

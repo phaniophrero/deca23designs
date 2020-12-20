@@ -52614,7 +52614,7 @@ var DashboardPage = function DashboardPage() {
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-      className: "structure-title"
+      className: "structure-title-footer"
     }, "Dashboard"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -52859,7 +52859,7 @@ var FooterPage = function FooterPage() {
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-      className: "structure-title"
+      className: "structure-title-footer"
     }, "Footer"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {

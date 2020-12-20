@@ -1,8 +1,15 @@
+.structure-title-footer {
+    position: absolute;
+    top: -10%;
+    right: 20%;
+    font-size: 2rem;
+    color: $color-gray;
+}
 .line-footer-page {
     width: 44rem;
     height: 26rem;
     position: absolute;
-    right: 18%;
+    right: 20%;
     top: -4%;
     border-top: dashed 0.2rem $color-blue5;
     border-right: dashed 0.2rem $color-blue5;
@@ -10,7 +17,7 @@
 .footer-example {
     position: absolute;
     top: 5%;
-    right: 13%;
+    right: 16%;
     z-index: 20;
     .footer-rectangle {
         width: 50rem;
@@ -24,7 +31,7 @@
 .bg-shape-blue-footer1 {
     position: absolute;
     top: 20%;
-    left: 23%;
+    left: 14%;
     height: 9rem;
     width: 16rem;
     background: $color-blue2;
@@ -33,7 +40,7 @@
 .bg-shape-blue-footer2 {
     position: absolute;
     top: 20%;
-    right: 11%;
+    right: 13.5%;
     height: 9rem;
     width: 18rem;
     background: $color-blue2;
