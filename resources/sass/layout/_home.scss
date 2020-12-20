@@ -1,13 +1,133 @@
 .logo {
+    height: 11vh;
     padding: 1rem 0rem;
-    .logo-link {
+    position: relative;
+    display: flex;
+    // .logo-link {
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     width: 16rem;
+    //     img {
+    //         width: 100%;
+    //     }
+    // }
+    .romb-left-border {
+        height: 5.3rem;
+        width: 5.3rem;
+        border: 0.1rem solid $color-blue;
+        border-radius: 1.4rem;
+        padding: 0.2rem;
+        transform: rotate(-45deg);
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 16rem;
-        img {
-            width: 100%;
-        }
+        position: absolute;
+        top: 19%;
+        left: 1%;
+        filter: drop-shadow(0rem 0.1rem 0.1rem rgba($color-black, 0.2));
+    }
+    .romb-left {
+        height: 4.5rem;
+        width: 4.5rem;
+        background: $color-blue;
+        border-radius: 1.1rem;
+        filter: drop-shadow(0rem 0.1rem 0.1rem rgba($color-black, 0.2));
+    }
+    .logo-text1 {
+        font-size: 2rem;
+        color: $color-gray;
+        position: absolute;
+        top: 39%;
+        left: 5%;
+        filter: drop-shadow(0rem 0.1rem 0.1rem rgba($color-black, 0.2));
+    }
+    .logo-text2 {
+        color: $color-white;
+        font-size: 1.1rem;
+        position: absolute;
+        top: 22%;
+        left: 2.2%;
+        z-index: 20;
+        filter: drop-shadow(0rem 0.1rem 0.2rem rgba($color-black, 0.3));
+    }
+    .logo-text3 {
+        color: $color-white;
+        font-size: 2rem;
+        position: absolute;
+        top: 37%;
+        left: 1.7%;
+        filter: drop-shadow(0rem 0.1rem 0.2rem rgba($color-black, 0.3));
+    }
+    .logo-text4 {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: $color-white;
+        position: absolute;
+        top: 25%;
+        left: 10.9%;
+        z-index: 21;
+        filter: drop-shadow(0rem 0.1rem 0.2rem rgba($color-black, 0.3));
+    }
+    .line-l {
+        height: 4.3rem;
+        width: 0.1rem;
+        background: $color-white;
+        position: absolute;
+        top: 39%;
+        left: 2%;
+        transform: rotate(-45deg);
+        z-index: 10;
+    }
+    .line-r {
+        height: 4.3rem;
+        width: 0.1rem;
+        background: $color-white;
+        position: absolute;
+        top: 39%;
+        left: 3.5%;
+        transform: rotate(45deg);
+        z-index: 10;
+    }
+    .romb-right1 {
+        height: 1.3rem;
+        width: 1.3rem;
+        background: $color-blue;
+        border-radius: 0.3rem;
+        transform: rotate(15deg);
+        position: absolute;
+        left: 10.6%;
+        top: 20%;
+    }
+    .romb-right2 {
+        height: 1.3rem;
+        width: 1.3rem;
+        background: $color-blue;
+        border-radius: 0.3rem;
+        transform: rotate(15deg);
+        position: absolute;
+        left: 11.4%;
+        top: 35.6%;
+    }
+    .romb-right3 {
+        height: 0.8rem;
+        width: 0.8rem;
+        background: $color-blue;
+        border-radius: 0.2rem;
+        transform: rotate(15deg);
+        position: absolute;
+        left: 10.7%;
+        top: 38%;
+    }
+    .romb-right4 {
+        height: 0.9rem;
+        width: 0.9rem;
+        background: $color-blue;
+        border-radius: 0.2rem;
+        transform: rotate(15deg);
+        position: absolute;
+        left: 11.6%;
+        top: 23.4%;
     }
 }
 

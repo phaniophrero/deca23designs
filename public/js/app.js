@@ -48580,17 +48580,6 @@ module.exports = "/images/js.png?e7c86eacf4fcf9fd94adfb908d73ca31";
 
 /***/ }),
 
-/***/ "./public/images/frontend_img/logo2.png":
-/*!**********************************************!*\
-  !*** ./public/images/frontend_img/logo2.png ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/logo2.png?437891474883311131759b312eb91fb3";
-
-/***/ }),
-
 /***/ "./public/images/frontend_img/phone-icon.png":
 /*!***************************************************!*\
   !*** ./public/images/frontend_img/phone-icon.png ***!
@@ -50881,8 +50870,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_images_frontend_img_arrow_down_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_public_images_frontend_img_arrow_down_svg__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _public_images_frontend_img_arrow_r_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../../public/images/frontend_img/arrow-r.svg */ "./public/images/frontend_img/arrow-r.svg");
 /* harmony import */ var _public_images_frontend_img_arrow_r_svg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_public_images_frontend_img_arrow_r_svg__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _public_images_frontend_img_logo2_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../../public/images/frontend_img/logo2.png */ "./public/images/frontend_img/logo2.png");
-/* harmony import */ var _public_images_frontend_img_logo2_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_public_images_frontend_img_logo2_png__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
@@ -50891,8 +50878,7 @@ __webpack_require__.r(__webpack_exports__);
  // Import Local Icon
 
 
-
-
+ // import logoImg from "../../../../../public/images/frontend_img/logo2.png";
 
 var Home = function Home() {
   var _useLocation = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useLocation"])(),
@@ -50911,9 +50897,52 @@ var Home = function Home() {
       to: "/"
     },
     /*#__PURE__*/
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: _public_images_frontend_img_logo2_png__WEBPACK_IMPORTED_MODULE_7___default.a,
-      alt: "logo brand"
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "romb-left-border"
+    },
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "romb-left"
+    })),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      className: "logo-text1"
+    }, "Designs"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      className: "logo-text2"
+    }, "De"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+      className: "logo-text3"
+    }, "CA"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "line-l"
+    }),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "line-r"
+    }),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+      className: "logo-text4"
+    }, "23"),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "romb-right1"
+    }),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "romb-right2"
+    }),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "romb-right3"
+    }),
+    /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "romb-right4"
     }))),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(framer_motion__WEBPACK_IMPORTED_MODULE_2__["motion"].div, {

@@ -7,7 +7,7 @@ import Social from "../../layouts/Social";
 // Import Local Icon
 import arrowDown from "../../../../../public/images/frontend_img/arrow-down.svg";
 import arrowRight from "../../../../../public/images/frontend_img/arrow-r.svg";
-import logoImg from "../../../../../public/images/frontend_img/logo2.png";
+// import logoImg from "../../../../../public/images/frontend_img/logo2.png";
 
 const Home = () => {
     const { pathname } = useLocation();
@@ -15,7 +15,21 @@ const Home = () => {
         <div>
             <nav className="logo">
                 <Link className="logo-link" to="/">
-                    <img src={logoImg} alt="logo brand" />
+                    {/* <img src={logoImg} alt="logo brand" /> */}
+
+                    <div className="romb-left-border">
+                        <div className="romb-left" />
+                    </div>
+                    <h1 className="logo-text1">Designs</h1>
+                    <h3 className="logo-text2">De</h3>
+                    <h2 className="logo-text3">CA</h2>
+                    <div className="line-l" />
+                    <div className="line-r" />
+                    <h2 className="logo-text4">23</h2>
+                    <div className="romb-right1" />
+                    <div className="romb-right2" />
+                    <div className="romb-right3" />
+                    <div className="romb-right4" />
                 </Link>
             </nav>
 
