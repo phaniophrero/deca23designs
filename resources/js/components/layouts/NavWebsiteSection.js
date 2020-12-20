@@ -1,11 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const NavWebsiteSection = () => {
+    // Set NavLinks Active Class
+    let pathname = window.location.pathname;
+    useEffect(() => {
+        pathname = window.location.pathname;
+    }, [window.location.pathname]);
+
     const [navLinks, setNavLinks] = useState([
         {
             name: "Website",
-            route: "/",
+            route: "/website",
             id: 1
         },
         {
@@ -39,7 +45,14 @@ const NavWebsiteSection = () => {
         <nav className="main-links">
             {navLinks.map(navLink => (
                 <li key={navLink.id}>
-                    <Link className="footer-link" to={navLink.route}>
+                    <Link
+                        className={`footer-link ${
+                            pathname.match(navLink.route)
+                                ? "footer-link-active"
+                                : ""
+                        }`}
+                        to={navLink.route}
+                    >
                         {navLink.name}
                     </Link>
                 </li>

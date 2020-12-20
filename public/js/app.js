@@ -48698,9 +48698,15 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 var NavWebsiteSection = function NavWebsiteSection() {
+  // Set NavLinks Active Class
+  var pathname = window.location.pathname;
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    pathname = window.location.pathname;
+  }, [window.location.pathname]);
+
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([{
     name: "Website",
-    route: "/",
+    route: "/website",
     id: 1
   }, {
     name: "Navigator",
@@ -48739,7 +48745,7 @@ var NavWebsiteSection = function NavWebsiteSection() {
         },
         /*#__PURE__*/
         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-          className: "footer-link",
+          className: "footer-link ".concat(pathname.match(navLink.route) ? "footer-link-active" : ""),
           to: navLink.route
         }, navLink.name))
       );
