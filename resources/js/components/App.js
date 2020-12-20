@@ -65,12 +65,12 @@ const App = () => {
                     />
                     <Route path="/login" exact component={LoginPage} />
                     <Route path="/register" exact component={RegisterPage} />
+                    <MessengerCustomerChat
+                        pageId="595165694283631"
+                        appId="264364107942374"
+                    />
                 </Switch>
             </>
-            <MessengerCustomerChat
-                pageId="595165694283631"
-                appId="264364107942374"
-            />
         </Router>
     );
 };
