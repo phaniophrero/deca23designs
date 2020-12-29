@@ -1,0 +1,158 @@
+@media only screen and (min-width: 2560px) {
+    // LOGO
+    .logo .romb-left-border {
+        width: 2.8%;
+    }
+    .logo .logo-text1 {
+        font-size: 2.6rem;
+    }
+    .logo .logo-text2 {
+        font-size: 1.3rem;
+        left: 2.1%;
+    }
+    .logo .logo-text3 {
+        font-size: 2.3rem;
+        left: 1.7%;
+    }
+    .logo .logo-text4 {
+        font-size: 2rem;
+        left: 9.5%;
+    }
+    .logo .line-l {
+        height: 42%;
+        width: 0.1%;
+        top: 35%;
+        left: 1.7%;
+    }
+    .logo .line-r {
+        height: 42%;
+        width: 0.1%;
+        top: 35%;
+        left: 3%;
+    }
+    .logo .romb-right1 {
+        left: 9.4%;
+        top: 23%;
+    }
+    .logo .romb-right2 {
+        left: 10%;
+        top: 34%;
+    }
+    .logo .romb-right3 {
+        left: 9.4%;
+    }
+    .logo .romb-right4 {
+        left: 10.1%;
+    }
+
+    // Images
+    .mainContent .images .img-wrapper {
+        width: 40%;
+        height: 18.5%;
+        left: 18.5%;
+        top: 2%;
+        border-radius: 2rem;
+    }
+    .mainContent .images .img-wrapper2 {
+        width: 40%;
+        height: 18.5%;
+        left: 23%;
+        top: 25%;
+        border-radius: 2rem;
+    }
+    .mainContent .images .img-wrapper3 {
+        width: 40%;
+        height: 18.5%;
+        left: 28%;
+        top: 47.6%;
+        border-radius: 2rem;
+    }
+    .mainContent .images .square-bg {
+        height: 75%;
+        width: 20%;
+        left: 32%;
+        top: -2%;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    // Logo
+    .logo .romb-left-border {
+        height: 56%;
+        width: 3.3%;
+        border-radius: 1.2rem;
+    }
+    .logo .romb-left {
+        border-radius: 0.8rem;
+    }
+    .logo .logo-text1 {
+        left: 5%;
+    }
+    .logo .logo-text2 {
+        font-size: 1rem;
+        left: 2.2%;
+    }
+    .logo .logo-text3 {
+        font-size: 1.8rem;
+        top: 36%;
+        left: 1.6%;
+    }
+    .logo .logo-text4 {
+        left: 11.5%;
+    }
+    .logo .line-l {
+        height: 46%;
+        top: 38%;
+        left: 2%;
+    }
+    .logo .line-r {
+        height: 46%;
+        top: 38%;
+        left: 3.3%;
+    }
+    .logo .romb-right1 {
+        height: 14%;
+        width: 0.8%;
+        left: 11.4%;
+    }
+    .logo .romb-right2 {
+        height: 14%;
+        width: 0.8%;
+        left: 12.1%;
+    }
+    .logo .romb-right3 {
+        height: 10%;
+        width: 0.5%;
+        left: 11.5%;
+        top: 37%;
+    }
+    .logo .romb-right4 {
+        height: 10%;
+        width: 0.5%;
+        left: 12.35%;
+        top: 22.4%;
+    }
+
+    // Images
+    .mainContent .images .img-wrapper {
+        width: 46%;
+        border-radius: 1.3rem;
+        left: 16%;
+    }
+    .mainContent .images .img-wrapper2 {
+        width: 46%;
+        border-radius: 1.3rem;
+        left: 21%;
+    }
+    .mainContent .images .img-wrapper3 {
+        width: 46%;
+        border-radius: 1.3rem;
+        top: 48.6%;
+        left: 27%;
+    }
+    .mainContent .images .square-bg {
+        width: 25%;
+        border: 0.1rem solid $color-blue;
+        border-radius: 1.3rem;
+    }
+}

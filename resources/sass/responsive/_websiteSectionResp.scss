@@ -1,0 +1,61 @@
+@media only screen and (min-width: 2560px) {
+    .website-stucture {
+        left: 30%;
+    }
+    .website-stucture .body-tag {
+        left: 31.5%;
+    }
+    .website-stucture .header-tag {
+        left: 27.5%;
+        top: 2;
+    }
+    .website-stucture .main-tag {
+        left: 27.5%;
+        top: 25%;
+    }
+    .website-stucture .footer-tag {
+        left: 27.5%;
+        bottom: 22%;
+    }
+    .website-stucture .top-line {
+        width: 58.5%;
+        height: 47%;
+    }
+    .website-stucture .rectangles-structure {
+        width: 50%;
+        height: 60vh;
+    }
+    .website-stucture .rectangles-structure .nav-rectangle {
+        width: 100%;
+        height: 10%;
+    }
+    .website-stucture .rectangles-structure .middle-content {
+        height: 60%;
+        width: 100%;
+        .aside-rectangle {
+            width: 40%;
+            height: 100%;
+        }
+        .section-rectangle {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .website-stucture .rectangles-structure .footer-rectangle {
+        width: 100%;
+        height: 10%;
+    }
+
+    .website-stucture .middle-line,
+    .website-stucture .middle-line2 {
+        width: 6%;
+        height: 9%;
+        left: 27.5%;
+    }
+    .website-stucture .bottom-line {
+        width: 6%;
+        height: 9%;
+        left: 27.5%;
+        top: 66%;
+    }
+}

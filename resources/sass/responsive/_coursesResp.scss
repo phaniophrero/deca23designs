@@ -1,0 +1,52 @@
+@media only screen and (min-width: 2560px) {
+    .course-image1 {
+        height: 29%;
+        img {
+            padding: 3rem;
+        }
+    }
+    .course-image2 {
+        height: 27%;
+        img {
+            padding: 3rem;
+        }
+    }
+    .course-image3 {
+        width: 20%;
+        height: 30%;
+        img {
+            padding: 3rem;
+        }
+    }
+
+    // HTML CSS SASS COURSE PAGE
+    .course-video-title {
+        left: 15%;
+    }
+    .course-video-title2 {
+        left: 17.7%;
+    }
+    .course-title1 {
+        left: 47.2%;
+    }
+    .course-title2 {
+        right: 19.5%;
+    }
+    .course-title3 {
+        left: 44.2%;
+    }
+
+    // JS REACT COURSE PAGE
+    .course-video-title3 {
+        left: 30%;
+    }
+    .course-video-title4 {
+        left: 39.1%;
+    }
+    .course-title4 {
+        left: 43.5%;
+    }
+    .course-title5 {
+        right: 18%;
+    }
+}

@@ -1,14 +1,14 @@
 .shape-course-js {
-    width: 17.5rem;
-    height: 33rem;
+    width: 25.5%;
+    height: 69%;
     background: $color-js;
     top: 10%;
     right: 10%;
 }
 
 .shape-course-react {
-    width: 15.5rem;
-    height: 24rem;
+    width: 22.5%;
+    height: 50%;
     background: $color-react;
     top: 40%;
     right: 42%;
@@ -30,8 +30,8 @@
     z-index: 30;
 }
 .shape-rectangle-bg3 {
-    height: 37rem;
-    width: 14rem;
+    height: 77%;
+    width: 20.3%;
     border: 0.1rem solid $color-blue6;
     border-radius: 2rem;
     position: absolute;
@@ -40,8 +40,8 @@
 }
 
 .shape-rectangle-bg4 {
-    height: 39rem;
-    width: 14rem;
+    height: 81%;
+    width: 20.3%;
     border: 0.1rem solid $color-yellow2;
     border-radius: 2rem;
     position: absolute;

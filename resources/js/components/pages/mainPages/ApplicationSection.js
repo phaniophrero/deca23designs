@@ -99,7 +99,7 @@ const ApplicationSection = () => {
                     </div>
                 </div>
                 <div className="mainContent">
-                    <div className="heading heading-apps-section">
+                    <div className="heading-apps-section">
                         <div className="page-nr page-nr-apps">
                             <h2>02</h2>
                         </div>

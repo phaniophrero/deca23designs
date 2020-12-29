@@ -193,11 +193,10 @@ li {
 }
 
 .logo .romb-left-border {
-  height: 5.3rem;
-  width: 5.3rem;
+  height: 50%;
+  width: 2.9%;
   border: 0.1rem solid #5499c4;
   border-radius: 1.4rem;
-  padding: 0.2rem;
   transform: rotate(-45deg);
   display: flex;
   justify-content: center;
@@ -210,10 +209,10 @@ li {
 }
 
 .logo .romb-left {
-  height: 4.5rem;
-  width: 4.5rem;
+  height: 86%;
+  width: 86%;
   background: #5499c4;
-  border-radius: 1.1rem;
+  border-radius: 0.8rem;
   -webkit-filter: drop-shadow(0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2));
           filter: drop-shadow(0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2));
 }
@@ -222,18 +221,18 @@ li {
   font-size: 2rem;
   color: #afafaf;
   position: absolute;
-  top: 39%;
-  left: 5%;
+  top: 33%;
+  left: 4.5%;
   -webkit-filter: drop-shadow(0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2));
           filter: drop-shadow(0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2));
 }
 
 .logo .logo-text2 {
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1rem;
   position: absolute;
   top: 22%;
-  left: 2.2%;
+  left: 2%;
   z-index: 20;
   -webkit-filter: drop-shadow(0rem 0.1rem 0.2rem rgba(0, 0, 0, 0.3));
           filter: drop-shadow(0rem 0.1rem 0.2rem rgba(0, 0, 0, 0.3));
@@ -241,90 +240,90 @@ li {
 
 .logo .logo-text3 {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.8rem;
   position: absolute;
-  top: 37%;
-  left: 1.7%;
+  top: 35%;
+  left: 1.5%;
   -webkit-filter: drop-shadow(0rem 0.1rem 0.2rem rgba(0, 0, 0, 0.3));
           filter: drop-shadow(0rem 0.1rem 0.2rem rgba(0, 0, 0, 0.3));
 }
 
 .logo .logo-text4 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 400;
   color: #fff;
   position: absolute;
-  top: 25%;
-  left: 10.9%;
+  top: 26%;
+  left: 10.45%;
   z-index: 21;
   -webkit-filter: drop-shadow(0rem 0.1rem 0.2rem rgba(0, 0, 0, 0.3));
           filter: drop-shadow(0rem 0.1rem 0.2rem rgba(0, 0, 0, 0.3));
 }
 
 .logo .line-l {
-  height: 4.3rem;
-  width: 0.1rem;
+  height: 40%;
+  width: 0.05%;
   background: #fff;
   position: absolute;
-  top: 39%;
-  left: 2%;
+  top: 36%;
+  left: 1.8%;
   transform: rotate(-45deg);
   z-index: 10;
 }
 
 .logo .line-r {
-  height: 4.3rem;
-  width: 0.1rem;
+  height: 40%;
+  width: 0.05%;
   background: #fff;
   position: absolute;
-  top: 39%;
-  left: 3.5%;
+  top: 36%;
+  left: 3.1%;
   transform: rotate(45deg);
   z-index: 10;
 }
 
 .logo .romb-right1 {
-  height: 1.3rem;
-  width: 1.3rem;
+  height: 12%;
+  width: 0.6%;
   background: #5499c4;
   border-radius: 0.3rem;
   transform: rotate(15deg);
   position: absolute;
-  left: 10.6%;
-  top: 20%;
+  left: 10.4%;
+  top: 23%;
 }
 
 .logo .romb-right2 {
-  height: 1.3rem;
-  width: 1.3rem;
+  height: 12%;
+  width: 0.6%;
   background: #5499c4;
   border-radius: 0.3rem;
   transform: rotate(15deg);
   position: absolute;
-  left: 11.4%;
-  top: 35.6%;
+  left: 11%;
+  top: 34%;
 }
 
 .logo .romb-right3 {
-  height: 0.8rem;
-  width: 0.8rem;
+  height: 9%;
+  width: 0.45%;
   background: #5499c4;
   border-radius: 0.2rem;
   transform: rotate(15deg);
   position: absolute;
-  left: 10.7%;
-  top: 38%;
+  left: 10.4%;
+  top: 36%;
 }
 
 .logo .romb-right4 {
-  height: 0.9rem;
-  width: 0.9rem;
+  height: 9%;
+  width: 0.45%;
   background: #5499c4;
   border-radius: 0.2rem;
   transform: rotate(15deg);
   position: absolute;
-  left: 11.6%;
-  top: 23.4%;
+  left: 11.1%;
+  top: 23.8%;
 }
 
 #homeLayout {
@@ -437,6 +436,7 @@ li {
 .mainContent .heading {
   padding-top: 7rem;
   padding-left: 5rem;
+  width: 100%;
 }
 
 .mainContent .heading .title {
@@ -480,63 +480,64 @@ li {
 }
 
 .mainContent .images .img-wrapper {
-  width: 35rem;
-  height: 10.5rem;
+  width: 47%;
+  height: 18.5%;
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/images/site1.jpg?23933edbba42b9325e68380914dc0222);
   background-repeat: no-repeat;
-  background-position: 50% 3%;
-  background-size: 120%;
-  border-radius: 2rem;
+  background-position: 50% 6%;
+  background-size: 128%;
+  border-radius: 1.6rem;
   transform: rotate(-30deg);
   position: absolute;
-  left: 15%;
-  top: 5%;
+  left: 16.5%;
+  top: 3%;
   z-index: 10;
-  box-shadow: 0rem 0.2rem 0.8rem rgba(0, 0, 0, 0.7);
+  -webkit-filter: drop-shadow(0rem 0.2rem 0.3rem rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(0rem 0.2rem 0.3rem rgba(0, 0, 0, 0.7));
 }
 
 .mainContent .images .img-wrapper2 {
-  margin-top: 4rem;
-  width: 35rem;
-  height: 10.5rem;
+  width: 47%;
+  height: 18.5%;
   background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url(/images/dashboard.jpg?bb4be50d23f75c554866aac0638c0429);
   background-repeat: no-repeat;
   background-position: 65% 43%;
   background-size: 100%;
-  border-radius: 2rem;
+  border-radius: 1.6rem;
   transform: rotate(-30deg);
   position: absolute;
-  top: 23%;
-  left: 21%;
+  top: 25.6%;
+  left: 22%;
   z-index: 15;
-  box-shadow: 0rem 0.2rem 0.8rem rgba(0, 0, 0, 0.7);
+  -webkit-filter: drop-shadow(0rem 0.2rem 0.3rem rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(0rem 0.2rem 0.3rem rgba(0, 0, 0, 0.7));
 }
 
 .mainContent .images .img-wrapper3 {
-  margin-top: 4rem;
-  width: 35rem;
-  height: 10.5rem;
+  width: 47%;
+  height: 18.5%;
   background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(/images/apps.png?5710f70c1d9542f9eefa35ddc4f4261d);
   background-repeat: no-repeat;
   background-position: 50% 21%;
   background-size: 100%;
-  border-radius: 2rem;
+  border-radius: 1.6rem;
   transform: rotate(-30deg);
   position: absolute;
-  top: 49%;
-  left: 27%;
+  top: 47.5%;
+  left: 28.5%;
   z-index: 20;
-  box-shadow: 0rem 0.2rem 0.8rem rgba(0, 0, 0, 0.7);
+  -webkit-filter: drop-shadow(0rem 0.2rem 0.3rem rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(0rem 0.2rem 0.3rem rgba(0, 0, 0, 0.7));
 }
 
 .mainContent .images .square-bg {
-  height: 42rem;
-  width: 20rem;
+  height: 75%;
+  width: 24%;
   border: 0.2rem solid #5499c4;
-  border-radius: 2rem;
+  border-radius: 1.6rem;
   position: absolute;
   left: 32%;
-  top: -1%;
+  top: -2%;
   z-index: 1;
   transform: rotate(-30deg);
 }
@@ -741,26 +742,26 @@ li {
   color: #aacce2;
   position: absolute;
   top: 1.5%;
-  left: 14.5%;
+  left: 13.5%;
 }
 
 .website-stucture .main-tag {
   color: #aacce2;
   position: absolute;
   top: 24.5%;
-  left: 14.5%;
+  left: 13.5%;
 }
 
 .website-stucture .footer-tag {
   color: #aacce2;
   position: absolute;
-  bottom: 25.5%;
-  left: 14.2%;
+  bottom: 20.5%;
+  left: 13.5%;
 }
 
 .website-stucture .top-line {
-  width: 47rem;
-  height: 26rem;
+  width: 70%;
+  height: 44%;
   position: absolute;
   right: 10%;
   top: -2%;
@@ -769,31 +770,31 @@ li {
 }
 
 .website-stucture .middle-line {
-  width: 6rem;
-  height: 6rem;
+  width: 10%;
+  height: 12%;
   position: absolute;
   top: 5%;
-  left: 14.7%;
+  left: 13.5%;
   border-top: dashed 0.2rem #aacce2;
   border-left: dashed 0.2rem #aacce2;
 }
 
 .website-stucture .middle-line2 {
-  width: 6rem;
-  height: 6rem;
+  width: 10%;
+  height: 12%;
   position: absolute;
   top: 28%;
-  left: 14.7%;
+  left: 13.5%;
   border-top: dashed 0.2rem #aacce2;
   border-left: dashed 0.2rem #aacce2;
 }
 
 .website-stucture .bottom-line {
-  width: 6rem;
-  height: 6rem;
+  width: 10%;
+  height: 12%;
   position: absolute;
-  top: 58%;
-  left: 14.7%;
+  top: 63.5%;
+  left: 13.5%;
   border-left: dashed 0.2rem #aacce2;
   border-bottom: dashed 0.2rem #aacce2;
 }
@@ -802,11 +803,13 @@ li {
   position: absolute;
   top: 0;
   right: 15%;
+  width: 60%;
+  height: 60vh;
 }
 
 .website-stucture .rectangles-structure .nav-rectangle {
-  width: 40rem;
-  height: 5rem;
+  width: 100%;
+  height: 10%;
   background: #9eb5d3;
   border-radius: 2rem;
   padding: 0.5rem;
@@ -833,14 +836,14 @@ li {
 }
 
 .website-stucture .rectangles-structure .middle-content {
-  height: 26rem;
-  width: 40rem;
+  height: 60%;
+  width: 100%;
   display: flex;
   padding: 1rem 0rem;
 }
 
 .website-stucture .rectangles-structure .middle-content .aside-rectangle {
-  width: 10rem;
+  width: 40%;
   height: 100%;
   background: #d7d8bc;
   border-radius: 2rem;
@@ -851,7 +854,7 @@ li {
 }
 
 .website-stucture .rectangles-structure .middle-content .section-rectangle {
-  width: 30rem;
+  width: 100%;
   height: 100%;
   background: #c8dee3;
   border-radius: 2rem;
@@ -863,8 +866,8 @@ li {
 }
 
 .website-stucture .rectangles-structure .footer-rectangle {
-  width: 40rem;
-  height: 5rem;
+  width: 100%;
+  height: 10%;
   background: #6a7a8e;
   border-radius: 2rem;
   display: flex;
@@ -879,8 +882,40 @@ li {
 
 .heading-apps-section {
   padding-top: 7rem;
-  padding-left: 2rem;
-  flex: 2;
+  padding-left: 5rem;
+  width: 50%;
+}
+
+.heading-apps-section .title {
+  font-size: 9rem;
+  font-family: Futura;
+  font-weight: 500;
+  color: #afafaf;
+}
+
+.heading-apps-section .description-container {
+  margin-top: 2rem;
+  margin-left: 12.5rem;
+}
+
+.heading-apps-section .description-container .subHeading {
+  font-size: 2.6rem;
+  font-family: "Comfortaa", cursive;
+  color: #5499c4;
+}
+
+.heading-apps-section .description-container .line {
+  width: 3rem;
+  height: 0.1rem;
+  background: #c6c6c6;
+  margin: 1rem 0rem 1.9rem 0rem;
+}
+
+.heading-apps-section .description-container .description {
+  font-size: 1.4rem;
+  width: 85%;
+  color: #b5b5b5;
+  line-height: 1.8rem;
 }
 
 .left-line-apps {
@@ -900,11 +935,12 @@ li {
   position: relative;
   display: flex;
   justify-content: flex-end;
-  flex: 2;
+  width: 50%;
+  right: 1%;
 }
 
 .phoneApp {
-  width: 22rem;
+  width: 33%;
   height: 45vh;
   position: absolute;
   z-index: 20;
@@ -919,18 +955,18 @@ li {
 
 .rectangle-bg {
   height: 48vh;
-  width: 12rem;
+  width: 19%;
   border: 0.15rem solid #5499c4;
   border-radius: 2rem;
   position: absolute;
   top: 0%;
-  right: 15%;
+  right: 12%;
   transform: rotate(-35deg);
 }
 
 .square-blue1 {
-  width: 10.5rem;
-  height: 6rem;
+  width: 16%;
+  height: 12.5%;
   position: absolute;
   background-color: #5499c4;
   border-radius: 1.3rem;
@@ -939,12 +975,12 @@ li {
 }
 
 .square-blue2 {
-  width: 10.5rem;
-  height: 6rem;
+  width: 16%;
+  height: 12.5%;
   position: absolute;
   background-color: #5499c4;
   border-radius: 1.3rem;
-  right: 25%;
+  right: 23%;
   bottom: 25%;
   transform: rotate(12deg);
 }
@@ -976,7 +1012,7 @@ li {
 }
 
 .course-images-container {
-  flex: 2;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   position: relative;
@@ -987,14 +1023,9 @@ li {
   border-radius: 50%;
 }
 
-.course-image img {
-  width: 100%;
-  height: 100%;
-}
-
 .course-image1 {
-  width: 13rem;
-  height: 13rem;
+  width: 19%;
+  height: 25%;
   top: -3%;
   left: 50.7%;
   border: 0.2rem solid #f79902;
@@ -1005,14 +1036,14 @@ li {
 }
 
 .course-image1 img {
-  width: 10rem;
-  height: 11rem;
+  width: 90%;
+  height: 95%;
   padding: 2rem;
 }
 
 .course-image2 {
-  width: 12rem;
-  height: 12rem;
+  width: 18%;
+  height: 23%;
   top: 35%;
   right: 5%;
   border: 0.2rem solid #0084d6;
@@ -1024,14 +1055,14 @@ li {
 }
 
 .course-image2 img {
-  width: 9rem;
-  height: 9.5rem;
+  width: 90%;
+  height: 97%;
   padding: 2rem;
 }
 
 .course-image3 {
-  width: 14rem;
-  height: 14rem;
+  width: 21%;
+  height: 27%;
   bottom: 9%;
   left: 55%;
   border: 0.2rem solid #ffeb00;
@@ -1043,14 +1074,14 @@ li {
 }
 
 .course-image3 img {
-  width: 11rem;
-  height: 12rem;
+  width: 90%;
+  height: 97%;
   padding: 2rem;
 }
 
 .shape-bg {
-  width: 10rem;
-  height: 12rem;
+  width: 14%;
+  height: 24%;
   border-radius: 2rem;
   position: absolute;
 }
@@ -1098,7 +1129,7 @@ li {
 }
 
 .profile-images-container {
-  flex: 2;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   position: relative;
@@ -1119,40 +1150,40 @@ li {
 }
 
 .profile-image1 {
-  width: 14rem;
-  height: 14rem;
+  width: 23%;
+  height: 31%;
   right: 22%;
   top: 30%;
   z-index: 20;
 }
 
 .profile-image2 {
-  width: 6.5rem;
-  height: 6.5rem;
+  width: 9.5%;
+  height: 12.5%;
   right: 12%;
   top: 7%;
   z-index: 20;
 }
 
 .profile-image3 {
-  width: 9rem;
-  height: 9rem;
+  width: 14%;
+  height: 19%;
   left: 43%;
   top: 14%;
   z-index: 20;
 }
 
 .profile-image4 {
-  width: 7rem;
-  height: 7rem;
+  width: 11%;
+  height: 15%;
   left: 52%;
   bottom: 22%;
   z-index: 20;
 }
 
 .profile-image5 {
-  width: 5rem;
-  height: 5rem;
+  width: 8%;
+  height: 10.5%;
   right: 10%;
   bottom: 32%;
   z-index: 20;
@@ -1163,7 +1194,7 @@ li {
   width: 100%;
   top: 55%;
   transform: translate(-50%, -50%);
-  left: 33%;
+  left: 30%;
 }
 
 .navigator-stucture .structure-title {
@@ -1175,8 +1206,8 @@ li {
 }
 
 .line-navigator-page {
-  width: 45rem;
-  height: 18rem;
+  width: 62%;
+  height: 36%;
   position: absolute;
   right: 18%;
   top: -4%;
@@ -1185,6 +1216,8 @@ li {
 }
 
 .navigator-example {
+  height: 23%;
+  width: 63%;
   position: absolute;
   top: 0;
   right: 15%;
@@ -1192,8 +1225,8 @@ li {
 }
 
 .navigator-example .nav-rectangle {
-  width: 44rem;
-  height: 11rem;
+  width: 100%;
+  height: 100%;
   background: #5499c4;
   border-radius: 1.6rem;
   padding: 0.5rem;
@@ -1202,16 +1235,16 @@ li {
 .bg-shape-blue {
   position: absolute;
   top: 7%;
-  left: 29%;
-  height: 9rem;
-  width: 12rem;
+  left: 20%;
+  height: 19%;
+  width: 22%;
   background: #9eb5d3;
   border-radius: 1.2rem;
 }
 
 .line-content-page {
-  width: 44rem;
-  height: 40rem;
+  width: 63%;
+  height: 83%;
   position: absolute;
   right: 18%;
   top: -4%;
@@ -1220,6 +1253,8 @@ li {
 }
 
 .content-example {
+  height: 71%;
+  width: 63%;
   position: absolute;
   top: 0;
   right: 15%;
@@ -1227,8 +1262,8 @@ li {
 }
 
 .content-example .content-rectangle {
-  width: 44rem;
-  height: 34rem;
+  width: 100%;
+  height: 100%;
   background: #5499c4;
   border-radius: 1.6rem;
   padding: 0.5rem;
@@ -1237,21 +1272,33 @@ li {
 .bg-shape-blue-content {
   position: absolute;
   bottom: 25%;
-  left: 28%;
-  height: 9rem;
-  width: 15rem;
+  left: 19.5%;
+  height: 19%;
+  width: 22%;
   background: #9eb5d3;
   border-radius: 1.2rem;
 }
 
+.line-aside-page {
+  width: 60%;
+  height: 83%;
+  position: absolute;
+  right: 18%;
+  top: -4%;
+  border-top: dashed 0.2rem #aacce2;
+  border-right: dashed 0.2rem #aacce2;
+}
+
 .aside-example {
+  width: 24%;
+  height: 70%;
   position: absolute;
   z-index: 20;
 }
 
 .aside-example .aside-rectangle {
-  width: 18rem;
-  height: 34rem;
+  width: 100%;
+  height: 100%;
   background: #5499c4;
   border-radius: 1.6rem;
   padding: 0.5rem;
@@ -1259,12 +1306,12 @@ li {
 
 .aside-example1 {
   top: 0;
-  right: 15%;
+  right: 13%;
 }
 
 .aside-example2 {
   top: 0;
-  left: 22%;
+  left: 18%;
 }
 
 .aside-title-middle {
@@ -1278,9 +1325,9 @@ li {
 .bg-shape-blue-aside1 {
   position: absolute;
   bottom: 20%;
-  left: 29%;
-  height: 9rem;
-  width: 16rem;
+  left: 25%;
+  height: 19%;
+  width: 24%;
   background: #9eb5d3;
   border-radius: 1.2rem;
 }
@@ -1288,9 +1335,9 @@ li {
 .bg-shape-blue-aside2 {
   position: absolute;
   bottom: 25%;
-  right: 20.5%;
-  height: 9rem;
-  width: 18rem;
+  right: 20%;
+  height: 19%;
+  width: 24%;
   background: #9eb5d3;
   border-radius: 1.2rem;
 }
@@ -1304,8 +1351,8 @@ li {
 }
 
 .line-footer-page {
-  width: 44rem;
-  height: 26rem;
+  width: 60%;
+  height: 51%;
   position: absolute;
   right: 20%;
   top: -4%;
@@ -1314,6 +1361,8 @@ li {
 }
 
 .footer-example {
+  height: 26%;
+  width: 67%;
   position: absolute;
   top: 5%;
   right: 16%;
@@ -1321,8 +1370,8 @@ li {
 }
 
 .footer-example .footer-rectangle {
-  width: 50rem;
-  height: 13rem;
+  width: 100%;
+  height: 100%;
   background: #5499c4;
   border-radius: 1.6rem;
   padding: 0.5rem;
@@ -1332,8 +1381,8 @@ li {
   position: absolute;
   top: 20%;
   left: 14%;
-  height: 9rem;
-  width: 16rem;
+  height: 19%;
+  width: 23%;
   background: #9eb5d3;
   border-radius: 1.2rem;
 }
@@ -1342,15 +1391,15 @@ li {
   position: absolute;
   top: 20%;
   right: 13.5%;
-  height: 9rem;
-  width: 18rem;
+  height: 19%;
+  width: 23%;
   background: #9eb5d3;
   border-radius: 1.2rem;
 }
 
 .line-dashboard-page {
-  width: 44rem;
-  height: 33rem;
+  width: 62%;
+  height: 65%;
   position: absolute;
   right: 20%;
   top: -4%;
@@ -1359,6 +1408,8 @@ li {
 }
 
 .dashboard-example {
+  height: 49.5%;
+  width: 68%;
   position: absolute;
   top: 5%;
   right: 17%;
@@ -1366,8 +1417,8 @@ li {
 }
 
 .dashboard-example .dashboard-rectangle {
-  width: 50rem;
-  height: 23rem;
+  width: 100%;
+  height: 100%;
   background: #5499c4;
   border-radius: 1.6rem;
   padding: 0.5rem;
@@ -1376,9 +1427,9 @@ li {
 .bg-shape-blue-dashboard1 {
   position: absolute;
   top: 40%;
-  left: 12.5%;
-  height: 9rem;
-  width: 16rem;
+  left: 12%;
+  height: 19%;
+  width: 23%;
   background: #9eb5d3;
   border-radius: 1.2rem;
 }
@@ -1387,8 +1438,8 @@ li {
   position: absolute;
   top: 0%;
   right: 14%;
-  height: 9rem;
-  width: 16rem;
+  height: 19%;
+  width: 23%;
   background: #9eb5d3;
   border-radius: 1.2rem;
 }
@@ -1437,7 +1488,7 @@ li {
 .heading-hmtl-css-course {
   padding-top: 7rem;
   padding-left: 2rem;
-  flex: 2;
+  width: 50%;
 }
 
 .heading-hmtl-css-course .title {
@@ -1473,7 +1524,7 @@ li {
 }
 
 .course-video-container {
-  flex: 2;
+  width: 50%;
   display: flex;
   justify-content: flex-end;
   position: relative;
@@ -1484,24 +1535,19 @@ li {
   position: absolute;
 }
 
-.course-image img {
-  width: 100%;
-  height: 100%;
-}
-
 .course-sass-image1 {
-  width: 13rem;
-  height: 13rem;
+  width: 16.5%;
+  height: 26%;
   top: -2%;
-  left: 40%;
+  left: 41.2%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .course-sass-image1 img {
-  width: 10rem;
-  height: 11rem;
+  width: 100%;
+  height: 100%;
   padding: 1.5rem;
 }
 
@@ -1510,12 +1556,12 @@ li {
   color: #ec07ff;
   position: absolute;
   top: 24%;
-  left: 46%;
+  left: 46.2%;
 }
 
 .course-html-image2 {
-  width: 14rem;
-  height: 15.5rem;
+  width: 20%;
+  height: 32.5%;
   top: 27%;
   right: 12.5%;
   z-index: 10;
@@ -1535,12 +1581,12 @@ li {
   color: #f79902;
   position: absolute;
   bottom: 27%;
-  right: 18%;
+  right: 17.5%;
 }
 
 .course-css-image3 {
-  width: 12rem;
-  height: 13.5rem;
+  width: 18%;
+  height: 28.5%;
   bottom: 22%;
   left: 37.5%;
   z-index: 10;
@@ -1569,32 +1615,32 @@ li {
 }
 
 .shape-course-sass {
-  width: 13rem;
-  height: 18rem;
+  width: 19%;
+  height: 37%;
   background: #f9c9ff;
   top: -6%;
   left: 40%;
 }
 
 .shape-course-html {
-  width: 17.5rem;
-  height: 33rem;
+  width: 24.5%;
+  height: 69%;
   background: #ffc9c9;
   top: 10%;
   right: 10%;
 }
 
 .shape-course-css {
-  width: 15.5rem;
-  height: 24rem;
+  width: 23%;
+  height: 50%;
   background: #c8dee3;
   top: 40%;
   right: 42%;
 }
 
 .shape-rectangle-bg1 {
-  height: 40rem;
-  width: 16rem;
+  height: 84%;
+  width: 23%;
   border: 0.1rem solid #0084d6;
   border-radius: 2rem;
   position: absolute;
@@ -1603,8 +1649,8 @@ li {
 }
 
 .shape-rectangle-bg2 {
-  height: 39rem;
-  width: 14rem;
+  height: 81%;
+  width: 20%;
   border: 0.1rem solid #f79902;
   border-radius: 2rem;
   position: absolute;
@@ -1629,9 +1675,11 @@ li {
 }
 
 .price-container {
+  width: 30%;
+  height: 25%;
   position: absolute;
   bottom: -18%;
-  left: 50%;
+  left: 47%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1639,8 +1687,8 @@ li {
 }
 
 .price-container .price {
-  height: 6rem;
-  width: 6rem;
+  height: 50%;
+  width: 29.5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1670,16 +1718,16 @@ li {
 }
 
 .shape-course-js {
-  width: 17.5rem;
-  height: 33rem;
+  width: 25.5%;
+  height: 69%;
   background: #fff9c9;
   top: 10%;
   right: 10%;
 }
 
 .shape-course-react {
-  width: 15.5rem;
-  height: 24rem;
+  width: 22.5%;
+  height: 50%;
   background: #c9d8ff;
   top: 40%;
   right: 42%;
@@ -1704,8 +1752,8 @@ li {
 }
 
 .shape-rectangle-bg3 {
-  height: 37rem;
-  width: 14rem;
+  height: 77%;
+  width: 20.3%;
   border: 0.1rem solid #0084d6;
   border-radius: 2rem;
   position: absolute;
@@ -1714,8 +1762,8 @@ li {
 }
 
 .shape-rectangle-bg4 {
-  height: 39rem;
-  width: 14rem;
+  height: 81%;
+  width: 20.3%;
   border: 0.1rem solid #ffeb00;
   border-radius: 2rem;
   position: absolute;
@@ -1752,6 +1800,13 @@ li {
   padding-right: 9rem;
 }
 
+.desc-container-app-projects .description {
+  font-size: 1.4rem;
+  width: 85%;
+  color: #b5b5b5;
+  line-height: 1.8rem;
+}
+
 .line {
   width: 3rem;
   height: 0.1rem;
@@ -1760,7 +1815,7 @@ li {
 }
 
 .projects-app-container {
-  flex: 2;
+  width: 50%;
   display: flex;
   justify-content: flex-end;
   position: relative;
@@ -1768,8 +1823,8 @@ li {
 }
 
 .shape-bg-project1 {
-  height: 8rem;
-  width: 8rem;
+  height: 15%;
+  width: 11%;
   border-radius: 1.6rem;
   background: #f9c9ff;
   position: absolute;
@@ -1778,18 +1833,18 @@ li {
 }
 
 .project-image1 {
-  width: 16rem;
-  height: 16rem;
+  width: 22%;
+  height: 34%;
   background: #6a7a8e;
   border-radius: 4rem;
   position: absolute;
   top: 14%;
-  left: 30%;
+  left: 29%;
 }
 
 .shape-bg-project2 {
-  height: 8rem;
-  width: 8rem;
+  height: 15%;
+  width: 11%;
   border-radius: 1.6rem;
   background: #c8dee3;
   position: absolute;
@@ -1798,18 +1853,18 @@ li {
 }
 
 .project-image2 {
-  width: 17rem;
-  height: 24rem;
+  width: 23%;
+  height: 54%;
   background: #b5b5b5;
   border-radius: 4rem;
   position: absolute;
   top: 14%;
-  right: 14%;
+  right: 13%;
 }
 
 .shape-bg-project3 {
-  height: 8rem;
-  width: 8rem;
+  height: 15%;
+  width: 11%;
   border-radius: 1.6rem;
   background: #aacce2;
   position: absolute;
@@ -1818,13 +1873,13 @@ li {
 }
 
 .project-image3 {
-  width: 16rem;
-  height: 19rem;
+  width: 23%;
+  height: 39.5%;
   background: #c8dee3;
   border-radius: 4rem;
   position: absolute;
   bottom: 7%;
-  left: 34%;
+  left: 34.5%;
 }
 
 .register-login-section {
@@ -2174,7 +2229,7 @@ li {
 }
 
 .heading-founders {
-  flex: 1;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2206,15 +2261,15 @@ li {
 }
 
 .founders-images-container {
-  flex: 1;
+  width: 50%;
   display: flex;
   justify-content: flex-end;
   position: relative;
 }
 
 .shape-founders-bg {
-  width: 14rem;
-  height: 23rem;
+  width: 23%;
+  height: 49%;
   border: 0.2rem solid #585858;
   border-radius: 2rem;
   position: absolute;
@@ -2231,8 +2286,8 @@ li {
 }
 
 .founders-image {
-  width: 14rem;
-  height: 14rem;
+  width: 23%;
+  height: 29%;
   position: absolute;
 }
 
@@ -2274,15 +2329,15 @@ li {
 }
 
 .team-images-container {
-  flex: 1;
+  width: 50%;
   display: flex;
   justify-content: flex-end;
   position: relative;
 }
 
 .team-image {
-  width: 10rem;
-  height: 10rem;
+  width: 16%;
+  height: 20%;
   position: absolute;
 }
 
@@ -2440,5 +2495,399 @@ li {
   border-radius: 2rem;
   color: #ebebeb;
   background: rgba(198, 198, 198, 0.1);
+}
+
+@media only screen and (min-width: 2560px) {
+  .logo .romb-left-border {
+    width: 2.8%;
+  }
+
+  .logo .logo-text1 {
+    font-size: 2.6rem;
+  }
+
+  .logo .logo-text2 {
+    font-size: 1.3rem;
+    left: 2.1%;
+  }
+
+  .logo .logo-text3 {
+    font-size: 2.3rem;
+    left: 1.7%;
+  }
+
+  .logo .logo-text4 {
+    font-size: 2rem;
+    left: 9.5%;
+  }
+
+  .logo .line-l {
+    height: 42%;
+    width: 0.1%;
+    top: 35%;
+    left: 1.7%;
+  }
+
+  .logo .line-r {
+    height: 42%;
+    width: 0.1%;
+    top: 35%;
+    left: 3%;
+  }
+
+  .logo .romb-right1 {
+    left: 9.4%;
+    top: 23%;
+  }
+
+  .logo .romb-right2 {
+    left: 10%;
+    top: 34%;
+  }
+
+  .logo .romb-right3 {
+    left: 9.4%;
+  }
+
+  .logo .romb-right4 {
+    left: 10.1%;
+  }
+
+  .mainContent .images .img-wrapper {
+    width: 40%;
+    height: 18.5%;
+    left: 18.5%;
+    top: 2%;
+    border-radius: 2rem;
+  }
+
+  .mainContent .images .img-wrapper2 {
+    width: 40%;
+    height: 18.5%;
+    left: 23%;
+    top: 25%;
+    border-radius: 2rem;
+  }
+
+  .mainContent .images .img-wrapper3 {
+    width: 40%;
+    height: 18.5%;
+    left: 28%;
+    top: 47.6%;
+    border-radius: 2rem;
+  }
+
+  .mainContent .images .square-bg {
+    height: 75%;
+    width: 20%;
+    left: 32%;
+    top: -2%;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .logo .romb-left-border {
+    height: 56%;
+    width: 3.3%;
+    border-radius: 1.2rem;
+  }
+
+  .logo .romb-left {
+    border-radius: 0.8rem;
+  }
+
+  .logo .logo-text1 {
+    left: 5%;
+  }
+
+  .logo .logo-text2 {
+    font-size: 1rem;
+    left: 2.2%;
+  }
+
+  .logo .logo-text3 {
+    font-size: 1.8rem;
+    top: 36%;
+    left: 1.6%;
+  }
+
+  .logo .logo-text4 {
+    left: 11.5%;
+  }
+
+  .logo .line-l {
+    height: 46%;
+    top: 38%;
+    left: 2%;
+  }
+
+  .logo .line-r {
+    height: 46%;
+    top: 38%;
+    left: 3.3%;
+  }
+
+  .logo .romb-right1 {
+    height: 14%;
+    width: 0.8%;
+    left: 11.4%;
+  }
+
+  .logo .romb-right2 {
+    height: 14%;
+    width: 0.8%;
+    left: 12.1%;
+  }
+
+  .logo .romb-right3 {
+    height: 10%;
+    width: 0.5%;
+    left: 11.5%;
+    top: 37%;
+  }
+
+  .logo .romb-right4 {
+    height: 10%;
+    width: 0.5%;
+    left: 12.35%;
+    top: 22.4%;
+  }
+
+  .mainContent .images .img-wrapper {
+    width: 46%;
+    border-radius: 1.3rem;
+    left: 16%;
+  }
+
+  .mainContent .images .img-wrapper2 {
+    width: 46%;
+    border-radius: 1.3rem;
+    left: 21%;
+  }
+
+  .mainContent .images .img-wrapper3 {
+    width: 46%;
+    border-radius: 1.3rem;
+    top: 48.6%;
+    left: 27%;
+  }
+
+  .mainContent .images .square-bg {
+    width: 25%;
+    border: 0.1rem solid #5499c4;
+    border-radius: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .website-stucture {
+    left: 30%;
+  }
+
+  .website-stucture .body-tag {
+    left: 31.5%;
+  }
+
+  .website-stucture .header-tag {
+    left: 27.5%;
+    top: 2;
+  }
+
+  .website-stucture .main-tag {
+    left: 27.5%;
+    top: 25%;
+  }
+
+  .website-stucture .footer-tag {
+    left: 27.5%;
+    bottom: 22%;
+  }
+
+  .website-stucture .top-line {
+    width: 58.5%;
+    height: 47%;
+  }
+
+  .website-stucture .rectangles-structure {
+    width: 50%;
+    height: 60vh;
+  }
+
+  .website-stucture .rectangles-structure .nav-rectangle {
+    width: 100%;
+    height: 10%;
+  }
+
+  .website-stucture .rectangles-structure .middle-content {
+    height: 60%;
+    width: 100%;
+  }
+
+  .website-stucture .rectangles-structure .middle-content .aside-rectangle {
+    width: 40%;
+    height: 100%;
+  }
+
+  .website-stucture .rectangles-structure .middle-content .section-rectangle {
+    width: 100%;
+    height: 100%;
+  }
+
+  .website-stucture .rectangles-structure .footer-rectangle {
+    width: 100%;
+    height: 10%;
+  }
+
+  .website-stucture .middle-line,
+  .website-stucture .middle-line2 {
+    width: 6%;
+    height: 9%;
+    left: 27.5%;
+  }
+
+  .website-stucture .bottom-line {
+    width: 6%;
+    height: 9%;
+    left: 27.5%;
+    top: 66%;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .phoneApp-container {
+    right: 4%;
+  }
+
+  .phoneApp {
+    width: 29%;
+  }
+
+  .square-blue1 {
+    width: 13%;
+    height: 11%;
+    right: -4%;
+  }
+
+  .square-blue2 {
+    width: 13%;
+    height: 11%;
+    right: 21%;
+  }
+
+  .rectangle-bg {
+    width: 16%;
+    right: 11%;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .shape-bg-project1,
+  .shape-bg-project2,
+  .shape-bg-project3 {
+    border-radius: 2.6rem;
+  }
+
+  .project-image1,
+  .project-image2,
+  .project-image3 {
+    border-radius: 7rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .course-image1 {
+    height: 29%;
+  }
+
+  .course-image1 img {
+    padding: 3rem;
+  }
+
+  .course-image2 {
+    height: 27%;
+  }
+
+  .course-image2 img {
+    padding: 3rem;
+  }
+
+  .course-image3 {
+    width: 20%;
+    height: 30%;
+  }
+
+  .course-image3 img {
+    padding: 3rem;
+  }
+
+  .course-video-title {
+    left: 15%;
+  }
+
+  .course-video-title2 {
+    left: 17.7%;
+  }
+
+  .course-title1 {
+    left: 47.2%;
+  }
+
+  .course-title2 {
+    right: 19.5%;
+  }
+
+  .course-title3 {
+    left: 44.2%;
+  }
+
+  .course-video-title3 {
+    left: 30%;
+  }
+
+  .course-video-title4 {
+    left: 39.1%;
+  }
+
+  .course-title4 {
+    left: 43.5%;
+  }
+
+  .course-title5 {
+    right: 18%;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .profile-image1 {
+    width: 21%;
+  }
+
+  .profile-image2 {
+    width: 8.5%;
+  }
+
+  .profile-image3 {
+    width: 13%;
+  }
+
+  .profile-image4 {
+    width: 10%;
+  }
+
+  .profile-image5 {
+    width: 7%;
+  }
+
+  .shape-founders-bg {
+    height: 50%;
+  }
+
+  .founders-image {
+    height: 32%;
+  }
+
+  .team-image {
+    height: 22%;
+  }
 }
 

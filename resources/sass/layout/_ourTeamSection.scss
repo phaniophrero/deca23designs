@@ -10,7 +10,7 @@
 }
 
 .profile-images-container {
-    flex: 2;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     position: relative;
@@ -27,36 +27,36 @@
 }
 
 .profile-image1 {
-    width: 14rem;
-    height: 14rem;
+    width: 23%;
+    height: 31%;
     right: 22%;
     top: 30%;
     z-index: 20;
 }
 .profile-image2 {
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 9.5%;
+    height: 12.5%;
     right: 12%;
     top: 7%;
     z-index: 20;
 }
 .profile-image3 {
-    width: 9rem;
-    height: 9rem;
+    width: 14%;
+    height: 19%;
     left: 43%;
     top: 14%;
     z-index: 20;
 }
 .profile-image4 {
-    width: 7rem;
-    height: 7rem;
+    width: 11%;
+    height: 15%;
     left: 52%;
     bottom: 22%;
     z-index: 20;
 }
 .profile-image5 {
-    width: 5rem;
-    height: 5rem;
+    width: 8%;
+    height: 10.5%;
     right: 10%;
     bottom: 32%;
     z-index: 20;

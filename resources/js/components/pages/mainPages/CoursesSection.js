@@ -161,7 +161,7 @@ const CoursesSection = () => {
                     </Link>
                 </div>
                 <nav className="main-links">
-                    <Link className="footer-link" to="/app-projects">
+                    <Link className="footer-link" to="/html-css-sass-course">
                         Curs de Developer
                     </Link>
                     <Link className="footer-link" to="/html-css-sass-course">
@@ -170,7 +170,7 @@ const CoursesSection = () => {
                     <Link className="footer-link" to="/javascript-react-course">
                         Javascript / React js
                     </Link>
-                    <Link className="footer-link" to="/app-projects">
+                    <Link className="footer-link" to="/javascript-react-course">
                         Dashboard
                     </Link>
                 </nav>

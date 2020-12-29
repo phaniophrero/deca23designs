@@ -49142,7 +49142,7 @@ var ProjectsAppPage = function ProjectsAppPage() {
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-      to: "/courses"
+      to: "/apps"
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -49155,7 +49155,7 @@ var ProjectsAppPage = function ProjectsAppPage() {
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-      to: "/courses"
+      to: "/apps"
     }, "inapoi")))),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -50359,7 +50359,7 @@ var ApplicationSection = function ApplicationSection() {
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "heading heading-apps-section"
+      className: "heading-apps-section"
     },
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -50808,7 +50808,7 @@ var CoursesSection = function CoursesSection() {
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
       className: "footer-link",
-      to: "/app-projects"
+      to: "/html-css-sass-course"
     }, "Curs de Developer"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -50823,7 +50823,7 @@ var CoursesSection = function CoursesSection() {
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
       className: "footer-link",
-      to: "/app-projects"
+      to: "/javascript-react-course"
     }, "Dashboard")),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -52438,7 +52438,7 @@ var AsidePage = function AsidePage() {
     }, "Aside"),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "line-content-page"
+      className: "line-aside-page"
     }),
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {

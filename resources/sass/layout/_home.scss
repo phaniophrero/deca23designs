@@ -13,11 +13,11 @@
     //     }
     // }
     .romb-left-border {
-        height: 5.3rem;
-        width: 5.3rem;
+        height: 50%;
+        width: 2.9%;
         border: 0.1rem solid $color-blue;
         border-radius: 1.4rem;
-        padding: 0.2rem;
+        // padding: 0.2rem;
         transform: rotate(-45deg);
         display: flex;
         justify-content: center;
@@ -28,106 +28,106 @@
         filter: drop-shadow(0rem 0.1rem 0.1rem rgba($color-black, 0.2));
     }
     .romb-left {
-        height: 4.5rem;
-        width: 4.5rem;
+        height: 86%;
+        width: 86%;
         background: $color-blue;
-        border-radius: 1.1rem;
+        border-radius: 0.8rem;
         filter: drop-shadow(0rem 0.1rem 0.1rem rgba($color-black, 0.2));
     }
     .logo-text1 {
         font-size: 2rem;
         color: $color-gray;
         position: absolute;
-        top: 39%;
-        left: 5%;
+        top: 33%;
+        left: 4.5%;
         filter: drop-shadow(0rem 0.1rem 0.1rem rgba($color-black, 0.2));
     }
     .logo-text2 {
         color: $color-white;
-        font-size: 1.1rem;
+        font-size: 1rem;
         position: absolute;
         top: 22%;
-        left: 2.2%;
+        left: 2%;
         z-index: 20;
         filter: drop-shadow(0rem 0.1rem 0.2rem rgba($color-black, 0.3));
     }
     .logo-text3 {
         color: $color-white;
-        font-size: 2rem;
+        font-size: 1.8rem;
         position: absolute;
-        top: 37%;
-        left: 1.7%;
+        top: 35%;
+        left: 1.5%;
         filter: drop-shadow(0rem 0.1rem 0.2rem rgba($color-black, 0.3));
     }
     .logo-text4 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-weight: 400;
         color: $color-white;
         position: absolute;
-        top: 25%;
-        left: 10.9%;
+        top: 26%;
+        left: 10.45%;
         z-index: 21;
         filter: drop-shadow(0rem 0.1rem 0.2rem rgba($color-black, 0.3));
     }
     .line-l {
-        height: 4.3rem;
-        width: 0.1rem;
+        height: 40%;
+        width: 0.05%;
         background: $color-white;
         position: absolute;
-        top: 39%;
-        left: 2%;
+        top: 36%;
+        left: 1.8%;
         transform: rotate(-45deg);
         z-index: 10;
     }
     .line-r {
-        height: 4.3rem;
-        width: 0.1rem;
+        height: 40%;
+        width: 0.05%;
         background: $color-white;
         position: absolute;
-        top: 39%;
-        left: 3.5%;
+        top: 36%;
+        left: 3.1%;
         transform: rotate(45deg);
         z-index: 10;
     }
     .romb-right1 {
-        height: 1.3rem;
-        width: 1.3rem;
+        height: 12%;
+        width: 0.6%;
         background: $color-blue;
         border-radius: 0.3rem;
         transform: rotate(15deg);
         position: absolute;
-        left: 10.6%;
-        top: 20%;
+        left: 10.4%;
+        top: 23%;
     }
     .romb-right2 {
-        height: 1.3rem;
-        width: 1.3rem;
+        height: 12%;
+        width: 0.6%;
         background: $color-blue;
         border-radius: 0.3rem;
         transform: rotate(15deg);
         position: absolute;
-        left: 11.4%;
-        top: 35.6%;
+        left: 11%;
+        top: 34%;
     }
     .romb-right3 {
-        height: 0.8rem;
-        width: 0.8rem;
+        height: 9%;
+        width: 0.45%;
         background: $color-blue;
         border-radius: 0.2rem;
         transform: rotate(15deg);
         position: absolute;
-        left: 10.7%;
-        top: 38%;
+        left: 10.4%;
+        top: 36%;
     }
     .romb-right4 {
-        height: 0.9rem;
-        width: 0.9rem;
+        height: 9%;
+        width: 0.45%;
         background: $color-blue;
         border-radius: 0.2rem;
         transform: rotate(15deg);
         position: absolute;
-        left: 11.6%;
-        top: 23.4%;
+        left: 11.1%;
+        top: 23.8%;
     }
 }
 
@@ -229,6 +229,7 @@
     .heading {
         padding-top: 7rem;
         padding-left: 5rem;
+        width: 100%;
         .title {
             font-size: 9rem;
             font-family: Futura;
@@ -264,28 +265,28 @@
         transform: translate(-50%, -50%);
         left: 34%;
         .img-wrapper {
-            width: 35rem;
-            height: 10.5rem;
+            width: 47%;
+            height: 18.5%;
             background: linear-gradient(
                     rgba(255, 255, 255, 0.5),
                     rgba(255, 255, 255, 0.5)
                 ),
                 url("../../../public/images/frontend_img/site1.jpg");
             background-repeat: no-repeat;
-            background-position: 50% 3%;
-            background-size: 120%;
-            border-radius: 2rem;
+            background-position: 50% 6%;
+            background-size: 128%;
+            border-radius: 1.6rem;
             transform: rotate(-30deg);
             position: absolute;
-            left: 15%;
-            top: 5%;
+            left: 16.5%;
+            top: 3%;
             z-index: 10;
-            box-shadow: 0rem 0.2rem 0.8rem rgba(0, 0, 0, 0.7);
+            filter: drop-shadow(0rem 0.2rem 0.3rem rgba(0, 0, 0, 0.7));
         }
         .img-wrapper2 {
-            margin-top: 4rem;
-            width: 35rem;
-            height: 10.5rem;
+            // margin-top: 4rem;
+            width: 47%;
+            height: 18.5%;
             background: linear-gradient(
                     rgba(255, 255, 255, 0.65),
                     rgba(255, 255, 255, 0.65)
@@ -294,18 +295,18 @@
             background-repeat: no-repeat;
             background-position: 65% 43%;
             background-size: 100%;
-            border-radius: 2rem;
+            border-radius: 1.6rem;
             transform: rotate(-30deg);
             position: absolute;
-            top: 23%;
-            left: 21%;
+            top: 25.6%;
+            left: 22%;
             z-index: 15;
-            box-shadow: 0rem 0.2rem 0.8rem rgba(0, 0, 0, 0.7);
+            filter: drop-shadow(0rem 0.2rem 0.3rem rgba(0, 0, 0, 0.7));
         }
         .img-wrapper3 {
-            margin-top: 4rem;
-            width: 35rem;
-            height: 10.5rem;
+            // margin-top: 4rem;
+            width: 47%;
+            height: 18.5%;
             background: linear-gradient(
                     rgba(255, 255, 255, 0.4),
                     rgba(255, 255, 255, 0.4)
@@ -314,22 +315,22 @@
             background-repeat: no-repeat;
             background-position: 50% 21%;
             background-size: 100%;
-            border-radius: 2rem;
+            border-radius: 1.6rem;
             transform: rotate(-30deg);
             position: absolute;
-            top: 49%;
-            left: 27%;
+            top: 47.5%;
+            left: 28.5%;
             z-index: 20;
-            box-shadow: 0rem 0.2rem 0.8rem rgba(0, 0, 0, 0.7);
+            filter: drop-shadow(0rem 0.2rem 0.3rem rgba(0, 0, 0, 0.7));
         }
         .square-bg {
-            height: 42rem;
-            width: 20rem;
+            height: 75%;
+            width: 24%;
             border: 0.2rem solid $color-blue;
-            border-radius: 2rem;
+            border-radius: 1.6rem;
             position: absolute;
             left: 32%;
-            top: -1%;
+            top: -2%;
             z-index: 1;
             transform: rotate(-30deg);
         }

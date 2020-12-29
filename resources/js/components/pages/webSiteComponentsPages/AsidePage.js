@@ -95,7 +95,7 @@ const AsidePage = () => {
                     </div>
                     <div className="navigator-stucture">
                         <h2 className="structure-title">Aside</h2>
-                        <div className="line-content-page" />
+                        <div className="line-aside-page" />
                         <h3 className="aside-title-middle">Aside</h3>
                         <div className="aside-example aside-example1">
                             <div className="aside-rectangle" />

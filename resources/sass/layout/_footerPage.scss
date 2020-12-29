@@ -6,8 +6,8 @@
     color: $color-gray;
 }
 .line-footer-page {
-    width: 44rem;
-    height: 26rem;
+    width: 60%;
+    height: 51%;
     position: absolute;
     right: 20%;
     top: -4%;
@@ -15,13 +15,15 @@
     border-right: dashed 0.2rem $color-blue5;
 }
 .footer-example {
+    height: 26%;
+    width: 67%;
     position: absolute;
     top: 5%;
     right: 16%;
     z-index: 20;
     .footer-rectangle {
-        width: 50rem;
-        height: 13rem;
+        width: 100%;
+        height: 100%;
         background: $color-blue;
         border-radius: 1.6rem;
         padding: 0.5rem;
@@ -32,8 +34,8 @@
     position: absolute;
     top: 20%;
     left: 14%;
-    height: 9rem;
-    width: 16rem;
+    height: 19%;
+    width: 23%;
     background: $color-blue2;
     border-radius: 1.2rem;
 }
@@ -41,8 +43,8 @@
     position: absolute;
     top: 20%;
     right: 13.5%;
-    height: 9rem;
-    width: 18rem;
+    height: 19%;
+    width: 23%;
     background: $color-blue2;
     border-radius: 1.2rem;
 }

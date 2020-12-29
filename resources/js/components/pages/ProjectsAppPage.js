@@ -22,12 +22,12 @@ const ProjectsAppPage = () => {
                 <div className="nav-left-course">
                     <div className="back-arrow-course">
                         <div className="arrow-left">
-                            <Link to="/courses">
+                            <Link to="/apps">
                                 <img src={arrowLeft} alt="arrow left" />
                             </Link>
                         </div>
                         <div className="back-text">
-                            <Link to="/courses">inapoi</Link>
+                            <Link to="/apps">inapoi</Link>
                         </div>
                     </div>
                 </div>
